@@ -1,0 +1,20 @@
+{
+  "description": "Units of US customary measurement systems (US Survey)",
+  "unitEntries": [
+    {"symbol": "li", "unit": "Length.link(US)"},
+    {"symbol": "ft", "unit": "Length.foot(US)"},
+    {"symbol": "rd", "unit": "Length.rod(US)"},
+    {"symbol": "ch", "unit": "Length.chain(US)"},
+    {"symbol": "fur", "unit": "Length.furlong(US)"},
+    {"symbol": "mi", "unit": "Length.mile(US)"},
+    {"symbol": "lea", "unit": "Length.league(US)"},
+
+    {"symbol": "ft2", "unit": "Area.square_foot(US)"},
+    {"symbol": "sq_ft", "unit": "Area.square_foot(US)"},
+    {"symbol": "ch2", "unit": "Area.square_chain(US)"},
+    {"symbol": "sq_ch", "unit": "Area.square_chain(US)"},
+    {"symbol": "ac", "unit": "Area.acre(US)"},
+    {"symbol": "section", "unit": "Area.section(US)"},
+    {"symbol": "twp", "unit": "Area.township"}
+  ]
+}

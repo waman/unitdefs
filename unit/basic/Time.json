@@ -1,0 +1,66 @@
+{
+  "SIUnit": "second",
+  "dimension": {"T":1},
+
+  "units": [
+    {"name": "second", "symbol": "s", "aliases": ["sec"], "scalePrefixes": true},
+    {"name": "minute", "symbol": "min", "interval": "60"},
+    {"name": "hour", "symbol": "h", "interval": "60", "baseUnit": "minute"},
+
+    {"name": "day", "symbol": "d", "interval": "24", "baseUnit": "hour",
+      "attributes": [
+        {"name": "sidereal", "interval": "23.9344699", "baseUnit": "hour", "notExact": true}
+      ]
+    },
+
+    {"name": "week", "symbol": "wk", "interval": "7", "baseUnit": "day"},
+
+    {"name": "month", "symbol": "mo", "baseUnit": "month(gregorian)",
+      "attributes": [
+        {"name": "gregorian", "interval": "30.436875", "baseUnit": "day"},
+        {"name": "full", "interval": "30", "baseUnit": "day"},
+        {"name": "hollow", "interval": "29", "baseUnit": "day"},
+        {"name": "synodic", "interval": "29.530589", "baseUnit": "day"}
+      ]
+    },
+
+    {"name": "year", "symbol": "yr", "aliases": ["y", "a"], "baseUnit": "year(gregorian)",
+      "attributes": [
+        {"name": "common", "interval": "365", "baseUnit": "day"},
+        {"name": "leap", "interval": "366", "baseUnit": "day"},
+        {"name": "gregorian", "interval": "365.2425", "baseUnit": "day"},
+        {"name": "sidereal", "interval": "365.256363", "baseUnit": "day", "notExact": true},
+        {"name": "julian", "interval": "365.25", "baseUnit": "day"},
+        {"name": "tropical", "interval": "365.256363", "baseUnit": "day", "notExact": true}
+      ]
+    },
+
+    {"name": "decade" , "symbol": "dec", "baseUnit": "decade(gregorian)",
+      "attributes": [
+        {"name": "gregorian", "interval": "10", "baseUnit": "year(gregorian)"},
+        {"name": "sidereal", "interval": "10", "baseUnit": "year(sidereal)"},
+        {"name": "julian", "interval": "10", "baseUnit": "year(julian)"},
+        {"name": "tropical", "interval": "10", "baseUnit": "year(tropical)"}
+      ]
+    },
+
+    {"name": "century", "baseUnit": "century(gregorian)",
+      "attributes": [
+        {"name": "gregorian", "interval": "100", "baseUnit": "year(gregorian)"},
+        {"name": "sidereal", "interval": "100", "baseUnit": "year(sidereal)"},
+        {"name": "julian", "interval": "100", "baseUnit": "year(julian)"},
+        {"name": "topical", "interval": "100", "baseUnit": "year(tropical)"}
+      ]
+    },
+
+    {"name": "svedberg", "symbol": "S", "interval": "1e-13"},
+    {"name": "milliday", "symbol": "md", "interval": "0.001", "baseUnit": "day"},
+
+    {"name": "jitty", "symbol": "j" , "interval": "1/60"},
+    {"name": "jitty_alternative", "symbol": "ja", "baseUnit": "centisecond"},
+    {"name": "fortnight", "symbol": "fn", "interval": "2", "baseUnit": "week"},
+
+    {"name": "atomic unit of time", "symbol": "au", "interval": "2.418884254e-17", "notExact": true},
+    {"name": "planck time", "symbol": "t_p", "interval": "5.3910632e-44", "notExact": true}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "SIUnit": "ElectricCharge * Length",
+  "dimension": {"L":1, "T":1, "I":1},
+
+  "composites": ["ElectricCharge * Length"],
+
+  "units": [
+    {"name": "debye", "symbol": "D", "interval": "1e-20", "baseUnit": "ElectricCharge.statcoulomb"},
+    {"name": "atomic unit of electric dipole moment", "symbol": "ea0",
+      "interval": "Constants.ElementaryCharge * Constants.BohrRadius", "notExact": true}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "SIUnit": "ElectricCurrent / Length",
+  "dimension": {"L": -1, "I": 1},
+
+  "composites": ["ElectricCurrent / Length", "Force / MagneticFlux"],
+
+  "units": [
+    {"name": "oersted", "symbol": "Oe", "interval": "1e3 / (4 * Constants.Pi)"}
+  ]
+}

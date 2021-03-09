@@ -1,0 +1,12 @@
+{
+  "description": "This unit is, exactly speaking, spectral irradiance in frequency.",
+  "SIUnit": "Power / AreaFrequency",
+  "dimension": {"M": 1, "T": -2},
+
+  "composites": ["Power / AreaFrequency", "Irradiance / Frequency"],
+
+  "units": [
+    {"name": "jansky", "symbol": "Jy", "interval": "1e-26"},
+    {"name": "solar flux unit", "symbol": "sfu", "interval": "1e-22"}
+  ]
+}

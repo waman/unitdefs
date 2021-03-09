@@ -1,0 +1,11 @@
+{
+  "SIUnit": "katal",
+  "dimension": {"T": -1, "N": 1},
+
+  "composites": ["AmountOfSubstance / Time"],
+  
+  "units": [
+    {"name": "katal", "symbol": "kat", "scalePrefixes": true},
+    {"name": "enzyme unit", "symbol": "U", "aliases": ["IU"], "baseUnit": "AmountOfSubstance.micromole / Time.minute"}
+  ]
+}

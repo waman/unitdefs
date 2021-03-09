@@ -1,0 +1,11 @@
+{
+  "description": "This unit is defined for electrical resistance in ESU and Gaussian unit systems",
+  "SIUnit": "Time / Length",
+  "dimension": {"L": -1, "T": 1},
+
+  "composites": ["Time / Length"],
+
+  "convertibles": [
+    {"target": "ElectricalResistance", "from": "Time.second / Length.centimetre", "to": "statohm"}
+  ]
+}

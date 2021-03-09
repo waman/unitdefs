@@ -1,0 +1,20 @@
+{
+  "SIUnit": "kelvin",
+  "dimension": {"Θ": 1},
+
+  "convertibles": [
+    {"target": "AbsoluteTemperature", "from": "kelvin", "to": "kelvin", "factor": "1"}
+  ],
+  
+  "units": [
+    {"name": "kelvin", "symbol": "K", "scalePrefixes": true},
+    {"name": "celsius", "symbol": "℃", "aliases": ["°C", "degC"], "zero": "273.15"},
+    {"name": "fahrenheit", "symbol": "℉", "aliases": ["°F", "degF"], "zero": "273.15 - 5/9 * 32", "interval": "5/9"},
+    {"name": "rankine", "symbol": "°R", "aliases": ["degR"], "interval": "5/9"},
+    {"name": "delisle", "symbol": "°De", "aliases": ["degDe"], "zero": "373.15", "interval": "-2/3"},
+    {"name": "newton", "symbol": "°N", "aliases": ["degN"], "zero": "273.15", "interval": "100/33"},
+    {"name": "réaumur", "symbol": "°Ré", "aliases": ["degRe"], "zero": "273.15", "interval": "5/4"},
+    {"name": "rømer", "symbol": "°Rø", "aliases": ["degRo"], "zero": "273.15 - 7.5 * 40/21", "interval": "40/21"},
+    {"name": "regulo gas mark", "symbol": "GM", "zero": "422.038", "interval": "125/9"}
+  ]
+}

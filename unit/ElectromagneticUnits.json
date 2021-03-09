@@ -1,0 +1,76 @@
+{
+  "description": "Usually used units of electromagnetism",
+  "unitEntries": [
+
+    {"symbol": "C", "unit": "ElectricCharge.coulomb"},
+    {"symbol": "abC", "unit": "ElectricCharge.abcoulomb"},
+    {"symbol": "statC", "unit": "ElectricCharge.statcoulomb"},
+    {"symbol": "Fr", "unit": "ElectricCharge.statcoulomb"},
+    {"symbol": "esu", "unit": "ElectricCharge.statcoulomb"},
+    {"symbol": "emu", "unit": "ElectricCharge.abcoulomb"},
+    {"symbol": "au", "unit": "ElectricCharge.atomic_unit_of_charge"},
+    {"symbol": "e", "unit": "ElectricCharge.atomic_unit_of_charge"},
+
+    {"symbol": "A", "unit": "ElectricCurrent.ampere"},
+    {"symbol": "mA", "unit": "ElectricCurrent.milliampere"},
+    {"symbol": "kA", "unit": "ElectricCurrent.kiloampere"},
+    {"symbol": "abA", "unit": "ElectricCurrent.abampere"},
+    {"symbol": "statA", "unit": "ElectricCurrent.statampere"},
+
+    {"symbol": "V", "unit": "Voltage.volt"},
+    {"symbol": "mV", "unit": "Voltage.millivolt"},
+    {"symbol": "kV", "unit": "Voltage.kilovolt"},
+    {"symbol": "abV", "unit": "Voltage.abvolt"},
+    {"symbol": "statV", "unit": "Voltage.statvolt"},
+
+    {"symbol": "D", "unit": "ElectricDipole.debye"},
+    {"symbol": "ea0", "unit": "ElectricDipole.atomic_unit_of_electric_dipole_moment"},
+
+    {"symbol": "Ω", "unit": "ElectricalResistance.ohm"},
+    {"symbol": "ohm", "unit": "ElectricalResistance.ohm"},
+    {"symbol": "mΩ", "unit": "ElectricalResistance.milliohm"},
+    {"symbol": "μΩ", "unit": "ElectricalResistance.microohm"},
+    {"symbol": "mcΩ", "unit": "ElectricalResistance.microohm"},
+    {"symbol": "kΩ", "unit": "ElectricalResistance.kiloohm"},
+    {"symbol": "MΩ", "unit": "ElectricalResistance.megaohm"},
+    {"symbol": "GΩ", "unit": "ElectricalResistance.gigaohm"},
+    {"symbol": "abΩ", "unit": "ElectricalResistance.abohm"},
+    {"symbol": "abOhm", "unit": "ElectricalResistance.abohm"},
+
+    {"symbol": "S", "unit": "ElectricalConductance.siemens"},
+    {"symbol": "mho", "unit": "ElectricalConductance.siemens"},
+
+    {"symbol": "F", "unit": "Capacitance.farad"},
+    {"symbol": "mF", "unit": "Capacitance.millifarad"},
+    {"symbol": "μF", "unit": "Capacitance.microfarad"},
+    {"symbol": "mcF", "unit": "Capacitance.microfarad"},
+    {"symbol": "nF", "unit": "Capacitance.nanofarad"},
+    {"symbol": "pF", "unit": "Capacitance.picofarad"},
+    {"symbol": "abF", "unit": "Capacitance.abfarad"},
+
+    {"symbol": "H", "unit": "Inductance.henry"},
+    {"symbol": "mH", "unit": "Inductance.millihenry"},
+    {"symbol": "μH", "unit": "Inductance.microhenry"},
+    {"symbol": "mcH", "unit": "Inductance.microhenry"},
+    {"symbol": "abH", "unit": "Inductance.abhenry"},
+
+    {"symbol": "Wb", "unit": "MagneticFlux.weber"},
+    {"symbol": "mWb", "unit": "MagneticFlux.milliweber"},
+    {"symbol": "μWb", "unit": "MagneticFlux.microweber"},
+    {"symbol": "mcWb", "unit": "MagneticFlux.microweber"},
+    {"symbol": "nWb", "unit": "MagneticFlux.nanoweber"},
+    {"symbol": "Mx", "unit": "MagneticFlux.maxwell"},
+    {"symbol": "statWb", "unit": "MagneticFlux.statweber"},
+
+    {"symbol": "T", "unit": "MagneticFluxDensity.tesla"},
+    {"symbol": "mT", "unit": "MagneticFluxDensity.millitesla"},
+    {"symbol": "μT", "unit": "MagneticFluxDensity.microtesla"},
+    {"symbol": "mcT", "unit": "MagneticFluxDensity.microtesla"},
+    {"symbol": "nT", "unit": "MagneticFluxDensity.nanotesla"},
+    {"symbol": "G", "unit": "MagneticFluxDensity.gauss"},
+    {"symbol": "Gs", "unit": "MagneticFluxDensity.gauss"},
+    {"symbol": "statT", "unit": "MagneticFluxDensity.stattesla"},
+
+    {"symbol": "Oe", "unit": "MagneticFieldStrength.oersted"}
+  ]
+}

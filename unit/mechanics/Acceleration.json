@@ -1,0 +1,11 @@
+{
+  "SIUnit": "Length / TimeSquared",
+  "dimension":{"L": 1, "T": -2},
+
+  "composites": ["Length / TimeSquared", "Velocity / Time"],
+
+  "units": [
+    {"name": "standard gravity", "symbol": "G", "aliases": ["g0"], "interval": "9.80665"},
+    {"name": "gal", "symbol": "Gal", "interval": "1e-2"}
+  ]
+}

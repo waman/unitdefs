@@ -1,0 +1,51 @@
+{
+  "description": "Usually used units of mechanics and fluid mechanics",
+  "unitEntries": [
+    {"symbol": "s2", "unit": "TimeSquared.second_squared"},
+
+    {"symbol": "g_0", "unit": "Acceleration.standard_gravity"},
+    {"symbol": "Gal", "unit": "Acceleration.gal"},
+
+    {"symbol": "N", "unit": "Force.newton"},
+    {"symbol": "dyn", "unit": "Force.dyne"},
+    {"symbol": "kgf", "unit": "Force.kilogram_force"},
+
+    {"symbol": "J", "unit": "Energy.joule"},
+    {"symbol": "kJ", "unit": "Energy.kilojoule"},
+    {"symbol": "MJ", "unit": "Energy.megajoule"},
+    {"symbol": "erg", "unit": "Energy.erg"},
+    {"symbol": "cal", "unit": "Energy.calorie"},
+    {"symbol": "kcal", "unit": "Energy.kilocalorie"},
+    {"symbol": "Wh", "unit": "Energy.kilowatt_hour"},
+    {"symbol": "kWh", "unit": "Energy.kilowatt_hour"},
+    {"symbol": "tTNT", "unit": "Energy.ton_of_TNT"},
+    {"symbol": "eV", "unit": "Energy.electronvolt"},
+    {"symbol": "keV", "unit": "Energy.kiloelectronvolt"},
+    {"symbol": "MeV", "unit": "Energy.megaelectronvolt"},
+    {"symbol": "GeV", "unit": "Energy.gigaelectronvolt"},
+    {"symbol": "TeV", "unit": "Energy.teraelectronvolt"},
+
+    {"symbol": "W", "unit": "Power.watt"},
+    {"symbol": "mW", "unit": "Power.milliwatt"},
+    {"symbol": "μW", "unit": "Power.microwatt"},
+    {"symbol": "mcW", "unit": "Power.microwatt"},
+    {"symbol": "nW", "unit": "Power.nanowatt"},
+    {"symbol": "pW", "unit": "Power.picowatt"},
+    {"symbol": "kW", "unit": "Power.kilowatt"},
+    {"symbol": "MW", "unit": "Power.megawatt"},
+    {"symbol": "GW", "unit": "Power.gigawatt"},
+    {"symbol": "TW", "unit": "Power.terawatt"},
+
+    {"symbol": "P", "unit": "DynamicViscosity.poise"},
+
+    {"symbol": "St", "unit": "KinematicViscosity.stokes"},
+
+    {"symbol": "Pa", "unit": "Pressure.pascal"},
+    {"symbol": "hPa", "unit": "Pressure.hectopascal"},
+    {"symbol": "kPa", "unit": "Pressure.kilopascal"},
+    {"symbol": "MPa", "unit": "Pressure.megapascal"},
+    {"symbol": "GPa", "unit": "Pressure.gigapascal"},
+    {"symbol": "Ba", "unit": "Pressure.barye"},
+    {"symbol": "atm", "unit": "Pressure.atmosphere"}
+  ]
+}

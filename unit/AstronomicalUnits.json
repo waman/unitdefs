@@ -1,0 +1,8 @@
+{
+  "description": "Usually used units of astronomics",
+  "unitEntries": [
+    {"symbol": "AU", "unit": "Length.astronomical_unit"},
+    {"symbol": "ly", "unit": "Length.light_year"},
+    {"symbol": "pc", "unit": "Length.parsec"}
+  ]
+}

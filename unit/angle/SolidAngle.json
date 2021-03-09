@@ -1,0 +1,11 @@
+{
+  "SIUnit": "steradian",
+  "dimension": {},
+
+  "units": [
+    {"name": "steradian", "symbol": "sr", "scalePrefixes": true,
+      "excludePrefixes": ["Y", "Z", "E", "P", "T", "G", "M", "k", "h"]},
+    {"name": "spat", "interval": "4 * Constants.Pi", "baseUnit": "steradian"},
+    {"name": "square degree", "symbol": "deg²", "aliases": ["deg2"], "baseUnit": "Angle.degree * Angle.degree"}
+  ]
+}

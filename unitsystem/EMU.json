@@ -1,0 +1,19 @@
+{
+  "parent": "CGS",
+
+  "evalEntries": [
+    {"quantity":  "ElectricCharge", "unit": "abcoulomb"},
+    {"quantity":  "ElectricCurrent", "unit": "abampere"},
+    {"quantity":  "Voltage", "unit": "abvolt"},
+    {"quantity":  "ElectricDipole", "unit": "ElectricCharge.abcoulomb * Length.centimetre"},
+    {"quantity":  "ElectricalResistance", "unit": "abohm"},
+    {"quantity":  "Capacitance", "unit": "abfarad"},
+
+    {"quantity":  "MagneticFlux", "unit": "maxwell"},
+    {"quantity":  "MagneticFluxDensity", "unit": "gauss"},
+    {"quantity":  "MagneticFieldStrength", "unit": "oersted"},
+    {"quantity":  "Inductance", "unit": "abhenry"},
+
+    {"quantity":  "Exposure", "unit": "ElectricCharge.abcoulomb / Mass.gram"}
+  ]
+}

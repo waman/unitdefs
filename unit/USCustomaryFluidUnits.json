@@ -1,0 +1,20 @@
+{
+  "description": "Units of US customary measurement systems (Liquid)",
+  "unitEntries": [
+    {"symbol": "min", "unit": "Volume.minim"},
+    {"symbol": "fl_dr", "unit": "Volume.fluid_dram(US)"},
+    {"symbol": "tsp", "unit": "Volume.teaspoon"},
+    {"symbol": "Tbsp", "unit": "Volume.tablespoon"},
+    {"symbol": "fl_oz", "unit": "Volume.fluid_ounce(US)"},
+    {"symbol": "jig", "unit": "Volume.shot"},
+    {"symbol": "gi", "unit": "Volume.gill(US)"},
+    {"symbol": "cp", "unit": "Volume.cup(US)"},
+    {"symbol": "pt", "unit": "Volume.pint(US_fl)"},
+    {"symbol": "qt", "unit": "Volume.quart(US_fl)"},
+    {"symbol": "pot", "unit": "Volume.pottle(US)"},
+    {"symbol": "gal", "unit": "Volume.gallon(US_fl)"},
+    {"symbol": "fl_bl", "unit": "Volume.barrel(US_fl)"},
+    {"symbol": "bbl", "unit": "Volume.barrel"},
+    {"symbol": "hhd", "unit": "Volume.hogshead(US)"}
+  ]
+}

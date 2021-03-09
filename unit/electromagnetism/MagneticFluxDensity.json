@@ -1,0 +1,12 @@
+{
+  "SIUnit": "tesla",
+  "dimension": {"M": 1, "T": -2, "I": -1},
+
+  "composites": ["MagneticFlux / Area"],
+
+  "units": [
+    {"name": "tesla", "symbol": "T", "scalePrefixes": true},
+    {"name": "gauss", "symbol": "G", "aliases": ["Gs"], "interval": "1e-4", "scalePrefixes": true},
+    {"name": "stattesla", "symbol": "statT", "interval": "Constants.SpeedOfLight * 1e-2"}
+  ]
+}

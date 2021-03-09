@@ -1,0 +1,6 @@
+{
+  "SIUnit": "Mass * Length",
+  "dimension": {"M": 1, "L": 1},
+
+  "composites": ["Mass * Length"]
+}

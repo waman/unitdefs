@@ -1,0 +1,19 @@
+{
+  "parent": "CGS",
+
+  "evalEntries": [
+    {"quantity":  "ElectricCharge", "unit": "statcoulomb"},
+    {"quantity":  "ElectricCurrent", "unit": "ElectricCharge.statcoulomb / Time.second"},
+    {"quantity":  "Voltage", "unit": "statvolt"},
+    {"quantity":  "ElectricDipole", "unit": "debye"},
+    {"quantity":  "ElectricalResistance", "unit": "statohm"},
+    {"quantity":  "Capacitance", "unit": "statfarad"},
+
+    {"quantity":  "MagneticFlux", "unit": "weber"},
+    {"quantity":  "MagneticFluxDensity", "unit": "tesla"},
+    {"quantity":  "MagneticFieldStrength", "unit": "oersted"},
+    {"quantity":  "Inductance", "unit": "stathenry"},
+
+    {"quantity":  "Exposure", "unit": "ElectricCharge.statcoulomb / Mass.gram"}
+  ]
+}

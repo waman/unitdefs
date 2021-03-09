@@ -1,0 +1,15 @@
+{
+  "SIUnit": "Angle / Time",
+  "dimension": {"T":-1},
+
+  "composites": ["Angle / Time"],
+
+  "convertibles": [
+    {"target": "Frequency", "from": "Angle.radian / Time.second", "to": "heltz", "factor": "1 / (2 * Constants.Pi)"}
+  ],
+
+  "units":[
+    {"name": "cycle per second", "symbol": "cps", "interval": "2 * Constants.Pi"},
+    {"name": "revolution per minute", "symbol": "rpm", "interval": "2 * Constants.Pi / 60"}
+  ]
+}
