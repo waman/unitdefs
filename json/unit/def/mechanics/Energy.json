@@ -1,0 +1,52 @@
+{
+  "SIUnit": "joule",
+  "dimension": {"M": 1, "L": 2, "T": -2},
+
+  "composites": ["Force * Length", "Length * Force", "Power * Time", "Volume * Pressure"],
+
+  "convertibles": [
+    {"target": "AbsoluteTemperature", "from": "joule", "to": "kelvin", "factor": "1 / Constants.BoltzmannConstant"},
+    {"target": "Mass", "from": "joule", "to": "kilogram", "factor": "1 / (Constants.SpeedOfLight * Constants.SpeedOfLight)"}
+  ],
+
+  "units": [
+    {"name": "joule", "symbol": "J", "scalePrefixes": "all"},
+    {"name": "erg", "interval": "1e-7"},
+    {"name": "electronvolt", "symbol": "eV", "interval": "Constants.ElementaryCharge", "scalePrefixes": "all", "notExact": true},
+    {"name": "rydberg", "symbol": "Ry", "interval": "Constants.RydbergConstant * Constants.PlanckConstant * Constants.SpeedOfLight", "notExact": true},
+    {"name": "atomic unit of energy", "symbol": "E_h", "interval": "2", "baseUnit": "rydberg", "notExact": true},
+
+    {"name": "watt hour", "symbol": "Wh", "baseUnit": "Power.watt * Time.hour"},
+    {"name": "kilowatt hour", "symbol": "kWh", "baseUnit": "Power.kilowatt * Time.hour"},
+    {"name": "litre atmosphere", "symbol": "sl", "baseUnit": "Volume.litre * Pressure.atmosphere"},
+
+    {"name": "calorie", "symbol": "cal", "baseUnit": "calorie(th)",
+      "attributes": [
+        {"name": "th", "aliases": ["cal_th"], "interval": "4.184"},
+        {"name": "IT", "aliases": ["cal_IT"], "interval": "4.1868"},
+        {"name": "mean", "aliases": ["cal_mean"], "interval": "4.190", "notExact": true}
+      ]
+    },
+
+    {"name": "calorie 4℃", "symbol": "cal_4℃", "interval": "4.204", "notExact": true},
+    {"name": "calorie 15℃", "symbol": "cal_15℃", "interval": "4.1855"},
+    {"name": "calorie 20℃", "symbol": "cal_20℃", "interval": "4.182", "notExact": true},
+
+    {"name": "kilocalorie", "symbol": "kcal", "aliases": ["Cal"], "interval": "1000", "baseUnit": "calorie"},
+    {"name": "tonne of coal equivalent", "symbol": "TCE", "interval": "7e9", "baseUnit": "calorie(th)"},
+    {"name": "tonne of oil equivalent", "symbol": "toe", "interval": "1e10", "baseUnit": "calorie(IT)"},
+    {"name": "ton of TNT", "symbol": "tTNT", "interval": "1e9", "baseUnit": "calorie(th)"},
+
+    {"name": "british thermal unit", "symbol": "BTU", "baseUnit": "british_thermal_unit(IT)",
+      "attributes": [
+        {"name": "ISO", "aliases": ["BTU_ISO"], "interval": "1.0545e3"},
+        {"name": "IT", "aliases": ["BTU_IT"], "interval": "1.05505585262e3"},
+        {"name": "mean", "aliases": ["BTU_mean"], "interval": "1.05587e3", "notExact": true},
+        {"name": "th", "aliases": ["BTU_th"], "interval": "1.054350e3", "notExact": true}
+      ]
+    },
+
+    {"name": "british thermal unit 59℉", "symbol": "BTU_59℉", "interval": "1.054804e3"},
+    {"name": "quad", "interval": "1e15", "baseUnit": "british_thermal_unit(IT)"}
+  ]
+}

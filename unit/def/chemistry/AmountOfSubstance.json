@@ -1,8 +1,0 @@
-{
-  "SIUnit": "mole",
-  "dimension": {"N":1},
-  
-  "units": [
-    {"name": "mole", "symbol": "mol", "scalePrefixes": true}
-  ]
-}

@@ -1,0 +1,14 @@
+{
+  "SIUnit": "henry",
+  "dimension": {"M": 1, "L": 2, "T": -2, "I": -2},
+
+  "composites": ["MagneticFlux / ElectricCurrent "],
+
+  "units": [
+    {"name": "henry", "symbol": "H", "scalePrefixes": "all"},
+    {"name": "abhenry", "symbol": "abH", "interval": "1e-9"},
+    {"name": "stathenry", "symbol": "statH",
+      "interval": "Constants.SpeedOfLight * Constants.SpeedOfLight * 1e-5",
+      "description": "Formal unit for Gaussian and ESU CGS unit system."}
+  ]
+}
