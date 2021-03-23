@@ -1,0 +1,7 @@
+{
+  "SIUnit": "EquivalentDose / Time",
+  "dimension": {
+    "L": 2,
+    "T": -3
+  }
+}

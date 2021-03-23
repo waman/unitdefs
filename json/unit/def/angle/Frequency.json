@@ -3,7 +3,7 @@
   "dimension": {"T": -1},
 
   "convertibles": [
-    {"target": "AngularVelocity", "from": "heltz", "to": "Angle.radian / Time.second", "factor": "2 * Constants.Pi"}
+    {"result": "AngularVelocity", "from": "heltz", "to": "Angle.radian / Time.second", "factor": "2 * Constants.Pi"}
   ],
 
   "units": [

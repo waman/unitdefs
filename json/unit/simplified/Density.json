@@ -1,0 +1,19 @@
+{
+  "SIUnit": "Mass / Volume",
+  "dimension": {
+    "M": 1,
+    "L": -3
+  },
+  "units": [
+    {
+      "name": "water",
+      "symbol": "H2O",
+      "interval": "999.972"
+    },
+    {
+      "name": "mercury",
+      "symbol": "Hg",
+      "interval": "13.5951"
+    }
+  ]
+}

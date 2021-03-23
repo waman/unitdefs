@@ -1,0 +1,18 @@
+{
+  "SIUnit": "Mass / Length",
+  "dimension": {
+    "M": 1,
+    "L": -1
+  },
+  "units": [
+    {
+      "name": "denier",
+      "symbol": "D",
+      "interval": "9e-6"
+    },
+    {
+      "name": "tex",
+      "interval": "1e-6"
+    }
+  ]
+}

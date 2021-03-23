@@ -1,10 +1,11 @@
  {
-   "description": "'US' attribute contains 'US Survey' metric.",
+  "description": "'US' attribute contains 'US Survey' metric.",
+   
   "SIUnit": "metre",
   "dimension": {"L":1},
 
    "convertibles": [
-     {"target": "Capacitance", "from": "Length.centimetre", "to": "statfarad"}
+     {"result": "Capacitance", "from": "Length.centimetre", "to": "statfarad"}
    ],
 
   "units": [

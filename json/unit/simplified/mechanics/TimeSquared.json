@@ -1,0 +1,135 @@
+{
+  "SIUnit": "Time * Time",
+  "dimension": {
+    "T": 2
+  },
+  "units": [
+    {
+      "name": "second squared",
+      "symbol": "s²",
+      "aliases": [
+        "s2",
+        "sec²",
+        "sec2"
+      ],
+      "baseUnit": "Time.second^2"
+    },
+    {
+      "name": "yoctosecond squared",
+      "symbol": "ys²",
+      "aliases": [
+        "ys2",
+        "ysec²",
+        "ysec2"
+      ],
+      "baseUnit": "Time.yoctosecond^2"
+    },
+    {
+      "name": "zeptosecond squared",
+      "symbol": "zs²",
+      "aliases": [
+        "zs2",
+        "zsec²",
+        "zsec2"
+      ],
+      "baseUnit": "Time.zeptosecond^2"
+    },
+    {
+      "name": "attosecond squared",
+      "symbol": "as²",
+      "aliases": [
+        "as2",
+        "asec²",
+        "asec2"
+      ],
+      "baseUnit": "Time.attosecond^2"
+    },
+    {
+      "name": "femtosecond squared",
+      "symbol": "fs²",
+      "aliases": [
+        "fs2",
+        "fsec²",
+        "fsec2"
+      ],
+      "baseUnit": "Time.femtosecond^2"
+    },
+    {
+      "name": "picosecond squared",
+      "symbol": "ps²",
+      "aliases": [
+        "ps2",
+        "psec²",
+        "psec2"
+      ],
+      "baseUnit": "Time.picosecond^2"
+    },
+    {
+      "name": "nanosecond squared",
+      "symbol": "ns²",
+      "aliases": [
+        "ns2",
+        "nsec²",
+        "nsec2"
+      ],
+      "baseUnit": "Time.nanosecond^2"
+    },
+    {
+      "name": "microsecond squared",
+      "symbol": "μs²",
+      "aliases": [
+        "mcs2",
+        "mcsec²",
+        "mcsec2"
+      ],
+      "baseUnit": "Time.microsecond^2"
+    },
+    {
+      "name": "millisecond squared",
+      "symbol": "ms²",
+      "aliases": [
+        "ms2",
+        "msec²",
+        "msec2"
+      ],
+      "baseUnit": "Time.millisecond^2"
+    },
+    {
+      "name": "centisecond squared",
+      "symbol": "cs²",
+      "aliases": [
+        "cs2",
+        "csec²",
+        "csec2"
+      ],
+      "baseUnit": "Time.centisecond^2"
+    },
+    {
+      "name": "decisecond squared",
+      "symbol": "ds²",
+      "aliases": [
+        "ds2",
+        "dsec²",
+        "dsec2"
+      ],
+      "baseUnit": "Time.decisecond^2"
+    }
+  ],
+  "operations": [
+    {
+      "operation": "/",
+      "argument": "Length",
+      "result": "TimeSquaredPerLength"
+    }
+  ],
+  "use": {
+    "types": [
+      "Length",
+      "em.TimeSquaredPerLength"
+    ],
+    "units": [
+      "Time"
+    ],
+    "selfUnits": true
+  }
+}

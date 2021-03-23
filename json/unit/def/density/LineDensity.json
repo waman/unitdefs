@@ -5,7 +5,7 @@
   "composites": ["Mass / Length"],
 
   "units": [
-    {"name": "denier", "symbol": "D", "interval": "1/9e6"},
+    {"name": "denier", "symbol": "D", "interval": "9e-6"},
     {"name": "tex", "interval": "1e-6"}
   ]
 }

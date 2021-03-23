@@ -1,0 +1,83 @@
+{
+  "SIUnit": "steradian",
+  "dimension": {},
+  "units": [
+    {
+      "name": "steradian",
+      "symbol": "sr"
+    },
+    {
+      "name": "yoctosteradian",
+      "symbol": "ysr",
+      "interval": "1e-24"
+    },
+    {
+      "name": "zeptosteradian",
+      "symbol": "zsr",
+      "interval": "1e-21"
+    },
+    {
+      "name": "attosteradian",
+      "symbol": "asr",
+      "interval": "1e-18"
+    },
+    {
+      "name": "femtosteradian",
+      "symbol": "fsr",
+      "interval": "1e-15"
+    },
+    {
+      "name": "picosteradian",
+      "symbol": "psr",
+      "interval": "1e-12"
+    },
+    {
+      "name": "nanosteradian",
+      "symbol": "nsr",
+      "interval": "1e-9"
+    },
+    {
+      "name": "microsteradian",
+      "symbol": "μsr",
+      "aliases": [
+        "mcsr"
+      ],
+      "interval": "1e-6"
+    },
+    {
+      "name": "millisteradian",
+      "symbol": "msr",
+      "interval": "1e-3"
+    },
+    {
+      "name": "centisteradian",
+      "symbol": "csr",
+      "interval": "1e-2"
+    },
+    {
+      "name": "decisteradian",
+      "symbol": "dsr",
+      "interval": "1e-1"
+    },
+    {
+      "name": "spat",
+      "interval": "4 * Constants.Pi",
+      "baseUnit": "steradian"
+    },
+    {
+      "name": "square degree",
+      "symbol": "deg²",
+      "aliases": [
+        "deg2"
+      ],
+      "baseUnit": "Angle.degree * Angle.degree"
+    }
+  ],
+  "use": {
+    "units": [
+      "Angle"
+    ],
+    "selfUnits": true,
+    "constants": true
+  }
+}

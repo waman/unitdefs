@@ -2,7 +2,7 @@
   "SIUnit": "henry",
   "dimension": {"M": 1, "L": 2, "T": -2, "I": -2},
 
-  "composites": ["MagneticFlux / ElectricCurrent "],
+  "composites": ["MagneticFlux / ElectricCurrent"],
 
   "units": [
     {"name": "henry", "symbol": "H", "scalePrefixes": "all"},

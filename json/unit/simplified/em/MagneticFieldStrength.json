@@ -1,0 +1,17 @@
+{
+  "SIUnit": "ElectricCurrent / Length",
+  "dimension": {
+    "L": -1,
+    "I": 1
+  },
+  "units": [
+    {
+      "name": "oersted",
+      "symbol": "Oe",
+      "interval": "1e3 / (4 * Constants.Pi)"
+    }
+  ],
+  "use": {
+    "constants": true
+  }
+}

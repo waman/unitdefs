@@ -5,7 +5,7 @@
   "composites": ["Time * Time"],
 
   "units": [
-    {"name": "second squared", "symbol": "s²", "aliases": ["s2", "sec²", "sec2"], "baseUnit": "Time.second^2",
-      "scalePrefixes": "smaller", "excludePrefixes": ["da", "h", "k", "M", "G", "T", "P", "E", "Z", "Y"]}
+    {"name": "second squared", "symbol": "s²", "aliases": ["s2", "sec²", "sec2"],
+      "baseUnit": "Time.second^2", "scalePrefixes": "smaller"}
   ]
 }

@@ -6,6 +6,6 @@
   "composites": ["TimeSquared / Length"],
 
   "convertibles": [
-    {"target": "Inductance", "from": "TimeSquared.second_squared / Length.centimetre", "to": "stathenry"}
+    {"result": "Inductance", "from": "TimeSquared.second_squared / Length.centimetre", "to": "stathenry"}
   ]
 }

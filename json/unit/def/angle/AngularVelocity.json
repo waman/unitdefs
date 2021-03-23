@@ -5,7 +5,7 @@
   "composites": ["Angle / Time"],
 
   "convertibles": [
-    {"target": "Frequency", "from": "Angle.radian / Time.second", "to": "heltz", "factor": "1 / (2 * Constants.Pi)"}
+    {"result": "Frequency", "from": "Angle.radian / Time.second", "to": "heltz", "factor": "1 / (2 * Constants.Pi)"}
   ],
 
   "units":[

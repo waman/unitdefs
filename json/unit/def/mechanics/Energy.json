@@ -5,8 +5,8 @@
   "composites": ["Force * Length", "Length * Force", "Power * Time", "Volume * Pressure"],
 
   "convertibles": [
-    {"target": "AbsoluteTemperature", "from": "joule", "to": "kelvin", "factor": "1 / Constants.BoltzmannConstant"},
-    {"target": "Mass", "from": "joule", "to": "kilogram", "factor": "1 / (Constants.SpeedOfLight * Constants.SpeedOfLight)"}
+    {"result": "AbsoluteTemperature", "from": "joule", "to": "kelvin", "factor": "1 / Constants.BoltzmannConstant"},
+    {"result": "Mass", "from": "joule", "to": "kilogram", "factor": "1 / (Constants.SpeedOfLight * Constants.SpeedOfLight)"}
   ],
 
   "units": [

@@ -3,7 +3,7 @@
   "dimension": {"M":1},
 
   "convertibles": [
-    {"target": "Energy", "from": "kilogram", "to": "joule", "factor": "Constants.SpeedOfLight * Constants.SpeedOfLight"}
+    {"result": "Energy", "from": "kilogram", "to": "joule", "factor": "Constants.SpeedOfLight * Constants.SpeedOfLight"}
   ],
 
   "units": [

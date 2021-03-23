@@ -1,0 +1,337 @@
+{
+  "SIUnit": "newton",
+  "dimension": {
+    "M": 1,
+    "L": 1,
+    "T": -2
+  },
+  "units": [
+    {
+      "name": "newton",
+      "symbol": "N"
+    },
+    {
+      "name": "yoctonewton",
+      "symbol": "yN",
+      "interval": "1e-24"
+    },
+    {
+      "name": "zeptonewton",
+      "symbol": "zN",
+      "interval": "1e-21"
+    },
+    {
+      "name": "attonewton",
+      "symbol": "aN",
+      "interval": "1e-18"
+    },
+    {
+      "name": "femtonewton",
+      "symbol": "fN",
+      "interval": "1e-15"
+    },
+    {
+      "name": "piconewton",
+      "symbol": "pN",
+      "interval": "1e-12"
+    },
+    {
+      "name": "nanonewton",
+      "symbol": "nN",
+      "interval": "1e-9"
+    },
+    {
+      "name": "micronewton",
+      "symbol": "μN",
+      "aliases": [
+        "mcN"
+      ],
+      "interval": "1e-6"
+    },
+    {
+      "name": "millinewton",
+      "symbol": "mN",
+      "interval": "1e-3"
+    },
+    {
+      "name": "centinewton",
+      "symbol": "cN",
+      "interval": "1e-2"
+    },
+    {
+      "name": "decinewton",
+      "symbol": "dN",
+      "interval": "1e-1"
+    },
+    {
+      "name": "decanewton",
+      "symbol": "daN",
+      "interval": "1e1"
+    },
+    {
+      "name": "hectonewton",
+      "symbol": "hN",
+      "interval": "1e2"
+    },
+    {
+      "name": "kilonewton",
+      "symbol": "kN",
+      "aliases": [
+        "KN"
+      ],
+      "interval": "1e3"
+    },
+    {
+      "name": "meganewton",
+      "symbol": "MN",
+      "interval": "1e6"
+    },
+    {
+      "name": "giganewton",
+      "symbol": "GN",
+      "interval": "1e9"
+    },
+    {
+      "name": "teranewton",
+      "symbol": "TN",
+      "interval": "1e12"
+    },
+    {
+      "name": "petanewton",
+      "symbol": "PN",
+      "interval": "1e15"
+    },
+    {
+      "name": "exanewton",
+      "symbol": "EN",
+      "interval": "1e18"
+    },
+    {
+      "name": "zettanewton",
+      "symbol": "ZN",
+      "interval": "1e21"
+    },
+    {
+      "name": "yottanewton",
+      "symbol": "YN",
+      "interval": "1e24"
+    },
+    {
+      "name": "dyne",
+      "symbol": "dyn",
+      "interval": "1e-5"
+    },
+    {
+      "name": "yoctodyne",
+      "symbol": "ydyn",
+      "interval": "1e-5 * 1e-24"
+    },
+    {
+      "name": "zeptodyne",
+      "symbol": "zdyn",
+      "interval": "1e-5 * 1e-21"
+    },
+    {
+      "name": "attodyne",
+      "symbol": "adyn",
+      "interval": "1e-5 * 1e-18"
+    },
+    {
+      "name": "femtodyne",
+      "symbol": "fdyn",
+      "interval": "1e-5 * 1e-15"
+    },
+    {
+      "name": "picodyne",
+      "symbol": "pdyn",
+      "interval": "1e-5 * 1e-12"
+    },
+    {
+      "name": "nanodyne",
+      "symbol": "ndyn",
+      "interval": "1e-5 * 1e-9"
+    },
+    {
+      "name": "microdyne",
+      "symbol": "μdyn",
+      "aliases": [
+        "mcdyn"
+      ],
+      "interval": "1e-5 * 1e-6"
+    },
+    {
+      "name": "millidyne",
+      "symbol": "mdyn",
+      "interval": "1e-5 * 1e-3"
+    },
+    {
+      "name": "centidyne",
+      "symbol": "cdyn",
+      "interval": "1e-5 * 1e-2"
+    },
+    {
+      "name": "decidyne",
+      "symbol": "ddyn",
+      "interval": "1e-5 * 1e-1"
+    },
+    {
+      "name": "decadyne",
+      "symbol": "dadyn",
+      "interval": "1e-5 * 1e1"
+    },
+    {
+      "name": "hectodyne",
+      "symbol": "hdyn",
+      "interval": "1e-5 * 1e2"
+    },
+    {
+      "name": "kilodyne",
+      "symbol": "kdyn",
+      "aliases": [
+        "Kdyn"
+      ],
+      "interval": "1e-5 * 1e3"
+    },
+    {
+      "name": "megadyne",
+      "symbol": "Mdyn",
+      "interval": "1e-5 * 1e6"
+    },
+    {
+      "name": "gigadyne",
+      "symbol": "Gdyn",
+      "interval": "1e-5 * 1e9"
+    },
+    {
+      "name": "teradyne",
+      "symbol": "Tdyn",
+      "interval": "1e-5 * 1e12"
+    },
+    {
+      "name": "petadyne",
+      "symbol": "Pdyn",
+      "interval": "1e-5 * 1e15"
+    },
+    {
+      "name": "exadyne",
+      "symbol": "Edyn",
+      "interval": "1e-5 * 1e18"
+    },
+    {
+      "name": "zettadyne",
+      "symbol": "Zdyn",
+      "interval": "1e-5 * 1e21"
+    },
+    {
+      "name": "yottadyne",
+      "symbol": "Ydyn",
+      "interval": "1e-5 * 1e24"
+    },
+    {
+      "name": "kilogram force",
+      "symbol": "kgf",
+      "aliases": [
+        "kp",
+        "Gf"
+      ],
+      "baseUnit": "Acceleration.standard_gravity",
+      "notExact": true
+    },
+    {
+      "name": "milligrave force",
+      "symbol": "mGf",
+      "aliases": [
+        "gf"
+      ],
+      "interval": "1e-3",
+      "baseUnit": "Acceleration.standard_gravity",
+      "notExact": true
+    },
+    {
+      "name": "atomic unit of force",
+      "interval": "8.23872206e-8",
+      "notExact": true
+    },
+    {
+      "name": "ounce force",
+      "symbol": "ozf",
+      "baseUnit": "Mass.ounce * Acceleration.standard_gravity"
+    },
+    {
+      "name": "pound force",
+      "symbol": "lbf",
+      "baseUnit": "Mass.pound * Acceleration.standard_gravity"
+    },
+    {
+      "name": "poundal",
+      "symbol": "pdl",
+      "baseUnit": "Mass.pound * Length.foot"
+    },
+    {
+      "name": "kip force",
+      "symbol": "kipf",
+      "aliases": [
+        "klbf"
+      ],
+      "interval": "1000",
+      "baseUnit": "Mass.pound * Acceleration.standard_gravity"
+    },
+    {
+      "name": "short ton force",
+      "symbol": "sh_tnf",
+      "baseUnit": "Mass.short_ton * Acceleration.standard_gravity"
+    },
+    {
+      "name": "long ton force",
+      "symbol": "tnf",
+      "aliases": [
+        "long_tnf"
+      ],
+      "baseUnit": "Mass.long_ton * Acceleration.standard_gravity"
+    },
+    {
+      "name": "sthene",
+      "symbol": "sn",
+      "interval": "1e3"
+    }
+  ],
+  "operations": [
+    {
+      "operation": "/",
+      "argument": "MagneticFlux",
+      "result": "MagneticFieldStrength"
+    },
+    {
+      "operation": "/",
+      "argument": "Area",
+      "result": "Pressure"
+    },
+    {
+      "operation": "*",
+      "argument": "Length",
+      "result": "Energy"
+    },
+    {
+      "operation": "*",
+      "argument": "Time",
+      "result": "Momentum"
+    }
+  ],
+  "use": {
+    "types": [
+      "em.MagneticFlux",
+      "em.MagneticFieldStrength",
+      "Area",
+      "fluid.Pressure",
+      "Length",
+      "mechanics.Energy",
+      "Time",
+      "mechanics.Momentum"
+    ],
+    "units": [
+      "mechanics.Acceleration",
+      "Mass",
+      "Length"
+    ]
+  }
+}

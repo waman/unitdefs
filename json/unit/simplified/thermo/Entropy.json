@@ -1,0 +1,155 @@
+{
+  "SIUnit": "Energy / AbsoluteTemperature",
+  "dimension": {
+    "M": 1,
+    "L": 2,
+    "T": -2,
+    "Θ": -1
+  },
+  "units": [
+    {
+      "name": "nat",
+      "aliases": [
+        "k_B"
+      ],
+      "interval": "Constants.BoltzmannConstant"
+    },
+    {
+      "name": "bit",
+      "aliases": [
+        "Sh"
+      ],
+      "interval": "log(2)",
+      "baseUnit": "nat"
+    },
+    {
+      "name": "ban",
+      "aliases": [
+        "Hart"
+      ],
+      "interval": "log(10)",
+      "baseUnit": "nat"
+    },
+    {
+      "name": "byte",
+      "symbol": "B",
+      "interval": "8",
+      "baseUnit": "bit"
+    },
+    {
+      "name": "decabyte",
+      "symbol": "daB",
+      "interval": "8 * 1e1",
+      "baseUnit": "bit"
+    },
+    {
+      "name": "hectobyte",
+      "symbol": "hB",
+      "interval": "8 * 1e2",
+      "baseUnit": "bit"
+    },
+    {
+      "name": "kilobyte",
+      "symbol": "kB",
+      "aliases": [
+        "KB"
+      ],
+      "interval": "8 * 1e3",
+      "baseUnit": "bit"
+    },
+    {
+      "name": "megabyte",
+      "symbol": "MB",
+      "interval": "8 * 1e6",
+      "baseUnit": "bit"
+    },
+    {
+      "name": "gigabyte",
+      "symbol": "GB",
+      "interval": "8 * 1e9",
+      "baseUnit": "bit"
+    },
+    {
+      "name": "terabyte",
+      "symbol": "TB",
+      "interval": "8 * 1e12",
+      "baseUnit": "bit"
+    },
+    {
+      "name": "petabyte",
+      "symbol": "PB",
+      "interval": "8 * 1e15",
+      "baseUnit": "bit"
+    },
+    {
+      "name": "exabyte",
+      "symbol": "EB",
+      "interval": "8 * 1e18",
+      "baseUnit": "bit"
+    },
+    {
+      "name": "zettabyte",
+      "symbol": "ZB",
+      "interval": "8 * 1e21",
+      "baseUnit": "bit"
+    },
+    {
+      "name": "yottabyte",
+      "symbol": "YB",
+      "interval": "8 * 1e24",
+      "baseUnit": "bit"
+    },
+    {
+      "name": "kibibyte",
+      "symbol": "KiB",
+      "interval": "1024",
+      "baseUnit": "byte"
+    },
+    {
+      "name": "mebibyte",
+      "symbol": "MiB",
+      "interval": "1024",
+      "baseUnit": "kibibyte"
+    },
+    {
+      "name": "gibibyte",
+      "symbol": "GiB",
+      "interval": "1024",
+      "baseUnit": "mebibyte"
+    },
+    {
+      "name": "tebibyte",
+      "symbol": "TiB",
+      "interval": "1024",
+      "baseUnit": "gibibyte"
+    },
+    {
+      "name": "pebibyte",
+      "symbol": "PiB",
+      "interval": "1024",
+      "baseUnit": "tebibyte"
+    },
+    {
+      "name": "exbibyte",
+      "symbol": "EiB",
+      "interval": "1024",
+      "baseUnit": "pebibyte"
+    },
+    {
+      "name": "zebibyte",
+      "symbol": "ZiB",
+      "interval": "1024",
+      "baseUnit": "exbibyte"
+    },
+    {
+      "name": "yobibyte",
+      "symbol": "YiB",
+      "interval": "1024",
+      "baseUnit": "zebibyte"
+    }
+  ],
+  "use": {
+    "selfUnits": true,
+    "constants": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "SIUnit": "Power / Area",
+  "dimension": {
+    "M": 1,
+    "T": -3
+  },
+  "operations": [
+    {
+      "operation": "/",
+      "argument": "Frequency",
+      "result": "SpectralIrradiance"
+    }
+  ],
+  "use": {
+    "types": [
+      "angle.Frequency",
+      "radiometry.SpectralIrradiance"
+    ]
+  }
+}

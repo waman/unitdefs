@@ -5,7 +5,7 @@
   "composites": ["Voltage / ElectricCurrent"],
 
   "convertibles": [
-    {"target": "ElectricalConductance", "from": "ohm", "to": "siemens", "algorithm": "reciprocal"}
+    {"result": "ElectricalConductance", "from": "ohm", "to": "siemens", "algorithm": "reciprocal"}
   ],
 
   "units":[

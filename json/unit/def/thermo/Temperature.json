@@ -3,7 +3,7 @@
   "dimension": {"Θ": 1},
 
   "convertibles": [
-    {"target": "AbsoluteTemperature", "from": "kelvin", "to": "kelvin", "factor": "1"}
+    {"result": "AbsoluteTemperature", "from": "kelvin", "to": "kelvin", "factor": "1"}
   ],
   
   "units": [

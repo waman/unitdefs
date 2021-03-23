@@ -5,7 +5,7 @@
   "composites": ["ElectricCurrent / Voltage"],
 
   "convertibles": [
-    {"target": "ElectricalResistance", "from": "siemens", "to": "ohm", "algorithm": "reciprocal"}
+    {"result": "ElectricalResistance", "from": "siemens", "to": "ohm", "algorithm": "reciprocal"}
   ],
 
   "units":[
