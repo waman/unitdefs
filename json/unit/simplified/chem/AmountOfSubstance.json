@@ -125,7 +125,7 @@
   "use": {
     "types": [
       "Time",
-      "chem.Catalysis"
+      "Catalysis"
     ]
   }
 }

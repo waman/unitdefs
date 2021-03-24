@@ -14,7 +14,7 @@
   "use": {
     "types": [
       "Time",
-      "mechanics.Momentum"
+      "Momentum"
     ]
   }
 }

@@ -237,7 +237,7 @@
   "use": {
     "types": [
       "Time",
-      "radioactivity.EquivalentDoseRate"
+      "EquivalentDoseRate"
     ]
   }
 }

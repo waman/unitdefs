@@ -324,9 +324,9 @@
       "Area",
       "fluid.Pressure",
       "Length",
-      "mechanics.Energy",
+      "Energy",
       "Time",
-      "mechanics.Momentum"
+      "Momentum"
     ],
     "units": [
       "mechanics.Acceleration",

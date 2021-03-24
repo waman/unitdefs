@@ -215,7 +215,7 @@ function constructUse(simplifiedJsons){
             json.convertibles.forEach(c => typeSet.add(c.result))
         }
 
-        return resolveSubpackage(rsrc, typeSet);
+        return resolveSubpackage(rsrc, typeSet, true);
     }
 
     function getUsedUnits(rsrc){
@@ -235,17 +235,20 @@ function constructUse(simplifiedJsons){
             });
         }
 
-        const types = resolveSubpackage(rsrc, typeSet);
+        const types = resolveSubpackage(rsrc, typeSet, false);
         return { 'usedUnits': types, 'useSelfUnits': useSelfUnits };
     }
 
-    function resolveSubpackage(rsrc, typeSet){
+    function resolveSubpackage(rsrc, typeSet, isRemovingSamePackage){
         const types = new Array();
         typeSet.forEach(t => {
-            if(t == rsrc.id) return;
+            if(t == rsrc.id) return;  // Length and Time (CanSquare)
             const r = simplifiedJsons.find(j => j.id == t);
-            if(r.subpackage) types.push(r.subpackage + '.' + t);
-            else types.push(t);
+            if(r.subpackage && !(isRemovingSamePackage && r.subpackage == rsrc.subpackage)){
+                types.push(r.subpackage + '.' + t);
+            }else{
+                types.push(t);
+            }
         });
         return types;
     }

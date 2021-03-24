@@ -479,8 +479,8 @@
   "use": {
     "types": [
       "Time",
-      "mechanics.AngularMomentum",
-      "mechanics.Power",
+      "AngularMomentum",
+      "Power",
       "Mass",
       "radioactivity.AbsorbedDose",
       "thermo.AbsoluteTemperature",

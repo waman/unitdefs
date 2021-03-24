@@ -148,12 +148,12 @@
   ],
   "use": {
     "types": [
-      "em.Voltage",
-      "em.ElectricalConductance",
+      "Voltage",
+      "ElectricalConductance",
       "Time",
-      "em.ElectricCharge",
+      "ElectricCharge",
       "Length",
-      "em.MagneticFieldStrength"
+      "MagneticFieldStrength"
     ],
     "constants": true
   }

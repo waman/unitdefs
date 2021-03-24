@@ -202,7 +202,7 @@
   ],
   "use": {
     "types": [
-      "em.ElectricalConductance"
+      "ElectricalConductance"
     ],
     "constants": true
   }

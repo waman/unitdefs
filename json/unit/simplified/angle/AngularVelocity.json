@@ -25,7 +25,7 @@
   ],
   "use": {
     "types": [
-      "angle.Frequency"
+      "Frequency"
     ],
     "constants": true
   }

@@ -248,10 +248,10 @@
   ],
   "use": {
     "types": [
-      "em.ElectricCurrent",
-      "em.Inductance",
+      "ElectricCurrent",
+      "Inductance",
       "Area",
-      "em.MagneticFluxDensity"
+      "MagneticFluxDensity"
     ],
     "constants": true
   }

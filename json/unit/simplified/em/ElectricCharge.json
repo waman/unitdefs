@@ -170,12 +170,12 @@
   ],
   "use": {
     "types": [
-      "em.Voltage",
-      "em.Capacitance",
+      "Voltage",
+      "Capacitance",
       "Time",
-      "em.ElectricCurrent",
+      "ElectricCurrent",
       "Length",
-      "em.ElectricDipole",
+      "ElectricDipole",
       "Mass",
       "radioactivity.Exposure"
     ],

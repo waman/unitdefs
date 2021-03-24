@@ -125,7 +125,7 @@
   ],
   "use": {
     "types": [
-      "angle.AngularVelocity"
+      "AngularVelocity"
     ],
     "constants": true
   }

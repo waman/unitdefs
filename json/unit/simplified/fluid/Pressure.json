@@ -233,7 +233,7 @@
   "use": {
     "types": [
       "Time",
-      "fluid.DynamicViscosity"
+      "DynamicViscosity"
     ],
     "units": [
       "mechanics.Force",

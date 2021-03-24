@@ -233,7 +233,7 @@
       "em.ElectricCurrent",
       "em.Voltage",
       "Time",
-      "mechanics.Energy",
+      "Energy",
       "Area",
       "radiometry.Irradiance",
       "radiometry.AreaFrequency",

@@ -131,7 +131,7 @@
   "use": {
     "types": [
       "mechanics.Energy",
-      "thermo.Temperature"
+      "Temperature"
     ],
     "constants": true
   }

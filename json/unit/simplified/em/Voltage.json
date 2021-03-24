@@ -142,10 +142,10 @@
   ],
   "use": {
     "types": [
-      "em.ElectricCurrent",
-      "em.ElectricalResistance",
+      "ElectricCurrent",
+      "ElectricalResistance",
       "Time",
-      "em.MagneticFlux"
+      "MagneticFlux"
     ],
     "constants": true
   }

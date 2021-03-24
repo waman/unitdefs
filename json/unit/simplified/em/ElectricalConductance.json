@@ -206,7 +206,7 @@
   ],
   "use": {
     "types": [
-      "em.ElectricalResistance"
+      "ElectricalResistance"
     ]
   }
 }

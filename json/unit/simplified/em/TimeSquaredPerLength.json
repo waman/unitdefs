@@ -14,7 +14,7 @@
   ],
   "use": {
     "types": [
-      "em.Inductance"
+      "Inductance"
     ]
   }
 }
