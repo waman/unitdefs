@@ -1,0 +1,177 @@
+{
+  "description": "Evaluate quantities by metre, kilogram, and second.",
+  "evaluations": [
+    {
+      "quantity": "Angle",
+      "unit": "radian"
+    },
+    {
+      "quantity": "AngularVelocity",
+      "unit": "Angle.radian / Time.second"
+    },
+    {
+      "quantity": "Frequency",
+      "unit": "heltz"
+    },
+    {
+      "quantity": "SolidAngle",
+      "unit": "steradian"
+    },
+    {
+      "quantity": "Area",
+      "unit": "square_metre"
+    },
+    {
+      "quantity": "Length",
+      "unit": "metre"
+    },
+    {
+      "quantity": "Mass",
+      "unit": "kilogram"
+    },
+    {
+      "quantity": "Time",
+      "unit": "second"
+    },
+    {
+      "quantity": "Velocity",
+      "unit": "Length.metre / Time.second"
+    },
+    {
+      "quantity": "Volume",
+      "unit": "cubic_metre"
+    },
+    {
+      "quantity": "Density",
+      "unit": "Mass.kilogram / Volume.cubic_metre"
+    },
+    {
+      "quantity": "LineDensity",
+      "unit": "Mass.kilogram / Length.metre"
+    },
+    {
+      "quantity": "DynamicViscosity",
+      "unit": "Pressure.pascal * Time.second"
+    },
+    {
+      "quantity": "KinematicViscosity",
+      "unit": "Area.square_metre / Time.second"
+    },
+    {
+      "quantity": "Pressure",
+      "unit": "pascal"
+    },
+    {
+      "quantity": "VolumeFlow",
+      "unit": "Volume.cubic_metre / Time.second"
+    },
+    {
+      "quantity": "Acceleration",
+      "unit": "Length.metre / TimeSquared.second_squared"
+    },
+    {
+      "quantity": "AngularMomentum",
+      "unit": "Force.newton * Length.metre * Time.second"
+    },
+    {
+      "quantity": "Energy",
+      "unit": "joule"
+    },
+    {
+      "quantity": "Force",
+      "unit": "newton"
+    },
+    {
+      "quantity": "MassTorque",
+      "unit": "Mass.kilogram * Length.metre"
+    },
+    {
+      "quantity": "Momentum",
+      "unit": "Force.newton * Time.second"
+    },
+    {
+      "quantity": "Power",
+      "unit": "watt"
+    },
+    {
+      "quantity": "TimeSquared",
+      "unit": "second_squared"
+    },
+    {
+      "quantity": "Irradiance",
+      "unit": "Power.watt / Area.square_metre"
+    },
+    {
+      "quantity": "SpectralIrradiance",
+      "unit": "Power.watt / Area.square_metre / Frequency.heltz"
+    },
+    {
+      "quantity": "AbsorbedDose",
+      "unit": "gray"
+    },
+    {
+      "quantity": "EquivalentDose",
+      "unit": "sievert"
+    },
+    {
+      "quantity": "EquivalentDoseRate",
+      "unit": "EquivalentDose.sievert / Time.second"
+    },
+    {
+      "quantity": "Radioactivity",
+      "unit": "becquerel"
+    }
+  ],
+  "use": {
+    "types": [
+      "Angle",
+      "angle.AngularVelocity",
+      "angle.Frequency",
+      "angle.SolidAngle",
+      "Area",
+      "Length",
+      "Mass",
+      "Time",
+      "Velocity",
+      "Volume",
+      "Density",
+      "density.LineDensity",
+      "fluid.DynamicViscosity",
+      "fluid.KinematicViscosity",
+      "fluid.Pressure",
+      "fluid.VolumeFlow",
+      "mechanics.Acceleration",
+      "mechanics.AngularMomentum",
+      "mechanics.Energy",
+      "mechanics.Force",
+      "mechanics.MassTorque",
+      "mechanics.Momentum",
+      "mechanics.Power",
+      "mechanics.TimeSquared",
+      "radiometry.Irradiance",
+      "radiometry.SpectralIrradiance",
+      "radioactivity.AbsorbedDose",
+      "radioactivity.EquivalentDose",
+      "radioactivity.EquivalentDoseRate",
+      "radioactivity.Radioactivity"
+    ],
+    "units": [
+      "Angle",
+      "Time",
+      "angle.Frequency",
+      "angle.SolidAngle",
+      "Area",
+      "Length",
+      "Mass",
+      "Volume",
+      "fluid.Pressure",
+      "mechanics.TimeSquared",
+      "mechanics.Force",
+      "mechanics.Energy",
+      "mechanics.Power",
+      "radioactivity.AbsorbedDose",
+      "radioactivity.EquivalentDose",
+      "radioactivity.Radioactivity"
+    ]
+  }
+}

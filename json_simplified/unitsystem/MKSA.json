@@ -1,0 +1,83 @@
+{
+  "parent": "MKS",
+  "evaluations": [
+    {
+      "quantity": "ElectricCharge",
+      "unit": "coulomb"
+    },
+    {
+      "quantity": "ElectricCurrent",
+      "unit": "ampere"
+    },
+    {
+      "quantity": "Voltage",
+      "unit": "volt"
+    },
+    {
+      "quantity": "ElectricDipole",
+      "unit": "debye"
+    },
+    {
+      "quantity": "ElectricalResistance",
+      "unit": "ohm"
+    },
+    {
+      "quantity": "ElectricalConductance",
+      "unit": "siemens"
+    },
+    {
+      "quantity": "Capacitance",
+      "unit": "farad"
+    },
+    {
+      "quantity": "MagneticFlux",
+      "unit": "weber"
+    },
+    {
+      "quantity": "MagneticFluxDensity",
+      "unit": "tesla"
+    },
+    {
+      "quantity": "MagneticFieldStrength",
+      "unit": "ElectricCurrent.ampere / Length.metre"
+    },
+    {
+      "quantity": "Inductance",
+      "unit": "henry"
+    },
+    {
+      "quantity": "Exposure",
+      "unit": "ElectricCharge.coulomb / Mass.kilogram"
+    }
+  ],
+  "use": {
+    "types": [
+      "em.ElectricCharge",
+      "em.ElectricCurrent",
+      "em.Voltage",
+      "em.ElectricDipole",
+      "em.ElectricalResistance",
+      "em.ElectricalConductance",
+      "em.Capacitance",
+      "em.MagneticFlux",
+      "em.MagneticFluxDensity",
+      "em.MagneticFieldStrength",
+      "em.Inductance",
+      "radioactivity.Exposure"
+    ],
+    "units": [
+      "em.ElectricCharge",
+      "em.ElectricCurrent",
+      "em.Voltage",
+      "em.ElectricDipole",
+      "em.ElectricalResistance",
+      "em.ElectricalConductance",
+      "em.Capacitance",
+      "em.MagneticFlux",
+      "em.MagneticFluxDensity",
+      "Length",
+      "em.Inductance",
+      "Mass"
+    ]
+  }
+}

@@ -1,7 +1,6 @@
 {
   "description": "Usually used units of electromagnetism",
-  "unitEntries": [
-
+  "units": [
     {"symbol": "C", "unit": "ElectricCharge.coulomb"},
     {"symbol": "abC", "unit": "ElectricCharge.abcoulomb"},
     {"symbol": "statC", "unit": "ElectricCharge.statcoulomb"},

@@ -1,0 +1,20 @@
+{
+  "description": "This unit is defined for inductance in ESU and Gaussian unit systems",
+  "SIUnit": "TimeSquared / Length",
+  "dimension": {
+    "L": -1,
+    "T": 2
+  },
+  "convertibles": [
+    {
+      "result": "Inductance",
+      "from": "TimeSquared.second_squared / Length.centimetre",
+      "to": "stathenry"
+    }
+  ],
+  "use": {
+    "types": [
+      "em.Inductance"
+    ]
+  }
+}

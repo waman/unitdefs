@@ -1,7 +1,7 @@
 {
   "parent": "MKS",
 
-  "evalEntries": [
+  "evaluations": [
     {"quantity":  "ElectricCharge", "unit": "coulomb"},
     {"quantity":  "ElectricCurrent", "unit": "ampere"},
     {"quantity":  "Voltage", "unit": "volt"},

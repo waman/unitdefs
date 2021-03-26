@@ -1,0 +1,77 @@
+{
+  "parent": "CGS",
+  "evaluations": [
+    {
+      "quantity": "ElectricCharge",
+      "unit": "abcoulomb"
+    },
+    {
+      "quantity": "ElectricCurrent",
+      "unit": "abampere"
+    },
+    {
+      "quantity": "Voltage",
+      "unit": "abvolt"
+    },
+    {
+      "quantity": "ElectricDipole",
+      "unit": "ElectricCharge.abcoulomb * Length.centimetre"
+    },
+    {
+      "quantity": "ElectricalResistance",
+      "unit": "abohm"
+    },
+    {
+      "quantity": "Capacitance",
+      "unit": "abfarad"
+    },
+    {
+      "quantity": "MagneticFlux",
+      "unit": "maxwell"
+    },
+    {
+      "quantity": "MagneticFluxDensity",
+      "unit": "gauss"
+    },
+    {
+      "quantity": "MagneticFieldStrength",
+      "unit": "oersted"
+    },
+    {
+      "quantity": "Inductance",
+      "unit": "abhenry"
+    },
+    {
+      "quantity": "Exposure",
+      "unit": "ElectricCharge.abcoulomb / Mass.gram"
+    }
+  ],
+  "use": {
+    "types": [
+      "em.ElectricCharge",
+      "em.ElectricCurrent",
+      "em.Voltage",
+      "em.ElectricDipole",
+      "em.ElectricalResistance",
+      "em.Capacitance",
+      "em.MagneticFlux",
+      "em.MagneticFluxDensity",
+      "em.MagneticFieldStrength",
+      "em.Inductance",
+      "radioactivity.Exposure"
+    ],
+    "units": [
+      "em.ElectricCharge",
+      "em.ElectricCurrent",
+      "em.Voltage",
+      "Length",
+      "em.ElectricalResistance",
+      "em.Capacitance",
+      "em.MagneticFlux",
+      "em.MagneticFluxDensity",
+      "em.MagneticFieldStrength",
+      "em.Inductance",
+      "Mass"
+    ]
+  }
+}

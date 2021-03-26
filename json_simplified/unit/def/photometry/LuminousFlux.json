@@ -1,0 +1,131 @@
+{
+  "SIUnit": "lumen",
+  "dimension": {
+    "J": 1
+  },
+  "units": [
+    {
+      "name": "lumen",
+      "symbol": "lm"
+    },
+    {
+      "name": "yoctolumen",
+      "symbol": "ylm",
+      "interval": "1e-24"
+    },
+    {
+      "name": "zeptolumen",
+      "symbol": "zlm",
+      "interval": "1e-21"
+    },
+    {
+      "name": "attolumen",
+      "symbol": "alm",
+      "interval": "1e-18"
+    },
+    {
+      "name": "femtolumen",
+      "symbol": "flm",
+      "interval": "1e-15"
+    },
+    {
+      "name": "picolumen",
+      "symbol": "plm",
+      "interval": "1e-12"
+    },
+    {
+      "name": "nanolumen",
+      "symbol": "nlm",
+      "interval": "1e-9"
+    },
+    {
+      "name": "microlumen",
+      "symbol": "μlm",
+      "aliases": [
+        "mclm"
+      ],
+      "interval": "1e-6"
+    },
+    {
+      "name": "millilumen",
+      "symbol": "mlm",
+      "interval": "1e-3"
+    },
+    {
+      "name": "centilumen",
+      "symbol": "clm",
+      "interval": "1e-2"
+    },
+    {
+      "name": "decilumen",
+      "symbol": "dlm",
+      "interval": "1e-1"
+    },
+    {
+      "name": "decalumen",
+      "symbol": "dalm",
+      "interval": "1e1"
+    },
+    {
+      "name": "hectolumen",
+      "symbol": "hlm",
+      "interval": "1e2"
+    },
+    {
+      "name": "kilolumen",
+      "symbol": "klm",
+      "aliases": [
+        "Klm"
+      ],
+      "interval": "1e3"
+    },
+    {
+      "name": "megalumen",
+      "symbol": "Mlm",
+      "interval": "1e6"
+    },
+    {
+      "name": "gigalumen",
+      "symbol": "Glm",
+      "interval": "1e9"
+    },
+    {
+      "name": "teralumen",
+      "symbol": "Tlm",
+      "interval": "1e12"
+    },
+    {
+      "name": "petalumen",
+      "symbol": "Plm",
+      "interval": "1e15"
+    },
+    {
+      "name": "exalumen",
+      "symbol": "Elm",
+      "interval": "1e18"
+    },
+    {
+      "name": "zettalumen",
+      "symbol": "Zlm",
+      "interval": "1e21"
+    },
+    {
+      "name": "yottalumen",
+      "symbol": "Ylm",
+      "interval": "1e24"
+    }
+  ],
+  "operations": [
+    {
+      "operation": "/",
+      "argument": "Area",
+      "result": "Illuminance"
+    }
+  ],
+  "use": {
+    "types": [
+      "Area",
+      "photometry.Illuminance"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "parent": "CGS",
+  "evaluations": [
+    {
+      "quantity": "ElectricCharge",
+      "unit": "statcoulomb"
+    },
+    {
+      "quantity": "ElectricCurrent",
+      "unit": "ElectricCharge.statcoulomb / Time.second"
+    },
+    {
+      "quantity": "Voltage",
+      "unit": "statvolt"
+    },
+    {
+      "quantity": "ElectricDipole",
+      "unit": "debye"
+    },
+    {
+      "quantity": "ElectricalResistance",
+      "unit": "statohm"
+    },
+    {
+      "quantity": "Capacitance",
+      "unit": "statfarad"
+    },
+    {
+      "quantity": "MagneticFlux",
+      "unit": "weber"
+    },
+    {
+      "quantity": "MagneticFluxDensity",
+      "unit": "tesla"
+    },
+    {
+      "quantity": "MagneticFieldStrength",
+      "unit": "oersted"
+    },
+    {
+      "quantity": "Inductance",
+      "unit": "stathenry"
+    },
+    {
+      "quantity": "Exposure",
+      "unit": "ElectricCharge.statcoulomb / Mass.gram"
+    }
+  ],
+  "use": {
+    "types": [
+      "em.ElectricCharge",
+      "em.ElectricCurrent",
+      "em.Voltage",
+      "em.ElectricDipole",
+      "em.ElectricalResistance",
+      "em.Capacitance",
+      "em.MagneticFlux",
+      "em.MagneticFluxDensity",
+      "em.MagneticFieldStrength",
+      "em.Inductance",
+      "radioactivity.Exposure"
+    ],
+    "units": [
+      "em.ElectricCharge",
+      "Time",
+      "em.Voltage",
+      "em.ElectricDipole",
+      "em.ElectricalResistance",
+      "em.Capacitance",
+      "em.MagneticFlux",
+      "em.MagneticFluxDensity",
+      "em.MagneticFieldStrength",
+      "em.Inductance",
+      "Mass"
+    ]
+  }
+}

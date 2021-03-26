@@ -1,6 +1,6 @@
 {
   "description": "Units of US customary measurement systems (US Survey)",
-  "unitEntries": [
+  "units": [
     {"symbol": "li", "unit": "Length.link(US)"},
     {"symbol": "ft", "unit": "Length.foot(US)"},
     {"symbol": "rd", "unit": "Length.rod(US)"},

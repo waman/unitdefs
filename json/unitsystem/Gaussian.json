@@ -1,7 +1,7 @@
 {
   "parent": "CGS",
 
-  "evalEntries": [
+  "evaluations": [
     {"quantity":  "ElectricCharge", "unit": "statcoulomb"},
     {"quantity":  "ElectricCurrent", "unit": "ElectricCharge.statcoulomb / Time.second"},
     {"quantity":  "Voltage", "unit": "statvolt"},

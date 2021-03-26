@@ -1,5 +1,5 @@
 {
-  "evalEntries": [
+  "evaluations": [
     {"quantity": "Angle", "unit": "radian"},
     {"quantity": "AngularVelocity", "unit": "Angle.radian / Time.second"},
     {"quantity": "Frequency", "unit": "heltz"},

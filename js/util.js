@@ -1,14 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-
-const scalePrefixes = getScalePrefixes();
-
-function getScalePrefixes(){
-    const prefixes = JSON.parse(fs.readFileSync(path.join('json', 'ScalePrefixes.json')));
-    prefixes.smaller = prefixes.filter(p => p.scale.includes('e-'));
-    prefixes.larger = prefixes.filter(p => !p.scale.includes('e-'));
-    return prefixes;
-}
         
 exports.rmdirs = function(dir){
     fs.readdirSync(dir).forEach(f => {
@@ -24,7 +15,7 @@ exports.rmdirs = function(dir){
 exports.mkdirs = function(dir){
     const parent = path.dirname(dir);
     if(!fs.existsSync(parent)) exports.mkdirs(parent);
-    fs.mkdirSync(dir);
+    if(!fs.existsSync(dir)) fs.mkdirSync(dir);
 }
 
 exports.copyProps = function(fromObj, toObj, excludes){
@@ -37,6 +28,15 @@ exports.cloneProps = function(fromObj, excludes){
     const result = {};
     exports.copyProps(fromObj, result, excludes);
     return result;
+}
+
+const scalePrefixes = getScalePrefixes();
+
+function getScalePrefixes(){
+    const prefixes = JSON.parse(fs.readFileSync(path.join('json', 'ScalePrefixes.json')));
+    prefixes.smaller = prefixes.filter(p => p.scale.includes('e-'));
+    prefixes.larger = prefixes.filter(p => !p.scale.includes('e-'));
+    return prefixes;
 }
 
 exports.getPrefixes = function(scalePrefixKind, excludePrefixes){
@@ -57,4 +57,22 @@ exports.getPrefixes = function(scalePrefixKind, excludePrefixes){
     }else{
         return ps;
     }
+}
+
+const unitRegex = /(\w+\.)?\w+([(]\w+[)])?/ig;  // gallon, gallon(US_fl), Length.mile etc.
+
+exports.getUnitRegex = function(){
+    return unitRegex;
+}
+
+exports.resolveSubpackages = function(typeSet, unitdefs){
+    const types = new Array();
+    typeSet.forEach(t => {
+        const ud = unitdefs.find(u => u.id == t);
+        if(ud.subpackage)
+            types.push(ud.subpackage + '.' + t);
+        else
+            types.push(t);
+    });
+    return types;
 }

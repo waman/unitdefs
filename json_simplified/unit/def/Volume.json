@@ -1,0 +1,795 @@
+{
+  "SIUnit": "Area * Length",
+  "dimension": {
+    "L": 3
+  },
+  "units": [
+    {
+      "name": "cubic metre",
+      "symbol": "m³",
+      "aliases": [
+        "m3"
+      ],
+      "baseUnit": "Length.metre^3"
+    },
+    {
+      "name": "cubic yoctometre",
+      "symbol": "ym³",
+      "aliases": [
+        "ym3"
+      ],
+      "baseUnit": "Length.yoctometre^3"
+    },
+    {
+      "name": "cubic zeptometre",
+      "symbol": "zm³",
+      "aliases": [
+        "zm3"
+      ],
+      "baseUnit": "Length.zeptometre^3"
+    },
+    {
+      "name": "cubic attometre",
+      "symbol": "am³",
+      "aliases": [
+        "am3"
+      ],
+      "baseUnit": "Length.attometre^3"
+    },
+    {
+      "name": "cubic femtometre",
+      "symbol": "fm³",
+      "aliases": [
+        "fm3"
+      ],
+      "baseUnit": "Length.femtometre^3"
+    },
+    {
+      "name": "cubic picometre",
+      "symbol": "pm³",
+      "aliases": [
+        "pm3"
+      ],
+      "baseUnit": "Length.picometre^3"
+    },
+    {
+      "name": "cubic nanometre",
+      "symbol": "nm³",
+      "aliases": [
+        "nm3"
+      ],
+      "baseUnit": "Length.nanometre^3"
+    },
+    {
+      "name": "cubic micrometre",
+      "symbol": "μm³",
+      "aliases": [
+        "mcm3"
+      ],
+      "baseUnit": "Length.micrometre^3"
+    },
+    {
+      "name": "cubic millimetre",
+      "symbol": "mm³",
+      "aliases": [
+        "mm3"
+      ],
+      "baseUnit": "Length.millimetre^3"
+    },
+    {
+      "name": "cubic centimetre",
+      "symbol": "cm³",
+      "aliases": [
+        "cm3"
+      ],
+      "baseUnit": "Length.centimetre^3"
+    },
+    {
+      "name": "cubic decimetre",
+      "symbol": "dm³",
+      "aliases": [
+        "dm3"
+      ],
+      "baseUnit": "Length.decimetre^3"
+    },
+    {
+      "name": "cubic decametre",
+      "symbol": "dam³",
+      "aliases": [
+        "dam3"
+      ],
+      "baseUnit": "Length.decametre^3"
+    },
+    {
+      "name": "cubic hectometre",
+      "symbol": "hm³",
+      "aliases": [
+        "hm3"
+      ],
+      "baseUnit": "Length.hectometre^3"
+    },
+    {
+      "name": "cubic kilometre",
+      "symbol": "km³",
+      "aliases": [
+        "Km3"
+      ],
+      "baseUnit": "Length.kilometre^3"
+    },
+    {
+      "name": "cubic megametre",
+      "symbol": "Mm³",
+      "aliases": [
+        "Mm3"
+      ],
+      "baseUnit": "Length.megametre^3"
+    },
+    {
+      "name": "cubic gigametre",
+      "symbol": "Gm³",
+      "aliases": [
+        "Gm3"
+      ],
+      "baseUnit": "Length.gigametre^3"
+    },
+    {
+      "name": "cubic terametre",
+      "symbol": "Tm³",
+      "aliases": [
+        "Tm3"
+      ],
+      "baseUnit": "Length.terametre^3"
+    },
+    {
+      "name": "cubic petametre",
+      "symbol": "Pm³",
+      "aliases": [
+        "Pm3"
+      ],
+      "baseUnit": "Length.petametre^3"
+    },
+    {
+      "name": "cubic exametre",
+      "symbol": "Em³",
+      "aliases": [
+        "Em3"
+      ],
+      "baseUnit": "Length.exametre^3"
+    },
+    {
+      "name": "cubic zettametre",
+      "symbol": "Zm³",
+      "aliases": [
+        "Zm3"
+      ],
+      "baseUnit": "Length.zettametre^3"
+    },
+    {
+      "name": "cubic yottametre",
+      "symbol": "Ym³",
+      "aliases": [
+        "Ym3"
+      ],
+      "baseUnit": "Length.yottametre^3"
+    },
+    {
+      "name": "litre",
+      "symbol": "L",
+      "interval": "1e-3"
+    },
+    {
+      "name": "yoctolitre",
+      "symbol": "yL",
+      "interval": "1e-3 * 1e-24"
+    },
+    {
+      "name": "zeptolitre",
+      "symbol": "zL",
+      "interval": "1e-3 * 1e-21"
+    },
+    {
+      "name": "attolitre",
+      "symbol": "aL",
+      "interval": "1e-3 * 1e-18"
+    },
+    {
+      "name": "femtolitre",
+      "symbol": "fL",
+      "interval": "1e-3 * 1e-15"
+    },
+    {
+      "name": "picolitre",
+      "symbol": "pL",
+      "interval": "1e-3 * 1e-12"
+    },
+    {
+      "name": "nanolitre",
+      "symbol": "nL",
+      "interval": "1e-3 * 1e-9"
+    },
+    {
+      "name": "microlitre",
+      "symbol": "μL",
+      "aliases": [
+        "mcL"
+      ],
+      "interval": "1e-3 * 1e-6"
+    },
+    {
+      "name": "millilitre",
+      "symbol": "mL",
+      "interval": "1e-3 * 1e-3"
+    },
+    {
+      "name": "centilitre",
+      "symbol": "cL",
+      "interval": "1e-3 * 1e-2"
+    },
+    {
+      "name": "decilitre",
+      "symbol": "dL",
+      "interval": "1e-3 * 1e-1"
+    },
+    {
+      "name": "decalitre",
+      "symbol": "daL",
+      "interval": "1e-3 * 1e1"
+    },
+    {
+      "name": "hectolitre",
+      "symbol": "hL",
+      "interval": "1e-3 * 1e2"
+    },
+    {
+      "name": "kilolitre",
+      "symbol": "kL",
+      "aliases": [
+        "KL"
+      ],
+      "interval": "1e-3 * 1e3"
+    },
+    {
+      "name": "megalitre",
+      "symbol": "ML",
+      "interval": "1e-3 * 1e6"
+    },
+    {
+      "name": "gigalitre",
+      "symbol": "GL",
+      "interval": "1e-3 * 1e9"
+    },
+    {
+      "name": "teralitre",
+      "symbol": "TL",
+      "interval": "1e-3 * 1e12"
+    },
+    {
+      "name": "petalitre",
+      "symbol": "PL",
+      "interval": "1e-3 * 1e15"
+    },
+    {
+      "name": "exalitre",
+      "symbol": "EL",
+      "interval": "1e-3 * 1e18"
+    },
+    {
+      "name": "zettalitre",
+      "symbol": "ZL",
+      "interval": "1e-3 * 1e21"
+    },
+    {
+      "name": "yottalitre",
+      "symbol": "YL",
+      "interval": "1e-3 * 1e24"
+    },
+    {
+      "name": "lambda",
+      "symbol": "λ",
+      "interval": "1e-9"
+    },
+    {
+      "name": "cubic inch",
+      "symbol": "in³",
+      "aliases": [
+        "in3",
+        "cu_in"
+      ],
+      "baseUnit": "Length.inch^3"
+    },
+    {
+      "name": "cubic foot",
+      "symbol": "ft³",
+      "aliases": [
+        "ft3",
+        "cu_ft"
+      ],
+      "baseUnit": "Length.foot^3"
+    },
+    {
+      "name": "cubic yard",
+      "symbol": "yd³",
+      "aliases": [
+        "yd3",
+        "cu_yd"
+      ],
+      "baseUnit": "Length.yard^3"
+    },
+    {
+      "name": "cubic fathom",
+      "symbol": "ftm³",
+      "aliases": [
+        "ftm3",
+        "cu_fm"
+      ],
+      "baseUnit": "Length.fathom^3"
+    },
+    {
+      "name": "cubic mile",
+      "symbol": "mi³",
+      "aliases": [
+        "mi3",
+        "cu_mi"
+      ],
+      "baseUnit": "Length.mile^3"
+    },
+    {
+      "name": "acre foot",
+      "symbol": "acre_ft",
+      "baseUnit": "Area.acre * Length.foot"
+    },
+    {
+      "name": "board foot",
+      "symbol": "fbm",
+      "interval": "144",
+      "baseUnit": "cubic_inch"
+    },
+    {
+      "name": "gallon_beer",
+      "symbol": "beer_gal",
+      "interval": "282",
+      "baseUnit": "cubic_inch"
+    },
+    {
+      "name": "perch",
+      "symbol": "per",
+      "interval": "33/2 * 3/2",
+      "baseUnit": "cubic_foot"
+    },
+    {
+      "name": "minim",
+      "baseUnit": "minim(US)"
+    },
+    {
+      "name": "minim",
+      "attribute": "US",
+      "interval": "1/480",
+      "baseUnit": "fluid_ounce(US)"
+    },
+    {
+      "name": "minim",
+      "attribute": "imp",
+      "interval": "1/480",
+      "baseUnit": "fluid_ounce(imp)"
+    },
+    {
+      "name": "teaspoon",
+      "symbol": "tsp",
+      "interval": "80",
+      "baseUnit": "minim"
+    },
+    {
+      "name": "tablespoon",
+      "symbol": "Tbsp",
+      "interval": "3",
+      "baseUnit": "teaspoon"
+    },
+    {
+      "name": "fluid ounce",
+      "symbol": "fl_oz"
+    },
+    {
+      "name": "fluid ounce",
+      "symbol": "fl_oz",
+      "attribute": "US",
+      "aliases": [
+        "US_fl_oz"
+      ],
+      "interval": "1/128",
+      "baseUnit": "gallon(US_fl)"
+    },
+    {
+      "name": "fluid ounce",
+      "symbol": "fl_oz",
+      "attribute": "imp",
+      "interval": "1/160",
+      "baseUnit": "gallon(imp)"
+    },
+    {
+      "name": "shot",
+      "symbol": "jig",
+      "interval": "3",
+      "baseUnit": "tablespoon"
+    },
+    {
+      "name": "gill",
+      "symbol": "gi"
+    },
+    {
+      "name": "gill",
+      "symbol": "gi",
+      "attribute": "US",
+      "interval": "4",
+      "baseUnit": "fluid_ounce(US)"
+    },
+    {
+      "name": "gill",
+      "symbol": "gi",
+      "attribute": "imp",
+      "aliases": [
+        "nog"
+      ],
+      "interval": "5",
+      "baseUnit": "fluid_ounce(imp)"
+    },
+    {
+      "name": "cup",
+      "symbol": "cp"
+    },
+    {
+      "name": "cup",
+      "symbol": "cp",
+      "attribute": "metric",
+      "interval": "250e-6"
+    },
+    {
+      "name": "cup",
+      "symbol": "cp",
+      "attribute": "US",
+      "interval": "2",
+      "baseUnit": "gill(US)"
+    },
+    {
+      "name": "pint",
+      "symbol": "pt"
+    },
+    {
+      "name": "pint",
+      "symbol": "pt",
+      "attribute": "US_fl",
+      "interval": "1/8",
+      "baseUnit": "gallon(US_fl)"
+    },
+    {
+      "name": "pint",
+      "symbol": "pt",
+      "attribute": "US_dry",
+      "interval": "1/8",
+      "baseUnit": "gallon(US_dry)"
+    },
+    {
+      "name": "pint",
+      "symbol": "pt",
+      "attribute": "imp",
+      "interval": "1/8",
+      "baseUnit": "gallon(imp)"
+    },
+    {
+      "name": "quart",
+      "symbol": "qt"
+    },
+    {
+      "name": "quart",
+      "symbol": "qt",
+      "attribute": "US_fl",
+      "interval": "1/4",
+      "baseUnit": "gallon(US_fl)"
+    },
+    {
+      "name": "quart",
+      "symbol": "qt",
+      "attribute": "US_dry",
+      "interval": "1/4",
+      "baseUnit": "gallon(US_dry)"
+    },
+    {
+      "name": "quart",
+      "symbol": "qt",
+      "attribute": "imp",
+      "interval": "1/4",
+      "baseUnit": "gallon(imp)"
+    },
+    {
+      "name": "pottle",
+      "symbol": "pot"
+    },
+    {
+      "name": "pottle",
+      "symbol": "pot",
+      "attribute": "US",
+      "interval": "1/2",
+      "baseUnit": "gallon(US_fl)"
+    },
+    {
+      "name": "pottle",
+      "symbol": "pot",
+      "attribute": "imp",
+      "interval": "1/2",
+      "baseUnit": "gallon(imp)"
+    },
+    {
+      "name": "gallon",
+      "symbol": "gal",
+      "baseUnit": "gallon(US_fl)"
+    },
+    {
+      "name": "gallon",
+      "symbol": "gal",
+      "attribute": "US",
+      "baseUnit": "gallon(US_fl)"
+    },
+    {
+      "name": "gallon",
+      "symbol": "gal",
+      "attribute": "US_fl",
+      "aliases": [
+        "US_gal"
+      ],
+      "interval": "231",
+      "baseUnit": "cubic_inch"
+    },
+    {
+      "name": "gallon",
+      "symbol": "gal",
+      "attribute": "US_dry",
+      "interval": "1/8",
+      "baseUnit": "bushel(US_lvl)"
+    },
+    {
+      "name": "gallon",
+      "symbol": "gal",
+      "attribute": "imp",
+      "aliases": [
+        "imp_gal"
+      ],
+      "interval": "4.54609",
+      "baseUnit": "litre"
+    },
+    {
+      "name": "peck",
+      "symbol": "pk",
+      "baseUnit": "peck(US_dry)"
+    },
+    {
+      "name": "peck",
+      "symbol": "pk",
+      "attribute": "US_dry",
+      "interval": "1/4",
+      "baseUnit": "bushel(US_lvl)"
+    },
+    {
+      "name": "peck",
+      "symbol": "pk",
+      "attribute": "imp",
+      "interval": "2",
+      "baseUnit": "gallon(imp)"
+    },
+    {
+      "name": "bushel",
+      "symbol": "bu",
+      "aliases": [
+        "bsh"
+      ],
+      "baseUnit": "bushel(US_lvl)"
+    },
+    {
+      "name": "bushel",
+      "symbol": "bu",
+      "aliases": [
+        "bsh"
+      ],
+      "attribute": "US",
+      "interval": "5/4",
+      "baseUnit": "bushel(US_lvl)"
+    },
+    {
+      "name": "bushel",
+      "symbol": "bu",
+      "aliases": [
+        "bsh"
+      ],
+      "attribute": "US_lvl",
+      "interval": "2150.42",
+      "baseUnit": "cubic_inch"
+    },
+    {
+      "name": "bushel",
+      "symbol": "bu",
+      "aliases": [
+        "bsh"
+      ],
+      "attribute": "imp",
+      "interval": "8",
+      "baseUnit": "gallon(imp)"
+    },
+    {
+      "name": "barrel",
+      "symbol": "bbl",
+      "aliases": [
+        "bl"
+      ],
+      "interval": "42",
+      "baseUnit": "gallon(US_fl)",
+      "description": "oil barrel"
+    },
+    {
+      "name": "barrel",
+      "symbol": "bbl",
+      "aliases": [
+        "fl_bl"
+      ],
+      "description": "oil barrel",
+      "attribute": "US_fl",
+      "interval": "31.5",
+      "baseUnit": "gallon(US_fl)"
+    },
+    {
+      "name": "barrel",
+      "symbol": "bbl",
+      "aliases": [
+        "bl"
+      ],
+      "description": "oil barrel",
+      "attribute": "US_dry",
+      "interval": "105",
+      "baseUnit": "quart(US_dry)"
+    },
+    {
+      "name": "barrel",
+      "symbol": "bbl",
+      "aliases": [
+        "bl"
+      ],
+      "description": "oil barrel",
+      "attribute": "imp",
+      "interval": "36",
+      "baseUnit": "gallon(imp)"
+    },
+    {
+      "name": "fluid barrel",
+      "symbol": "fl_bl",
+      "baseUnit": "barrel(US_fl)"
+    },
+    {
+      "name": "hogshead",
+      "symbol": "hhd"
+    },
+    {
+      "name": "hogshead",
+      "symbol": "hhd",
+      "attribute": "US",
+      "interval": "2",
+      "baseUnit": "barrel(US_fl)"
+    },
+    {
+      "name": "hogshead",
+      "symbol": "hhd",
+      "attribute": "imp",
+      "interval": "2",
+      "baseUnit": "barrel(imp)"
+    },
+    {
+      "name": "fluid dram",
+      "symbol": "fl_dr"
+    },
+    {
+      "name": "fluid dram",
+      "symbol": "fl_dr",
+      "attribute": "US",
+      "interval": "1/8",
+      "baseUnit": "fluid_ounce(US)"
+    },
+    {
+      "name": "fluid dram",
+      "symbol": "fl_dr",
+      "attribute": "imp",
+      "interval": "1/8",
+      "baseUnit": "fluid_ounce(imp)"
+    },
+    {
+      "name": "fluid scruple",
+      "symbol": "fl_s",
+      "interval": "1/24",
+      "baseUnit": "fluid_ounce(imp)"
+    },
+    {
+      "name": "bucket",
+      "symbol": "bkt",
+      "interval": "4",
+      "baseUnit": "gallon(imp)"
+    }
+  ],
+  "operations": [
+    {
+      "operation": "/",
+      "argument": "Time",
+      "result": "VolumeFlow"
+    },
+    {
+      "operation": "*",
+      "argument": "Pressure",
+      "result": "Energy"
+    }
+  ],
+  "attributes": [
+    {
+      "name": "US",
+      "parents": [
+        "minim",
+        "fluid ounce",
+        "gill",
+        "cup",
+        "pottle",
+        "gallon",
+        "bushel",
+        "hogshead",
+        "fluid dram"
+      ]
+    },
+    {
+      "name": "imp",
+      "parents": [
+        "minim",
+        "fluid ounce",
+        "gill",
+        "pint",
+        "quart",
+        "pottle",
+        "gallon",
+        "peck",
+        "bushel",
+        "barrel",
+        "hogshead",
+        "fluid dram"
+      ]
+    },
+    {
+      "name": "metric",
+      "parents": [
+        "cup"
+      ]
+    },
+    {
+      "name": "US_fl",
+      "parents": [
+        "pint",
+        "quart",
+        "gallon",
+        "barrel"
+      ]
+    },
+    {
+      "name": "US_dry",
+      "parents": [
+        "pint",
+        "quart",
+        "gallon",
+        "peck",
+        "barrel"
+      ]
+    },
+    {
+      "name": "US_lvl",
+      "parents": [
+        "bushel"
+      ]
+    }
+  ],
+  "use": {
+    "units": [
+      "Length",
+      "Area"
+    ],
+    "selfUnits": true
+  }
+}

@@ -1,7 +1,6 @@
 {
   "description": "Usually used units of length, area, volume, mass, time, angle, frequency, temperature, e.t.c.",
-  "unitEntries": [
-
+  "units": [
     {"symbol": "nm", "unit": "Length.nanometre"},
     {"symbol": "μm", "unit": "Length.micrometre"},
     {"symbol": "micron", "unit": "Length.micrometre"},

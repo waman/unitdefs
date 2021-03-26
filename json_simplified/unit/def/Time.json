@@ -1,0 +1,502 @@
+{
+  "SIUnit": "second",
+  "dimension": {
+    "T": 1
+  },
+  "units": [
+    {
+      "name": "second",
+      "symbol": "s",
+      "aliases": [
+        "sec"
+      ]
+    },
+    {
+      "name": "yoctosecond",
+      "symbol": "ys",
+      "aliases": [
+        "ysec"
+      ],
+      "interval": "1e-24"
+    },
+    {
+      "name": "zeptosecond",
+      "symbol": "zs",
+      "aliases": [
+        "zsec"
+      ],
+      "interval": "1e-21"
+    },
+    {
+      "name": "attosecond",
+      "symbol": "as",
+      "aliases": [
+        "asec"
+      ],
+      "interval": "1e-18"
+    },
+    {
+      "name": "femtosecond",
+      "symbol": "fs",
+      "aliases": [
+        "fsec"
+      ],
+      "interval": "1e-15"
+    },
+    {
+      "name": "picosecond",
+      "symbol": "ps",
+      "aliases": [
+        "psec"
+      ],
+      "interval": "1e-12"
+    },
+    {
+      "name": "nanosecond",
+      "symbol": "ns",
+      "aliases": [
+        "nsec"
+      ],
+      "interval": "1e-9"
+    },
+    {
+      "name": "microsecond",
+      "symbol": "μs",
+      "aliases": [
+        "mcsec"
+      ],
+      "interval": "1e-6"
+    },
+    {
+      "name": "millisecond",
+      "symbol": "ms",
+      "aliases": [
+        "msec"
+      ],
+      "interval": "1e-3"
+    },
+    {
+      "name": "centisecond",
+      "symbol": "cs",
+      "aliases": [
+        "csec"
+      ],
+      "interval": "1e-2"
+    },
+    {
+      "name": "decisecond",
+      "symbol": "ds",
+      "aliases": [
+        "dsec"
+      ],
+      "interval": "1e-1"
+    },
+    {
+      "name": "decasecond",
+      "symbol": "das",
+      "aliases": [
+        "dasec"
+      ],
+      "interval": "1e1"
+    },
+    {
+      "name": "hectosecond",
+      "symbol": "hs",
+      "aliases": [
+        "hsec"
+      ],
+      "interval": "1e2"
+    },
+    {
+      "name": "kilosecond",
+      "symbol": "ks",
+      "aliases": [
+        "Ksec"
+      ],
+      "interval": "1e3"
+    },
+    {
+      "name": "megasecond",
+      "symbol": "Ms",
+      "aliases": [
+        "Msec"
+      ],
+      "interval": "1e6"
+    },
+    {
+      "name": "gigasecond",
+      "symbol": "Gs",
+      "aliases": [
+        "Gsec"
+      ],
+      "interval": "1e9"
+    },
+    {
+      "name": "terasecond",
+      "symbol": "Ts",
+      "aliases": [
+        "Tsec"
+      ],
+      "interval": "1e12"
+    },
+    {
+      "name": "petasecond",
+      "symbol": "Ps",
+      "aliases": [
+        "Psec"
+      ],
+      "interval": "1e15"
+    },
+    {
+      "name": "exasecond",
+      "symbol": "Es",
+      "aliases": [
+        "Esec"
+      ],
+      "interval": "1e18"
+    },
+    {
+      "name": "zettasecond",
+      "symbol": "Zs",
+      "aliases": [
+        "Zsec"
+      ],
+      "interval": "1e21"
+    },
+    {
+      "name": "yottasecond",
+      "symbol": "Ys",
+      "aliases": [
+        "Ysec"
+      ],
+      "interval": "1e24"
+    },
+    {
+      "name": "minute",
+      "symbol": "min",
+      "interval": "60"
+    },
+    {
+      "name": "hour",
+      "symbol": "h",
+      "interval": "60",
+      "baseUnit": "minute"
+    },
+    {
+      "name": "day",
+      "symbol": "d",
+      "interval": "24",
+      "baseUnit": "hour"
+    },
+    {
+      "name": "day",
+      "symbol": "d",
+      "attribute": "sidereal",
+      "interval": "23.9344699",
+      "baseUnit": "hour",
+      "notExact": true
+    },
+    {
+      "name": "week",
+      "symbol": "wk",
+      "interval": "7",
+      "baseUnit": "day"
+    },
+    {
+      "name": "month",
+      "symbol": "mo",
+      "baseUnit": "month(gregorian)"
+    },
+    {
+      "name": "month",
+      "symbol": "mo",
+      "attribute": "gregorian",
+      "interval": "30.436875",
+      "baseUnit": "day"
+    },
+    {
+      "name": "month",
+      "symbol": "mo",
+      "attribute": "full",
+      "interval": "30",
+      "baseUnit": "day"
+    },
+    {
+      "name": "month",
+      "symbol": "mo",
+      "attribute": "hollow",
+      "interval": "29",
+      "baseUnit": "day"
+    },
+    {
+      "name": "month",
+      "symbol": "mo",
+      "attribute": "synodic",
+      "interval": "29.530589",
+      "baseUnit": "day"
+    },
+    {
+      "name": "year",
+      "symbol": "yr",
+      "aliases": [
+        "y",
+        "a"
+      ],
+      "baseUnit": "year(gregorian)"
+    },
+    {
+      "name": "year",
+      "symbol": "yr",
+      "aliases": [
+        "y",
+        "a"
+      ],
+      "attribute": "common",
+      "interval": "365",
+      "baseUnit": "day"
+    },
+    {
+      "name": "year",
+      "symbol": "yr",
+      "aliases": [
+        "y",
+        "a"
+      ],
+      "attribute": "leap",
+      "interval": "366",
+      "baseUnit": "day"
+    },
+    {
+      "name": "year",
+      "symbol": "yr",
+      "aliases": [
+        "y",
+        "a"
+      ],
+      "attribute": "gregorian",
+      "interval": "365.2425",
+      "baseUnit": "day"
+    },
+    {
+      "name": "year",
+      "symbol": "yr",
+      "aliases": [
+        "y",
+        "a"
+      ],
+      "attribute": "sidereal",
+      "interval": "365.256363",
+      "baseUnit": "day",
+      "notExact": true
+    },
+    {
+      "name": "year",
+      "symbol": "yr",
+      "aliases": [
+        "y",
+        "a"
+      ],
+      "attribute": "julian",
+      "interval": "365.25",
+      "baseUnit": "day"
+    },
+    {
+      "name": "year",
+      "symbol": "yr",
+      "aliases": [
+        "y",
+        "a"
+      ],
+      "attribute": "tropical",
+      "interval": "365.256363",
+      "baseUnit": "day",
+      "notExact": true
+    },
+    {
+      "name": "decade",
+      "symbol": "dec",
+      "baseUnit": "decade(gregorian)"
+    },
+    {
+      "name": "decade",
+      "symbol": "dec",
+      "attribute": "gregorian",
+      "interval": "10",
+      "baseUnit": "year(gregorian)"
+    },
+    {
+      "name": "decade",
+      "symbol": "dec",
+      "attribute": "sidereal",
+      "interval": "10",
+      "baseUnit": "year(sidereal)"
+    },
+    {
+      "name": "decade",
+      "symbol": "dec",
+      "attribute": "julian",
+      "interval": "10",
+      "baseUnit": "year(julian)"
+    },
+    {
+      "name": "decade",
+      "symbol": "dec",
+      "attribute": "tropical",
+      "interval": "10",
+      "baseUnit": "year(tropical)"
+    },
+    {
+      "name": "century",
+      "baseUnit": "century(gregorian)"
+    },
+    {
+      "name": "century",
+      "attribute": "gregorian",
+      "interval": "100",
+      "baseUnit": "year(gregorian)"
+    },
+    {
+      "name": "century",
+      "attribute": "sidereal",
+      "interval": "100",
+      "baseUnit": "year(sidereal)"
+    },
+    {
+      "name": "century",
+      "attribute": "julian",
+      "interval": "100",
+      "baseUnit": "year(julian)"
+    },
+    {
+      "name": "century",
+      "attribute": "topical",
+      "interval": "100",
+      "baseUnit": "year(tropical)"
+    },
+    {
+      "name": "svedberg",
+      "symbol": "S",
+      "interval": "1e-13"
+    },
+    {
+      "name": "milliday",
+      "symbol": "md",
+      "interval": "0.001",
+      "baseUnit": "day"
+    },
+    {
+      "name": "jitty",
+      "symbol": "j",
+      "interval": "1/60"
+    },
+    {
+      "name": "jitty_alternative",
+      "symbol": "ja",
+      "baseUnit": "centisecond"
+    },
+    {
+      "name": "fortnight",
+      "symbol": "fn",
+      "interval": "2",
+      "baseUnit": "week"
+    },
+    {
+      "name": "atomic unit of time",
+      "symbol": "au",
+      "interval": "2.418884254e-17",
+      "notExact": true
+    },
+    {
+      "name": "planck time",
+      "symbol": "t_p",
+      "interval": "5.3910632e-44",
+      "notExact": true
+    }
+  ],
+  "operations": [
+    {
+      "operation": "/",
+      "argument": "Length",
+      "result": "TimePerLength"
+    },
+    {
+      "operation": "*",
+      "argument": "Time",
+      "result": "TimeSquared"
+    }
+  ],
+  "attributes": [
+    {
+      "name": "sidereal",
+      "parents": [
+        "day",
+        "year",
+        "decade",
+        "century"
+      ]
+    },
+    {
+      "name": "gregorian",
+      "parents": [
+        "month",
+        "year",
+        "decade",
+        "century"
+      ]
+    },
+    {
+      "name": "full",
+      "parents": [
+        "month"
+      ]
+    },
+    {
+      "name": "hollow",
+      "parents": [
+        "month"
+      ]
+    },
+    {
+      "name": "synodic",
+      "parents": [
+        "month"
+      ]
+    },
+    {
+      "name": "common",
+      "parents": [
+        "year"
+      ]
+    },
+    {
+      "name": "leap",
+      "parents": [
+        "year"
+      ]
+    },
+    {
+      "name": "julian",
+      "parents": [
+        "year",
+        "decade",
+        "century"
+      ]
+    },
+    {
+      "name": "tropical",
+      "parents": [
+        "year",
+        "decade"
+      ]
+    },
+    {
+      "name": "topical",
+      "parents": [
+        "century"
+      ]
+    }
+  ],
+  "use": {
+    "selfUnits": true
+  }
+}

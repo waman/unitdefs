@@ -1,0 +1,20 @@
+{
+  "description": "This unit is defined for electrical resistance in ESU and Gaussian unit systems",
+  "SIUnit": "Time / Length",
+  "dimension": {
+    "L": -1,
+    "T": 1
+  },
+  "convertibles": [
+    {
+      "result": "ElectricalResistance",
+      "from": "Time.second / Length.centimetre",
+      "to": "statohm"
+    }
+  ],
+  "use": {
+    "types": [
+      "em.ElectricalResistance"
+    ]
+  }
+}

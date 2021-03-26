@@ -1,0 +1,46 @@
+{
+  "SIUnit": "Length / Time",
+  "dimension": {
+    "L": 1,
+    "T": -1
+  },
+  "units": [
+    {
+      "name": "speed of light",
+      "symbol": "c",
+      "interval": "Constants.SpeedOfLight"
+    },
+    {
+      "name": "mach number",
+      "symbol": "M",
+      "interval": "340",
+      "notExact": true
+    },
+    {
+      "name": "knot",
+      "symbol": "kn",
+      "aliases": [
+        "kt"
+      ],
+      "baseUnit": "Length.nautical_mile / Time.hour"
+    },
+    {
+      "name": "kine",
+      "baseUnit": "Length.centimetre / Time.second"
+    }
+  ],
+  "operations": [
+    {
+      "operation": "/",
+      "argument": "Time",
+      "result": "Acceleration"
+    }
+  ],
+  "use": {
+    "units": [
+      "Length",
+      "Time"
+    ],
+    "constants": true
+  }
+}

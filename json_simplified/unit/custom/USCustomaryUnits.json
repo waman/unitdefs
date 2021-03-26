@@ -1,0 +1,149 @@
+{
+  "description": "Units of US customary measurement systems.",
+  "units": [
+    {
+      "symbol": "pt",
+      "unit": "Length.point"
+    },
+    {
+      "symbol": "pc",
+      "unit": "Length.pica"
+    },
+    {
+      "symbol": "in",
+      "unit": "Length.inch"
+    },
+    {
+      "symbol": "ft",
+      "unit": "Length.foot"
+    },
+    {
+      "symbol": "yd",
+      "unit": "Length.yard"
+    },
+    {
+      "symbol": "mi",
+      "unit": "Length.mile"
+    },
+    {
+      "symbol": "ftm",
+      "unit": "Length.fathom"
+    },
+    {
+      "symbol": "cb",
+      "unit": "Length.cable"
+    },
+    {
+      "symbol": "NM",
+      "unit": "Length.nautical_mile"
+    },
+    {
+      "symbol": "nmi",
+      "unit": "Length.nautical_mile"
+    },
+    {
+      "symbol": "ft2",
+      "unit": "Area.square_foot"
+    },
+    {
+      "symbol": "sq_ft",
+      "unit": "Area.square_foot"
+    },
+    {
+      "symbol": "ch2",
+      "unit": "Area.square_chain"
+    },
+    {
+      "symbol": "sq_ch",
+      "unit": "Area.square_chain"
+    },
+    {
+      "symbol": "ac",
+      "unit": "Area.acre"
+    },
+    {
+      "symbol": "section",
+      "unit": "Area.section"
+    },
+    {
+      "symbol": "in3",
+      "unit": "Volume.cubic_inch"
+    },
+    {
+      "symbol": "cu_in",
+      "unit": "Volume.cubic_inch"
+    },
+    {
+      "symbol": "ft3",
+      "unit": "Volume.cubic_foot"
+    },
+    {
+      "symbol": "cu_ft",
+      "unit": "Volume.cubic_foot"
+    },
+    {
+      "symbol": "yd3",
+      "unit": "Volume.cubic_yard"
+    },
+    {
+      "symbol": "cu_yd",
+      "unit": "Volume.cubic_yard"
+    },
+    {
+      "symbol": "acre_ft",
+      "unit": "Volume.acre_foot"
+    },
+    {
+      "symbol": "gr",
+      "unit": "Mass.grain"
+    },
+    {
+      "symbol": "dr",
+      "unit": "Mass.dram"
+    },
+    {
+      "symbol": "oz",
+      "unit": "Mass.ounce"
+    },
+    {
+      "symbol": "lb",
+      "unit": "Mass.pound"
+    },
+    {
+      "symbol": "cwt",
+      "unit": "Mass.short_hundredweight"
+    },
+    {
+      "symbol": "long_cwt",
+      "unit": "Mass.long_hundredweight"
+    },
+    {
+      "symbol": "sh_tn",
+      "unit": "Mass.short_ton"
+    },
+    {
+      "symbol": "long_tn",
+      "unit": "Mass.long_ton"
+    },
+    {
+      "symbol": "dwt",
+      "unit": "Mass.pennyweight"
+    },
+    {
+      "symbol": "oz_t",
+      "unit": "Mass.ounce(troy)"
+    },
+    {
+      "symbol": "lb_t",
+      "unit": "Mass.pound(troy)"
+    }
+  ],
+  "use": {
+    "units": [
+      "Length",
+      "Area",
+      "Volume",
+      "Mass"
+    ]
+  }
+}

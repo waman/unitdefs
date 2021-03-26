@@ -1,6 +1,6 @@
 {
   "description": "Usually used units of mechanics and fluid mechanics",
-  "unitEntries": [
+  "units": [
     {"symbol": "s2", "unit": "TimeSquared.second_squared"},
 
     {"symbol": "g_0", "unit": "Acceleration.standard_gravity"},

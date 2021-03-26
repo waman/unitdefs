@@ -1,6 +1,6 @@
 {
   "description": "Units of US customary measurement systems.",
-  "unitEntries": [
+  "units": [
     {"symbol": "pt", "unit": "Length.point"},
     {"symbol": "pc", "unit": "Length.pica"},
     {"symbol": "in", "unit": "Length.inch"},

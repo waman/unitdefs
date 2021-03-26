@@ -1,0 +1,178 @@
+{
+  "evaluations": [
+    {
+      "quantity": "Angle",
+      "unit": "radian"
+    },
+    {
+      "quantity": "AngularVelocity",
+      "unit": "Angle.radian / Time.second"
+    },
+    {
+      "quantity": "Frequency",
+      "unit": "heltz"
+    },
+    {
+      "quantity": "SolidAngle",
+      "unit": "steradian"
+    },
+    {
+      "quantity": "Area",
+      "unit": "square_centimetre"
+    },
+    {
+      "quantity": "Length",
+      "unit": "centimetre"
+    },
+    {
+      "quantity": "Mass",
+      "unit": "gram"
+    },
+    {
+      "quantity": "Time",
+      "unit": "second"
+    },
+    {
+      "quantity": "Velocity",
+      "unit": "Length.centimetre / Time.second"
+    },
+    {
+      "quantity": "Volume",
+      "unit": "cubic_centimetre"
+    },
+    {
+      "quantity": "Density",
+      "unit": "Mass.gram / Volume.cubic_centimetre"
+    },
+    {
+      "quantity": "LineDensity",
+      "unit": "Mass.gram / Length.centimetre"
+    },
+    {
+      "quantity": "DynamicViscosity",
+      "unit": "poise"
+    },
+    {
+      "quantity": "KinematicViscosity",
+      "unit": "stokes"
+    },
+    {
+      "quantity": "Pressure",
+      "unit": "barye"
+    },
+    {
+      "quantity": "VolumeFlow",
+      "unit": "Volume.cubic_centimetre / Time.second"
+    },
+    {
+      "quantity": "Acceleration",
+      "unit": "gal"
+    },
+    {
+      "quantity": "AngularMomentum",
+      "unit": "Force.dyne * Length.centimetre * Time.second"
+    },
+    {
+      "quantity": "Energy",
+      "unit": "erg"
+    },
+    {
+      "quantity": "Force",
+      "unit": "dyne"
+    },
+    {
+      "quantity": "MassTorque",
+      "unit": "Mass.gram * Length.centimetre"
+    },
+    {
+      "quantity": "Momentum",
+      "unit": "Force.dyne * Time.second"
+    },
+    {
+      "quantity": "Power",
+      "unit": "Energy.erg / Time.second"
+    },
+    {
+      "quantity": "TimeSquared",
+      "unit": "second_squared"
+    },
+    {
+      "quantity": "Irradiance",
+      "unit": "Energy.erg / Time.second / Area.square_centimetre"
+    },
+    {
+      "quantity": "SpectralIrradiance",
+      "unit": "Energy.erg / Time.second / Area.square_centimetre / Frequency.heltz"
+    },
+    {
+      "quantity": "AbsorbedDose",
+      "unit": "rad"
+    },
+    {
+      "quantity": "EquivalentDose",
+      "unit": "roentgen_equivalent_man"
+    },
+    {
+      "quantity": "EquivalentDoseRate",
+      "unit": "EquivalentDose.roentgen_equivalent_man / Time.second"
+    },
+    {
+      "quantity": "Radioactivity",
+      "unit": "curie"
+    }
+  ],
+  "use": {
+    "types": [
+      "Angle",
+      "angle.AngularVelocity",
+      "angle.Frequency",
+      "angle.SolidAngle",
+      "Area",
+      "Length",
+      "Mass",
+      "Time",
+      "Velocity",
+      "Volume",
+      "Density",
+      "density.LineDensity",
+      "fluid.DynamicViscosity",
+      "fluid.KinematicViscosity",
+      "fluid.Pressure",
+      "fluid.VolumeFlow",
+      "mechanics.Acceleration",
+      "mechanics.AngularMomentum",
+      "mechanics.Energy",
+      "mechanics.Force",
+      "mechanics.MassTorque",
+      "mechanics.Momentum",
+      "mechanics.Power",
+      "mechanics.TimeSquared",
+      "radiometry.Irradiance",
+      "radiometry.SpectralIrradiance",
+      "radioactivity.AbsorbedDose",
+      "radioactivity.EquivalentDose",
+      "radioactivity.EquivalentDoseRate",
+      "radioactivity.Radioactivity"
+    ],
+    "units": [
+      "Angle",
+      "Time",
+      "angle.Frequency",
+      "angle.SolidAngle",
+      "Area",
+      "Length",
+      "Mass",
+      "Volume",
+      "fluid.DynamicViscosity",
+      "fluid.KinematicViscosity",
+      "fluid.Pressure",
+      "mechanics.Acceleration",
+      "mechanics.Force",
+      "mechanics.Energy",
+      "mechanics.TimeSquared",
+      "radioactivity.AbsorbedDose",
+      "radioactivity.EquivalentDose",
+      "radioactivity.Radioactivity"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Units of US customary measurement systems (Dry)",
+  "units": [
+    {
+      "symbol": "pt",
+      "unit": "Volume.pint(US_dry)"
+    },
+    {
+      "symbol": "qt",
+      "unit": "Volume.quart(US_dry)"
+    },
+    {
+      "symbol": "gal",
+      "unit": "Volume.gallon(US_dry)"
+    },
+    {
+      "symbol": "pk",
+      "unit": "Volume.peck"
+    },
+    {
+      "symbol": "bu",
+      "unit": "Volume.bushel(US_lvl)"
+    },
+    {
+      "symbol": "bbl",
+      "unit": "Volume.barrel(US_dry)"
+    }
+  ],
+  "use": {
+    "units": [
+      "Volume"
+    ]
+  }
+}

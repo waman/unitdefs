@@ -1,6 +1,6 @@
 {
   "description": "Units of US customary measurement systems (Dry)",
-  "unitEntries": [
+  "units": [
     {"symbol": "pt", "unit": "Volume.pint(US_dry)"},
     {"symbol": "qt", "unit": "Volume.quart(US_dry)"},
     {"symbol": "gal", "unit": "Volume.gallon(US_dry)"},

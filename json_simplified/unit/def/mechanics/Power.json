@@ -1,0 +1,252 @@
+{
+  "description": "This can be used as a unit of radiant flux (radiation).",
+  "SIUnit": "watt",
+  "dimension": {
+    "M": 1,
+    "L": 2,
+    "T": -3
+  },
+  "units": [
+    {
+      "name": "watt",
+      "symbol": "W"
+    },
+    {
+      "name": "yoctowatt",
+      "symbol": "yW",
+      "interval": "1e-24"
+    },
+    {
+      "name": "zeptowatt",
+      "symbol": "zW",
+      "interval": "1e-21"
+    },
+    {
+      "name": "attowatt",
+      "symbol": "aW",
+      "interval": "1e-18"
+    },
+    {
+      "name": "femtowatt",
+      "symbol": "fW",
+      "interval": "1e-15"
+    },
+    {
+      "name": "picowatt",
+      "symbol": "pW",
+      "interval": "1e-12"
+    },
+    {
+      "name": "nanowatt",
+      "symbol": "nW",
+      "interval": "1e-9"
+    },
+    {
+      "name": "microwatt",
+      "symbol": "μW",
+      "aliases": [
+        "mcW"
+      ],
+      "interval": "1e-6"
+    },
+    {
+      "name": "milliwatt",
+      "symbol": "mW",
+      "interval": "1e-3"
+    },
+    {
+      "name": "centiwatt",
+      "symbol": "cW",
+      "interval": "1e-2"
+    },
+    {
+      "name": "deciwatt",
+      "symbol": "dW",
+      "interval": "1e-1"
+    },
+    {
+      "name": "decawatt",
+      "symbol": "daW",
+      "interval": "1e1"
+    },
+    {
+      "name": "hectowatt",
+      "symbol": "hW",
+      "interval": "1e2"
+    },
+    {
+      "name": "kilowatt",
+      "symbol": "kW",
+      "aliases": [
+        "KW"
+      ],
+      "interval": "1e3"
+    },
+    {
+      "name": "megawatt",
+      "symbol": "MW",
+      "interval": "1e6"
+    },
+    {
+      "name": "gigawatt",
+      "symbol": "GW",
+      "interval": "1e9"
+    },
+    {
+      "name": "terawatt",
+      "symbol": "TW",
+      "interval": "1e12"
+    },
+    {
+      "name": "petawatt",
+      "symbol": "PW",
+      "interval": "1e15"
+    },
+    {
+      "name": "exawatt",
+      "symbol": "EW",
+      "interval": "1e18"
+    },
+    {
+      "name": "zettawatt",
+      "symbol": "ZW",
+      "interval": "1e21"
+    },
+    {
+      "name": "yottawatt",
+      "symbol": "YW",
+      "interval": "1e24"
+    },
+    {
+      "name": "horsepower",
+      "symbol": "hp",
+      "aliases": [
+        "HP"
+      ],
+      "baseUnit": "horsepower(mechanical)"
+    },
+    {
+      "name": "horsepower",
+      "symbol": "hp",
+      "aliases": [
+        "HP"
+      ],
+      "attribute": "mechanical",
+      "interval": "33000",
+      "baseUnit": "Length.foot * Force.pound_force / Time.minute"
+    },
+    {
+      "name": "horsepower",
+      "symbol": "hp",
+      "aliases": [
+        "PS"
+      ],
+      "attribute": "metric",
+      "interval": "75",
+      "baseUnit": "Force.kilogram_force * Length.metre / Time.second"
+    },
+    {
+      "name": "horsepower",
+      "symbol": "hp",
+      "aliases": [
+        "HP"
+      ],
+      "attribute": "electrical",
+      "interval": "746"
+    },
+    {
+      "name": "horsepower",
+      "symbol": "hp",
+      "aliases": [
+        "HP"
+      ],
+      "attribute": "boiler",
+      "interval": "9812.5"
+    },
+    {
+      "name": "lusec",
+      "baseUnit": "Volume.litre * Pressure.micrometre_of_mercury / Time.second"
+    },
+    {
+      "name": "poncelet",
+      "symbol": "p",
+      "interval": "100",
+      "baseUnit": "Length.metre * Force.kilogram_force / Time.second"
+    },
+    {
+      "name": "square foot equivalent direct radiation",
+      "symbol": "sq_ft_EDR",
+      "interval": "240",
+      "baseUnit": "Energy.british_thermal_unit(IT) / Time.hour"
+    }
+  ],
+  "operations": [
+    {
+      "operation": "/",
+      "argument": "ElectricCurrent",
+      "result": "Voltage"
+    },
+    {
+      "operation": "*",
+      "argument": "Time",
+      "result": "Energy"
+    },
+    {
+      "operation": "/",
+      "argument": "Area",
+      "result": "Irradiance"
+    },
+    {
+      "operation": "/",
+      "argument": "AreaFrequency",
+      "result": "SpectralIrradiance"
+    }
+  ],
+  "attributes": [
+    {
+      "name": "mechanical",
+      "parents": [
+        "horsepower"
+      ]
+    },
+    {
+      "name": "metric",
+      "parents": [
+        "horsepower"
+      ]
+    },
+    {
+      "name": "electrical",
+      "parents": [
+        "horsepower"
+      ]
+    },
+    {
+      "name": "boiler",
+      "parents": [
+        "horsepower"
+      ]
+    }
+  ],
+  "use": {
+    "types": [
+      "em.ElectricCurrent",
+      "em.Voltage",
+      "Time",
+      "mechanics.Energy",
+      "Area",
+      "radiometry.Irradiance",
+      "radiometry.AreaFrequency",
+      "radiometry.SpectralIrradiance"
+    ],
+    "units": [
+      "Length",
+      "mechanics.Force",
+      "Time",
+      "Volume",
+      "fluid.Pressure",
+      "mechanics.Energy"
+    ],
+    "selfUnits": true
+  }
+}

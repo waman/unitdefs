@@ -1,6 +1,6 @@
 {
   "description": "Units of US customary measurement systems (Liquid)",
-  "unitEntries": [
+  "units": [
     {"symbol": "min", "unit": "Volume.minim"},
     {"symbol": "fl_dr", "unit": "Volume.fluid_dram(US)"},
     {"symbol": "tsp", "unit": "Volume.teaspoon"},

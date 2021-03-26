@@ -1,0 +1,205 @@
+{
+  "description": "Usually used units of length, area, volume, mass, time, angle, frequency, temperature, e.t.c.",
+  "units": [
+    {
+      "symbol": "nm",
+      "unit": "Length.nanometre"
+    },
+    {
+      "symbol": "μm",
+      "unit": "Length.micrometre"
+    },
+    {
+      "symbol": "micron",
+      "unit": "Length.micrometre"
+    },
+    {
+      "symbol": "mm",
+      "unit": "Length.millimetre"
+    },
+    {
+      "symbol": "cm",
+      "unit": "Length.centimetre"
+    },
+    {
+      "symbol": "m ",
+      "unit": "Length.metre"
+    },
+    {
+      "symbol": "km",
+      "unit": "Length.kilometre"
+    },
+    {
+      "symbol": "mm2",
+      "unit": "Area.square_millimetre"
+    },
+    {
+      "symbol": "cm2",
+      "unit": "Area.square_centimetre"
+    },
+    {
+      "symbol": "m2 ",
+      "unit": "Area.square_metre"
+    },
+    {
+      "symbol": "a",
+      "unit": "Area.are"
+    },
+    {
+      "symbol": "ha",
+      "unit": "Area.hectare"
+    },
+    {
+      "symbol": "km2",
+      "unit": "Area.square_kilometre"
+    },
+    {
+      "symbol": "mm3",
+      "unit": "Volume.cubic_millimetre"
+    },
+    {
+      "symbol": "cm3",
+      "unit": "Volume.cubic_centimetre"
+    },
+    {
+      "symbol": "m3 ",
+      "unit": "Volume.cubic_metre"
+    },
+    {
+      "symbol": "km3",
+      "unit": "Volume.cubic_kilometre"
+    },
+    {
+      "symbol": "mL",
+      "unit": "Volume.millilitre"
+    },
+    {
+      "symbol": "L",
+      "unit": "Volume.litre"
+    },
+    {
+      "symbol": "μg",
+      "unit": "Mass.microgram"
+    },
+    {
+      "symbol": "mcg",
+      "unit": "Mass.microgram"
+    },
+    {
+      "symbol": "mg",
+      "unit": "Mass.milligram"
+    },
+    {
+      "symbol": "g ",
+      "unit": "Mass.gram"
+    },
+    {
+      "symbol": "kg",
+      "unit": "Mass.kilogram"
+    },
+    {
+      "symbol": "t ",
+      "unit": "Mass.tonne"
+    },
+    {
+      "symbol": "ps",
+      "unit": "Time.picosecond"
+    },
+    {
+      "symbol": "ns",
+      "unit": "Time.nanosecond"
+    },
+    {
+      "symbol": "μs",
+      "unit": "Time.microsecond"
+    },
+    {
+      "symbol": "ms",
+      "unit": "Time.millisecond"
+    },
+    {
+      "symbol": "s ",
+      "unit": "Time.second"
+    },
+    {
+      "symbol": "min",
+      "unit": "Time.minute"
+    },
+    {
+      "symbol": "h ",
+      "unit": "Time.hour"
+    },
+    {
+      "symbol": "M",
+      "unit": "Velocity.mach_number"
+    },
+    {
+      "symbol": "c",
+      "unit": "Velocity.speed_of_light"
+    },
+    {
+      "symbol": "kine",
+      "unit": "Velocity.kine"
+    },
+    {
+      "symbol": "rad",
+      "unit": "Angle.radian"
+    },
+    {
+      "symbol": "deg",
+      "unit": "Angle.degree"
+    },
+    {
+      "symbol": "sr",
+      "unit": "SolidAngle.steradian"
+    },
+    {
+      "symbol": "Hz",
+      "unit": "Frequency.heltz"
+    },
+    {
+      "symbol": "kHz",
+      "unit": "Frequency.kiloheltz"
+    },
+    {
+      "symbol": "MHz",
+      "unit": "Frequency.megaheltz"
+    },
+    {
+      "symbol": "GHz",
+      "unit": "Frequency.gigaheltz"
+    },
+    {
+      "symbol": "THz",
+      "unit": "Frequency.teraheltz"
+    },
+    {
+      "symbol": "mol",
+      "unit": "AmountOfSubstance.mole"
+    },
+    {
+      "symbol": "degC",
+      "unit": "Temperature.celsius"
+    },
+    {
+      "symbol": "K",
+      "unit": "AbsoluteTemperature.kelvin"
+    }
+  ],
+  "use": {
+    "units": [
+      "Length",
+      "Area",
+      "Volume",
+      "Mass",
+      "Time",
+      "Velocity",
+      "Angle",
+      "angle.SolidAngle",
+      "angle.Frequency",
+      "chem.AmountOfSubstance",
+      "thermo.Temperature",
+      "thermo.AbsoluteTemperature"
+    ]
+  }
+}
