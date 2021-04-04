@@ -250,7 +250,8 @@
     {
       "name": "atomic unit of force",
       "interval": "8.23872206e-8",
-      "notExact": true
+      "notExact": true,
+      "symbol": "atomic_unit_of_force"
     },
     {
       "name": "ounce force",
@@ -318,20 +319,10 @@
     }
   ],
   "use": {
-    "types": [
-      "em.MagneticFlux",
-      "em.MagneticFieldStrength",
-      "Area",
-      "fluid.Pressure",
-      "Length",
-      "mechanics.Energy",
-      "Time",
-      "mechanics.Momentum"
-    ],
-    "units": [
-      "mechanics.Acceleration",
-      "Mass",
-      "Length"
+    "subpackages": [
+      "em",
+      "",
+      "fluid"
     ]
   }
 }

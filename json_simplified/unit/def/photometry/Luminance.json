@@ -27,7 +27,8 @@
     },
     {
       "name": "bril",
-      "interval": "1e-7 / Constants.Pi"
+      "interval": "1e-7 / Constants.Pi",
+      "symbol": "bril"
     },
     {
       "name": "foot lambert",
@@ -37,10 +38,9 @@
     }
   ],
   "use": {
-    "units": [
-      "photometry.LuminousIntensity",
-      "Area"
-    ],
-    "constants": true
+    "constants": true,
+    "subpackages": [
+      ""
+    ]
   }
 }

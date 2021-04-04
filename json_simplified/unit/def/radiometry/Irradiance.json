@@ -12,9 +12,10 @@
     }
   ],
   "use": {
-    "types": [
-      "angle.Frequency",
-      "radiometry.SpectralIrradiance"
+    "subpackages": [
+      "mechanics",
+      "",
+      "angle"
     ]
   }
 }

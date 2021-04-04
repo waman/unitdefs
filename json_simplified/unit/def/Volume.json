@@ -64,6 +64,8 @@
       "name": "cubic micrometre",
       "symbol": "μm³",
       "aliases": [
+        "mcm³",
+        "μm3",
         "mcm3"
       ],
       "baseUnit": "Length.micrometre^3"
@@ -112,6 +114,8 @@
       "name": "cubic kilometre",
       "symbol": "km³",
       "aliases": [
+        "Km³",
+        "km3",
         "Km3"
       ],
       "baseUnit": "Length.kilometre^3"
@@ -358,17 +362,22 @@
     },
     {
       "name": "minim",
-      "baseUnit": "minim(US)"
+      "baseUnit": "minim(US)",
+      "symbol": "minim",
+      "attributes": [
+        "US",
+        "imp"
+      ]
     },
     {
-      "name": "minim",
-      "attribute": "US",
+      "name": "minim(US)",
+      "symbol": "minim(US)",
       "interval": "1/480",
       "baseUnit": "fluid_ounce(US)"
     },
     {
-      "name": "minim",
-      "attribute": "imp",
+      "name": "minim(imp)",
+      "symbol": "minim(imp)",
       "interval": "1/480",
       "baseUnit": "fluid_ounce(imp)"
     },
@@ -386,12 +395,15 @@
     },
     {
       "name": "fluid ounce",
-      "symbol": "fl_oz"
+      "symbol": "fl_oz",
+      "attributes": [
+        "US",
+        "imp"
+      ]
     },
     {
-      "name": "fluid ounce",
-      "symbol": "fl_oz",
-      "attribute": "US",
+      "name": "fluid ounce(US)",
+      "symbol": "fl_oz(US)",
       "aliases": [
         "US_fl_oz"
       ],
@@ -399,9 +411,8 @@
       "baseUnit": "gallon(US_fl)"
     },
     {
-      "name": "fluid ounce",
-      "symbol": "fl_oz",
-      "attribute": "imp",
+      "name": "fluid ounce(imp)",
+      "symbol": "fl_oz(imp)",
       "interval": "1/160",
       "baseUnit": "gallon(imp)"
     },
@@ -413,19 +424,21 @@
     },
     {
       "name": "gill",
-      "symbol": "gi"
+      "symbol": "gi",
+      "attributes": [
+        "US",
+        "imp"
+      ]
     },
     {
-      "name": "gill",
-      "symbol": "gi",
-      "attribute": "US",
+      "name": "gill(US)",
+      "symbol": "gi(US)",
       "interval": "4",
       "baseUnit": "fluid_ounce(US)"
     },
     {
-      "name": "gill",
-      "symbol": "gi",
-      "attribute": "imp",
+      "name": "gill(imp)",
+      "symbol": "gi(imp)",
       "aliases": [
         "nog"
       ],
@@ -434,104 +447,116 @@
     },
     {
       "name": "cup",
-      "symbol": "cp"
+      "symbol": "cp",
+      "attributes": [
+        "metric",
+        "US"
+      ]
     },
     {
-      "name": "cup",
-      "symbol": "cp",
-      "attribute": "metric",
+      "name": "cup(metric)",
+      "symbol": "cp(metric)",
       "interval": "250e-6"
     },
     {
-      "name": "cup",
-      "symbol": "cp",
-      "attribute": "US",
+      "name": "cup(US)",
+      "symbol": "cp(US)",
       "interval": "2",
       "baseUnit": "gill(US)"
     },
     {
       "name": "pint",
-      "symbol": "pt"
+      "symbol": "pt",
+      "attributes": [
+        "US_fl",
+        "US_dry",
+        "imp"
+      ]
     },
     {
-      "name": "pint",
-      "symbol": "pt",
-      "attribute": "US_fl",
+      "name": "pint(US_fl)",
+      "symbol": "pt(US_fl)",
       "interval": "1/8",
       "baseUnit": "gallon(US_fl)"
     },
     {
-      "name": "pint",
-      "symbol": "pt",
-      "attribute": "US_dry",
+      "name": "pint(US_dry)",
+      "symbol": "pt(US_dry)",
       "interval": "1/8",
       "baseUnit": "gallon(US_dry)"
     },
     {
-      "name": "pint",
-      "symbol": "pt",
-      "attribute": "imp",
+      "name": "pint(imp)",
+      "symbol": "pt(imp)",
       "interval": "1/8",
       "baseUnit": "gallon(imp)"
     },
     {
       "name": "quart",
-      "symbol": "qt"
+      "symbol": "qt",
+      "attributes": [
+        "US_fl",
+        "US_dry",
+        "imp"
+      ]
     },
     {
-      "name": "quart",
-      "symbol": "qt",
-      "attribute": "US_fl",
+      "name": "quart(US_fl)",
+      "symbol": "qt(US_fl)",
       "interval": "1/4",
       "baseUnit": "gallon(US_fl)"
     },
     {
-      "name": "quart",
-      "symbol": "qt",
-      "attribute": "US_dry",
+      "name": "quart(US_dry)",
+      "symbol": "qt(US_dry)",
       "interval": "1/4",
       "baseUnit": "gallon(US_dry)"
     },
     {
-      "name": "quart",
-      "symbol": "qt",
-      "attribute": "imp",
+      "name": "quart(imp)",
+      "symbol": "qt(imp)",
       "interval": "1/4",
       "baseUnit": "gallon(imp)"
     },
     {
       "name": "pottle",
-      "symbol": "pot"
+      "symbol": "pot",
+      "attributes": [
+        "US",
+        "imp"
+      ]
     },
     {
-      "name": "pottle",
-      "symbol": "pot",
-      "attribute": "US",
+      "name": "pottle(US)",
+      "symbol": "pot(US)",
       "interval": "1/2",
       "baseUnit": "gallon(US_fl)"
     },
     {
-      "name": "pottle",
-      "symbol": "pot",
-      "attribute": "imp",
+      "name": "pottle(imp)",
+      "symbol": "pot(imp)",
       "interval": "1/2",
       "baseUnit": "gallon(imp)"
     },
     {
       "name": "gallon",
       "symbol": "gal",
+      "baseUnit": "gallon(US_fl)",
+      "attributes": [
+        "US",
+        "US_fl",
+        "US_dry",
+        "imp"
+      ]
+    },
+    {
+      "name": "gallon(US)",
+      "symbol": "gal(US)",
       "baseUnit": "gallon(US_fl)"
     },
     {
-      "name": "gallon",
-      "symbol": "gal",
-      "attribute": "US",
-      "baseUnit": "gallon(US_fl)"
-    },
-    {
-      "name": "gallon",
-      "symbol": "gal",
-      "attribute": "US_fl",
+      "name": "gallon(US_fl)",
+      "symbol": "gal(US_fl)",
       "aliases": [
         "US_gal"
       ],
@@ -539,16 +564,14 @@
       "baseUnit": "cubic_inch"
     },
     {
-      "name": "gallon",
-      "symbol": "gal",
-      "attribute": "US_dry",
+      "name": "gallon(US_dry)",
+      "symbol": "gal(US_dry)",
       "interval": "1/8",
       "baseUnit": "bushel(US_lvl)"
     },
     {
-      "name": "gallon",
-      "symbol": "gal",
-      "attribute": "imp",
+      "name": "gallon(imp)",
+      "symbol": "gal(imp)",
       "aliases": [
         "imp_gal"
       ],
@@ -558,19 +581,21 @@
     {
       "name": "peck",
       "symbol": "pk",
-      "baseUnit": "peck(US_dry)"
+      "baseUnit": "peck(US_dry)",
+      "attributes": [
+        "US_dry",
+        "imp"
+      ]
     },
     {
-      "name": "peck",
-      "symbol": "pk",
-      "attribute": "US_dry",
+      "name": "peck(US_dry)",
+      "symbol": "pk(US_dry)",
       "interval": "1/4",
       "baseUnit": "bushel(US_lvl)"
     },
     {
-      "name": "peck",
-      "symbol": "pk",
-      "attribute": "imp",
+      "name": "peck(imp)",
+      "symbol": "pk(imp)",
       "interval": "2",
       "baseUnit": "gallon(imp)"
     },
@@ -580,37 +605,39 @@
       "aliases": [
         "bsh"
       ],
-      "baseUnit": "bushel(US_lvl)"
+      "baseUnit": "bushel(US_lvl)",
+      "attributes": [
+        "US",
+        "US_lvl",
+        "imp"
+      ]
     },
     {
-      "name": "bushel",
-      "symbol": "bu",
-      "aliases": [
-        "bsh"
-      ],
-      "attribute": "US",
+      "name": "bushel(US)",
+      "symbol": "bu(US)",
       "interval": "5/4",
-      "baseUnit": "bushel(US_lvl)"
+      "baseUnit": "bushel(US_lvl)",
+      "aliases": [
+        "bsh(US)"
+      ]
     },
     {
-      "name": "bushel",
-      "symbol": "bu",
-      "aliases": [
-        "bsh"
-      ],
-      "attribute": "US_lvl",
+      "name": "bushel(US_lvl)",
+      "symbol": "bu(US_lvl)",
       "interval": "2150.42",
-      "baseUnit": "cubic_inch"
+      "baseUnit": "cubic_inch",
+      "aliases": [
+        "bsh(US_lvl)"
+      ]
     },
     {
-      "name": "bushel",
-      "symbol": "bu",
-      "aliases": [
-        "bsh"
-      ],
-      "attribute": "imp",
+      "name": "bushel(imp)",
+      "symbol": "bu(imp)",
       "interval": "8",
-      "baseUnit": "gallon(imp)"
+      "baseUnit": "gallon(imp)",
+      "aliases": [
+        "bsh(imp)"
+      ]
     },
     {
       "name": "barrel",
@@ -620,79 +647,83 @@
       ],
       "interval": "42",
       "baseUnit": "gallon(US_fl)",
-      "description": "oil barrel"
+      "description": "oil barrel",
+      "attributes": [
+        "US_fl",
+        "US_dry",
+        "imp"
+      ]
     },
     {
-      "name": "barrel",
-      "symbol": "bbl",
-      "aliases": [
-        "fl_bl"
-      ],
-      "description": "oil barrel",
-      "attribute": "US_fl",
+      "name": "barrel(US_fl)",
+      "symbol": "bbl(US_fl)",
       "interval": "31.5",
-      "baseUnit": "gallon(US_fl)"
+      "baseUnit": "gallon(US_fl)",
+      "aliases": [
+        "bl(US_fl)"
+      ]
     },
     {
-      "name": "barrel",
-      "symbol": "bbl",
-      "aliases": [
-        "bl"
-      ],
-      "description": "oil barrel",
-      "attribute": "US_dry",
+      "name": "barrel(US_dry)",
+      "symbol": "bbl(US_dry)",
       "interval": "105",
-      "baseUnit": "quart(US_dry)"
+      "baseUnit": "quart(US_dry)",
+      "aliases": [
+        "bl(US_dry)"
+      ]
     },
     {
-      "name": "barrel",
-      "symbol": "bbl",
-      "aliases": [
-        "bl"
-      ],
-      "description": "oil barrel",
-      "attribute": "imp",
+      "name": "barrel(imp)",
+      "symbol": "bbl(imp)",
       "interval": "36",
-      "baseUnit": "gallon(imp)"
+      "baseUnit": "gallon(imp)",
+      "aliases": [
+        "bl(imp)"
+      ]
     },
     {
       "name": "fluid barrel",
       "symbol": "fl_bl",
-      "baseUnit": "barrel(US_fl)"
-    },
-    {
-      "name": "hogshead",
-      "symbol": "hhd"
+      "baseUnit": "barrel(US_fl)",
+      "description": "This unit is equivalent to barrel(US_fl)."
     },
     {
       "name": "hogshead",
       "symbol": "hhd",
-      "attribute": "US",
+      "attributes": [
+        "US",
+        "imp"
+      ]
+    },
+    {
+      "name": "hogshead(US)",
+      "symbol": "hhd(US)",
       "interval": "2",
       "baseUnit": "barrel(US_fl)"
     },
     {
-      "name": "hogshead",
-      "symbol": "hhd",
-      "attribute": "imp",
+      "name": "hogshead(imp)",
+      "symbol": "hhd(imp)",
       "interval": "2",
       "baseUnit": "barrel(imp)"
     },
     {
       "name": "fluid dram",
-      "symbol": "fl_dr"
+      "symbol": "fl_dr",
+      "attributes": [
+        "US",
+        "imp"
+      ]
     },
     {
-      "name": "fluid dram",
-      "symbol": "fl_dr",
-      "attribute": "US",
+      "name": "fluid dram(US)",
+      "symbol": "fl_dr(US)",
       "interval": "1/8",
       "baseUnit": "fluid_ounce(US)"
     },
     {
-      "name": "fluid dram",
-      "symbol": "fl_dr",
-      "attribute": "imp",
+      "name": "fluid dram(imp)",
+      "symbol": "fl_dr(imp)",
       "interval": "1/8",
       "baseUnit": "fluid_ounce(imp)"
     },
@@ -786,10 +817,9 @@
     }
   ],
   "use": {
-    "units": [
-      "Length",
-      "Area"
-    ],
-    "selfUnits": true
+    "subpackages": [
+      "fluid",
+      "mechanics"
+    ]
   }
 }

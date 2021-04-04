@@ -26,7 +26,8 @@
     },
     {
       "name": "kine",
-      "baseUnit": "Length.centimetre / Time.second"
+      "baseUnit": "Length.centimetre / Time.second",
+      "symbol": "kine"
     }
   ],
   "operations": [
@@ -37,10 +38,9 @@
     }
   ],
   "use": {
-    "units": [
-      "Length",
-      "Time"
-    ],
-    "constants": true
+    "constants": true,
+    "subpackages": [
+      "mechanics"
+    ]
   }
 }

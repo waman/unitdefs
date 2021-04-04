@@ -26,20 +26,16 @@ exports.simplify = function(src, dest, unitdefs){
 
     function extractUse(json){
         const types = new Set();
-        const units = new Set();
 
         json.evaluations.forEach(eval => {
             types.add(eval.quantity);
             eval.unit.match(unitRegex).forEach(unit => {
                 if(unit.includes('.'))
-                    units.add(unit.split('.')[0]);
-                else
-                    units.add(eval.quantity);
+                    types.add(unit.split('.')[0]);
             });
         });
 
-        const usedTypes = util.resolveSubpackages(types, unitdefs);
-        const usedUnits = util.resolveSubpackages(units, unitdefs);
-        return { 'types': usedTypes, 'units': usedUnits };
+        const sps = util.resolveSubpackages(types, unitdefs);
+        return { 'subpackages': sps };
     }
 }

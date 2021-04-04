@@ -12,10 +12,10 @@ exports.simplify = function(src, dest, unitdefs){
         if(err) return console.error(err.message);
         files.forEach(f => {
             const json = JSON.parse(fs.readFileSync(path.join(customSrc, f), 'utf8'));
-            const types = extractTypesOfUsedUnits(json);
-            json.use = { 'units': types };
+            const sps = extractUsedSubpackages(json, unitdefs);
+            json.use = { 'subpackages': sps };
 
-            const destFile = path.join(customDest, f)
+            const destFile = path.join(customDest, f);
             fs.writeFile(destFile, JSON.stringify(json, null, 2), function(err){
                 if(err) return console.log(err.message);
                 else return console.log('[Write] '+ destFile);
@@ -23,13 +23,8 @@ exports.simplify = function(src, dest, unitdefs){
         });
     });
 
-    function extractTypesOfUsedUnits(json){
-        const usedTypes = new Set();
-
-        json.units.map(u => u.unit).forEach(unit => {
-            usedTypes.add(unit.split('.')[0]);
-        });
-
-        return util.resolveSubpackages(usedTypes, unitdefs);
+    function extractUsedSubpackages(json, unitdefs){
+        const types = json.units.map(u => u.unit.split('.')[0]);
+        return util.resolveSubpackages(types, unitdefs);
     }
 }

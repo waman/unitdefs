@@ -176,6 +176,8 @@
       "name": "microgauss",
       "symbol": "μG",
       "aliases": [
+        "mcG",
+        "μGs",
         "mcGs"
       ],
       "interval": "1e-4 * 1e-6"
@@ -224,6 +226,8 @@
       "name": "kilogauss",
       "symbol": "kG",
       "aliases": [
+        "KG",
+        "kGs",
         "KGs"
       ],
       "interval": "1e-4 * 1e3"

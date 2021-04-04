@@ -20,7 +20,8 @@
         "MOA"
       ],
       "interval": "1/60",
-      "baseUnit": "degree"
+      "baseUnit": "degree",
+      "symbol": "arcmin"
     },
     {
       "name": "arcsec",
@@ -28,7 +29,8 @@
         "as"
       ],
       "interval": "1/60",
-      "baseUnit": "arcmin"
+      "baseUnit": "arcmin",
+      "symbol": "arcsec"
     },
     {
       "name": "gradian",
@@ -47,22 +49,26 @@
     {
       "name": "sign",
       "interval": "30",
-      "baseUnit": "degree"
+      "baseUnit": "degree",
+      "symbol": "sign"
     },
     {
       "name": "octant",
       "interval": "45",
-      "baseUnit": "degree"
+      "baseUnit": "degree",
+      "symbol": "octant"
     },
     {
       "name": "sextant",
       "interval": "60",
-      "baseUnit": "degree"
+      "baseUnit": "degree",
+      "symbol": "sextant"
     },
     {
       "name": "quadrant",
       "interval": "90",
-      "baseUnit": "degree"
+      "baseUnit": "degree",
+      "symbol": "quadrant"
     }
   ],
   "operations": [
@@ -73,7 +79,9 @@
     }
   ],
   "use": {
-    "selfUnits": true,
-    "constants": true
+    "constants": true,
+    "subpackages": [
+      "angle"
+    ]
   }
 }

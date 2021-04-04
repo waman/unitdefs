@@ -59,20 +59,25 @@ exports.getPrefixes = function(scalePrefixKind, excludePrefixes){
     }
 }
 
-const unitRegex = /(\w+\.)?\w+([(]\w+[)])?/ig;  // gallon, gallon(US_fl), Length.mile etc.
+const unitRegex = /(\w+\.)?\w+(\(\w+\))?/ig;  // gallon, gallon(US_fl), Length.mile etc.
 
 exports.getUnitRegex = function(){
     return unitRegex;
 }
 
-exports.resolveSubpackages = function(typeSet, unitdefs){
-    const types = new Array();
-    typeSet.forEach(t => {
-        const ud = unitdefs.find(u => u.id == t);
-        if(ud.subpackage)
-            types.push(ud.subpackage + '.' + t);
-        else
-            types.push(t);
+exports.appendSubpackages = function(s, typeSet){
+    s.match(unitRegex).forEach(u => {
+        if(u.includes('.')){
+            typeSet.add(u.split('.')[0]);
+        }
     });
-    return types;
+}
+
+exports.resolveSubpackages = function(types, unitdefs, selfSubpackage){
+    const spSet = new Set();
+    types.forEach(t => {
+        const sp = unitdefs.find(ud => ud.id == t).subpackage;
+        if(sp != selfSubpackage) spSet.add(sp);
+    });
+    return Array.from(spSet);
 }

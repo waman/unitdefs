@@ -123,49 +123,52 @@
       "aliases": [
         "HP"
       ],
-      "baseUnit": "horsepower(mechanical)"
+      "baseUnit": "horsepower(mechanical)",
+      "attributes": [
+        "mechanical",
+        "metric",
+        "electrical",
+        "boiler"
+      ]
     },
     {
-      "name": "horsepower",
-      "symbol": "hp",
-      "aliases": [
-        "HP"
-      ],
-      "attribute": "mechanical",
+      "name": "horsepower(mechanical)",
+      "symbol": "hp(mechanical)",
       "interval": "33000",
-      "baseUnit": "Length.foot * Force.pound_force / Time.minute"
+      "baseUnit": "Length.foot * Force.pound_force / Time.minute",
+      "aliases": [
+        "HP(mechanical)"
+      ]
     },
     {
-      "name": "horsepower",
-      "symbol": "hp",
+      "name": "horsepower(metric)",
+      "symbol": "hp(metric)",
       "aliases": [
         "PS"
       ],
-      "attribute": "metric",
       "interval": "75",
       "baseUnit": "Force.kilogram_force * Length.metre / Time.second"
     },
     {
-      "name": "horsepower",
-      "symbol": "hp",
+      "name": "horsepower(electrical)",
+      "symbol": "hp(electrical)",
+      "interval": "746",
       "aliases": [
-        "HP"
-      ],
-      "attribute": "electrical",
-      "interval": "746"
+        "HP(electrical)"
+      ]
     },
     {
-      "name": "horsepower",
-      "symbol": "hp",
+      "name": "horsepower(boiler)",
+      "symbol": "hp(boiler)",
+      "interval": "9812.5",
       "aliases": [
-        "HP"
-      ],
-      "attribute": "boiler",
-      "interval": "9812.5"
+        "HP(boiler)"
+      ]
     },
     {
       "name": "lusec",
-      "baseUnit": "Volume.litre * Pressure.micrometre_of_mercury / Time.second"
+      "baseUnit": "Volume.litre * Pressure.micrometre_of_mercury / Time.second",
+      "symbol": "lusec"
     },
     {
       "name": "poncelet",
@@ -229,24 +232,11 @@
     }
   ],
   "use": {
-    "types": [
-      "em.ElectricCurrent",
-      "em.Voltage",
-      "Time",
-      "mechanics.Energy",
-      "Area",
-      "radiometry.Irradiance",
-      "radiometry.AreaFrequency",
-      "radiometry.SpectralIrradiance"
-    ],
-    "units": [
-      "Length",
-      "mechanics.Force",
-      "Time",
-      "Volume",
-      "fluid.Pressure",
-      "mechanics.Energy"
-    ],
-    "selfUnits": true
+    "subpackages": [
+      "em",
+      "",
+      "radiometry",
+      "fluid"
+    ]
   }
 }

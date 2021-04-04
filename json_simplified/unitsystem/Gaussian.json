@@ -47,31 +47,10 @@
     }
   ],
   "use": {
-    "types": [
-      "em.ElectricCharge",
-      "em.ElectricCurrent",
-      "em.Voltage",
-      "em.ElectricDipole",
-      "em.ElectricalResistance",
-      "em.Capacitance",
-      "em.MagneticFlux",
-      "em.MagneticFluxDensity",
-      "em.MagneticFieldStrength",
-      "em.Inductance",
-      "radioactivity.Exposure"
-    ],
-    "units": [
-      "em.ElectricCharge",
-      "Time",
-      "em.Voltage",
-      "em.ElectricDipole",
-      "em.ElectricalResistance",
-      "em.Capacitance",
-      "em.MagneticFlux",
-      "em.MagneticFluxDensity",
-      "em.MagneticFieldStrength",
-      "em.Inductance",
-      "Mass"
+    "subpackages": [
+      "em",
+      "",
+      "radioactivity"
     ]
   }
 }

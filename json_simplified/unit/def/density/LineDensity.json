@@ -12,7 +12,13 @@
     },
     {
       "name": "tex",
-      "interval": "1e-6"
+      "interval": "1e-6",
+      "symbol": "tex"
     }
-  ]
+  ],
+  "use": {
+    "subpackages": [
+      ""
+    ]
+  }
 }

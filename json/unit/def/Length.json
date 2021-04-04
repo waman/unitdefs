@@ -5,7 +5,7 @@
   "dimension": {"L":1},
 
    "convertibles": [
-     {"result": "Capacitance", "from": "Length.centimetre", "to": "statfarad"}
+     {"result": "Capacitance", "from": "centimetre", "to": "statfarad"}
    ],
 
   "units": [

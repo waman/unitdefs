@@ -169,16 +169,10 @@
     }
   ],
   "use": {
-    "types": [
-      "em.Voltage",
-      "em.Capacitance",
-      "Time",
-      "em.ElectricCurrent",
-      "Length",
-      "em.ElectricDipole",
-      "Mass",
-      "radioactivity.Exposure"
-    ],
-    "constants": true
+    "constants": true,
+    "subpackages": [
+      "",
+      "radioactivity"
+    ]
   }
 }

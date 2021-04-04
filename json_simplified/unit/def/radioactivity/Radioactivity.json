@@ -230,8 +230,5 @@
       "symbol": "Rd",
       "baseUnit": "megabecquerel"
     }
-  ],
-  "use": {
-    "selfUnits": true
-  }
+  ]
 }

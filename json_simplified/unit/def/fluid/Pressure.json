@@ -133,7 +133,8 @@
     },
     {
       "name": "bar",
-      "interval": "1e5"
+      "interval": "1e5",
+      "symbol": "bar"
     },
     {
       "name": "pieze",
@@ -143,7 +144,8 @@
     {
       "name": "torr",
       "interval": "1/760",
-      "baseUnit": "atmosphere"
+      "baseUnit": "atmosphere",
+      "symbol": "torr"
     },
     {
       "name": "kip per square inch",
@@ -231,17 +233,9 @@
     }
   ],
   "use": {
-    "types": [
-      "Time",
-      "fluid.DynamicViscosity"
-    ],
-    "units": [
-      "mechanics.Force",
-      "Area",
-      "Density",
-      "Length",
-      "mechanics.Acceleration"
-    ],
-    "selfUnits": true
+    "subpackages": [
+      "",
+      "mechanics"
+    ]
   }
 }

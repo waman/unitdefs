@@ -12,7 +12,8 @@
       "aliases": [
         "k_B"
       ],
-      "interval": "Constants.BoltzmannConstant"
+      "interval": "Constants.BoltzmannConstant",
+      "symbol": "nat"
     },
     {
       "name": "bit",
@@ -20,7 +21,8 @@
         "Sh"
       ],
       "interval": "log(2)",
-      "baseUnit": "nat"
+      "baseUnit": "nat",
+      "symbol": "bit"
     },
     {
       "name": "ban",
@@ -28,7 +30,8 @@
         "Hart"
       ],
       "interval": "log(10)",
-      "baseUnit": "nat"
+      "baseUnit": "nat",
+      "symbol": "ban"
     },
     {
       "name": "byte",
@@ -149,7 +152,9 @@
     }
   ],
   "use": {
-    "selfUnits": true,
-    "constants": true
+    "constants": true,
+    "subpackages": [
+      "mechanics"
+    ]
   }
 }

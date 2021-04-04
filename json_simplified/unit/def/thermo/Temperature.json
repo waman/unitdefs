@@ -191,10 +191,5 @@
       "zero": "422.038",
       "interval": "125/9"
     }
-  ],
-  "use": {
-    "types": [
-      "thermo.AbsoluteTemperature"
-    ]
-  }
+  ]
 }

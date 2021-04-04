@@ -12,9 +12,8 @@
     }
   ],
   "use": {
-    "types": [
-      "Time",
-      "mechanics.Momentum"
+    "subpackages": [
+      ""
     ]
   }
 }

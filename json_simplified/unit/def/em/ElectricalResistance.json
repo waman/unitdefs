@@ -74,6 +74,8 @@
       "name": "microohm",
       "symbol": "μΩ",
       "aliases": [
+        "mcΩ",
+        "μohm",
         "mcohm"
       ],
       "interval": "1e-6"
@@ -122,6 +124,8 @@
       "name": "kiloohm",
       "symbol": "kΩ",
       "aliases": [
+        "KΩ",
+        "kohm",
         "Kohm"
       ],
       "interval": "1e3"
@@ -201,9 +205,6 @@
     }
   ],
   "use": {
-    "types": [
-      "em.ElectricalConductance"
-    ],
     "constants": true
   }
 }

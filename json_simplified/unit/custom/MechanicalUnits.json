@@ -159,15 +159,9 @@
     }
   ],
   "use": {
-    "units": [
-      "mechanics.TimeSquared",
-      "mechanics.Acceleration",
-      "mechanics.Force",
-      "mechanics.Energy",
-      "mechanics.Power",
-      "fluid.DynamicViscosity",
-      "fluid.KinematicViscosity",
-      "fluid.Pressure"
+    "subpackages": [
+      "mechanics",
+      "fluid"
     ]
   }
 }

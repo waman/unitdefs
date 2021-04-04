@@ -235,9 +235,8 @@
     }
   ],
   "use": {
-    "types": [
-      "Time",
-      "radioactivity.EquivalentDoseRate"
+    "subpackages": [
+      ""
     ]
   }
 }

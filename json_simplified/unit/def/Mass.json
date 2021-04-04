@@ -168,12 +168,15 @@
     {
       "name": "dram",
       "symbol": "dr",
-      "baseUnit": "dram(avoirdupois)"
+      "baseUnit": "dram(avoirdupois)",
+      "attributes": [
+        "avoirdupois",
+        "troy"
+      ]
     },
     {
-      "name": "dram",
-      "symbol": "dr",
-      "attribute": "avoirdupois",
+      "name": "dram(avoirdupois)",
+      "symbol": "dr(avoirdupois)",
       "aliases": [
         "dr_av"
       ],
@@ -181,9 +184,8 @@
       "baseUnit": "grain"
     },
     {
-      "name": "dram",
-      "symbol": "dr",
-      "attribute": "troy",
+      "name": "dram(troy)",
+      "symbol": "dr(troy)",
       "aliases": [
         "dr_t"
       ],
@@ -193,12 +195,15 @@
     {
       "name": "ounce",
       "symbol": "oz",
-      "baseUnit": "ounce(avoirdupois)"
+      "baseUnit": "ounce(avoirdupois)",
+      "attributes": [
+        "avoirdupois",
+        "troy"
+      ]
     },
     {
-      "name": "ounce",
-      "symbol": "oz",
-      "attribute": "avoirdupois",
+      "name": "ounce(avoirdupois)",
+      "symbol": "oz(avoirdupois)",
       "aliases": [
         "oz_av"
       ],
@@ -206,9 +211,8 @@
       "baseUnit": "pound"
     },
     {
-      "name": "ounce",
-      "symbol": "oz",
-      "attribute": "troy",
+      "name": "ounce(troy)",
+      "symbol": "oz(troy)",
       "aliases": [
         "oz_t"
       ],
@@ -218,21 +222,24 @@
     {
       "name": "pound",
       "symbol": "lb",
-      "baseUnit": "pound(avoirdupois)"
+      "baseUnit": "pound(avoirdupois)",
+      "attributes": [
+        "avoirdupois",
+        "troy",
+        "metric"
+      ]
     },
     {
-      "name": "pound",
-      "symbol": "lb",
-      "attribute": "avoirdupois",
+      "name": "pound(avoirdupois)",
+      "symbol": "lb(avoirdupois)",
       "aliases": [
         "lb_av"
       ],
       "interval": "0.45359237"
     },
     {
-      "name": "pound",
-      "symbol": "lb",
-      "attribute": "troy",
+      "name": "pound(troy)",
+      "symbol": "lb(troy)",
       "aliases": [
         "lb_t"
       ],
@@ -240,9 +247,8 @@
       "baseUnit": "grain"
     },
     {
-      "name": "pound",
-      "symbol": "lb",
-      "attribute": "metric",
+      "name": "pound(metric)",
+      "symbol": "lb(metric)",
       "interval": "500",
       "baseUnit": "gram"
     },
@@ -302,7 +308,8 @@
     {
       "name": "kip",
       "interval": "1000",
-      "baseUnit": "dram(avoirdupois)"
+      "baseUnit": "dram(avoirdupois)",
+      "symbol": "kip"
     },
     {
       "name": "pennyweight",
@@ -330,7 +337,8 @@
     },
     {
       "name": "slug",
-      "baseUnit": "pound * Acceleration.standard_gravity / Length.foot"
+      "baseUnit": "pound * Acceleration.standard_gravity / Length.foot",
+      "symbol": "slug"
     }
   ],
   "operations": [
@@ -380,11 +388,10 @@
     }
   ],
   "use": {
-    "units": [
-      "mechanics.Acceleration",
-      "Length"
-    ],
-    "selfUnits": true,
-    "constants": true
+    "constants": true,
+    "subpackages": [
+      "mechanics",
+      "density"
+    ]
   }
 }

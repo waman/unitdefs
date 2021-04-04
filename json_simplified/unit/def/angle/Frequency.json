@@ -124,9 +124,9 @@
     }
   ],
   "use": {
-    "types": [
-      "angle.AngularVelocity"
-    ],
-    "constants": true
+    "constants": true,
+    "subpackages": [
+      ""
+    ]
   }
 }

@@ -147,14 +147,9 @@
     }
   ],
   "use": {
-    "types": [
-      "em.Voltage",
-      "em.ElectricalConductance",
-      "Time",
-      "em.ElectricCharge",
-      "Length",
-      "em.MagneticFieldStrength"
-    ],
-    "constants": true
+    "constants": true,
+    "subpackages": [
+      ""
+    ]
   }
 }

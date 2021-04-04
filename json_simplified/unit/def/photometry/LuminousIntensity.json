@@ -123,9 +123,8 @@
     }
   ],
   "use": {
-    "types": [
-      "Area",
-      "photometry.Luminance"
+    "subpackages": [
+      ""
     ]
   }
 }

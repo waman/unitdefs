@@ -81,7 +81,10 @@
       "name": "microsiemens",
       "symbol": "μS",
       "aliases": [
+        "mcS",
+        "μmho",
         "mcmho",
+        "μ℧",
         "mc℧"
       ],
       "interval": "1e-6"
@@ -135,7 +138,10 @@
       "name": "kilosiemens",
       "symbol": "kS",
       "aliases": [
+        "KS",
+        "kmho",
         "Kmho",
+        "k℧",
         "K℧"
       ],
       "interval": "1e3"
@@ -203,10 +209,5 @@
       ],
       "interval": "1e24"
     }
-  ],
-  "use": {
-    "types": [
-      "em.ElectricalResistance"
-    ]
-  }
+  ]
 }

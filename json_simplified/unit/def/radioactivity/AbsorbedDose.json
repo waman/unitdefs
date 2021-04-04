@@ -117,112 +117,113 @@
     },
     {
       "name": "rad",
-      "interval": "1e-2"
+      "interval": "1e-2",
+      "symbol": "rad"
     },
     {
       "name": "yoctorad",
-      "symbol": "yundefined",
+      "symbol": "yrad",
       "interval": "1e-2 * 1e-24"
     },
     {
       "name": "zeptorad",
-      "symbol": "zundefined",
+      "symbol": "zrad",
       "interval": "1e-2 * 1e-21"
     },
     {
       "name": "attorad",
-      "symbol": "aundefined",
+      "symbol": "arad",
       "interval": "1e-2 * 1e-18"
     },
     {
       "name": "femtorad",
-      "symbol": "fundefined",
+      "symbol": "frad",
       "interval": "1e-2 * 1e-15"
     },
     {
       "name": "picorad",
-      "symbol": "pundefined",
+      "symbol": "prad",
       "interval": "1e-2 * 1e-12"
     },
     {
       "name": "nanorad",
-      "symbol": "nundefined",
+      "symbol": "nrad",
       "interval": "1e-2 * 1e-9"
     },
     {
       "name": "microrad",
-      "symbol": "μundefined",
+      "symbol": "μrad",
       "aliases": [
-        "mcundefined"
+        "mcrad"
       ],
       "interval": "1e-2 * 1e-6"
     },
     {
       "name": "millirad",
-      "symbol": "mundefined",
+      "symbol": "mrad",
       "interval": "1e-2 * 1e-3"
     },
     {
       "name": "centirad",
-      "symbol": "cundefined",
+      "symbol": "crad",
       "interval": "1e-2 * 1e-2"
     },
     {
       "name": "decirad",
-      "symbol": "dundefined",
+      "symbol": "drad",
       "interval": "1e-2 * 1e-1"
     },
     {
       "name": "decarad",
-      "symbol": "daundefined",
+      "symbol": "darad",
       "interval": "1e-2 * 1e1"
     },
     {
       "name": "hectorad",
-      "symbol": "hundefined",
+      "symbol": "hrad",
       "interval": "1e-2 * 1e2"
     },
     {
       "name": "kilorad",
-      "symbol": "kundefined",
+      "symbol": "krad",
       "aliases": [
-        "Kundefined"
+        "Krad"
       ],
       "interval": "1e-2 * 1e3"
     },
     {
       "name": "megarad",
-      "symbol": "Mundefined",
+      "symbol": "Mrad",
       "interval": "1e-2 * 1e6"
     },
     {
       "name": "gigarad",
-      "symbol": "Gundefined",
+      "symbol": "Grad",
       "interval": "1e-2 * 1e9"
     },
     {
       "name": "terarad",
-      "symbol": "Tundefined",
+      "symbol": "Trad",
       "interval": "1e-2 * 1e12"
     },
     {
       "name": "petarad",
-      "symbol": "Pundefined",
+      "symbol": "Prad",
       "interval": "1e-2 * 1e15"
     },
     {
       "name": "exarad",
-      "symbol": "Eundefined",
+      "symbol": "Erad",
       "interval": "1e-2 * 1e18"
     },
     {
       "name": "zettarad",
-      "symbol": "Zundefined",
+      "symbol": "Zrad",
       "interval": "1e-2 * 1e21"
     },
     {
       "name": "yottarad",
-      "symbol": "Yundefined",
+      "symbol": "Yrad",
       "interval": "1e-2 * 1e24"
     }
   ]

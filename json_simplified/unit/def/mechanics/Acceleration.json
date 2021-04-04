@@ -18,5 +18,10 @@
       "symbol": "Gal",
       "interval": "1e-2"
     }
-  ]
+  ],
+  "use": {
+    "subpackages": [
+      ""
+    ]
+  }
 }

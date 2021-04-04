@@ -63,6 +63,8 @@
       "name": "microsecond",
       "symbol": "μs",
       "aliases": [
+        "mcs",
+        "μsec",
         "mcsec"
       ],
       "interval": "1e-6"
@@ -111,6 +113,8 @@
       "name": "kilosecond",
       "symbol": "ks",
       "aliases": [
+        "Ks",
+        "ksec",
         "Ksec"
       ],
       "interval": "1e3"
@@ -186,12 +190,14 @@
       "name": "day",
       "symbol": "d",
       "interval": "24",
-      "baseUnit": "hour"
+      "baseUnit": "hour",
+      "attributes": [
+        "sidereal"
+      ]
     },
     {
-      "name": "day",
-      "symbol": "d",
-      "attribute": "sidereal",
+      "name": "day(sidereal)",
+      "symbol": "d(sidereal)",
       "interval": "23.9344699",
       "baseUnit": "hour",
       "notExact": true
@@ -205,33 +211,35 @@
     {
       "name": "month",
       "symbol": "mo",
-      "baseUnit": "month(gregorian)"
+      "baseUnit": "month(gregorian)",
+      "attributes": [
+        "gregorian",
+        "full",
+        "hollow",
+        "synodic"
+      ]
     },
     {
-      "name": "month",
-      "symbol": "mo",
-      "attribute": "gregorian",
+      "name": "month(gregorian)",
+      "symbol": "mo(gregorian)",
       "interval": "30.436875",
       "baseUnit": "day"
     },
     {
-      "name": "month",
-      "symbol": "mo",
-      "attribute": "full",
+      "name": "month(full)",
+      "symbol": "mo(full)",
       "interval": "30",
       "baseUnit": "day"
     },
     {
-      "name": "month",
-      "symbol": "mo",
-      "attribute": "hollow",
+      "name": "month(hollow)",
+      "symbol": "mo(hollow)",
       "interval": "29",
       "baseUnit": "day"
     },
     {
-      "name": "month",
-      "symbol": "mo",
-      "attribute": "synodic",
+      "name": "month(synodic)",
+      "symbol": "mo(synodic)",
       "interval": "29.530589",
       "baseUnit": "day"
     },
@@ -242,134 +250,145 @@
         "y",
         "a"
       ],
-      "baseUnit": "year(gregorian)"
+      "baseUnit": "year(gregorian)",
+      "attributes": [
+        "common",
+        "leap",
+        "gregorian",
+        "sidereal",
+        "julian",
+        "tropical"
+      ]
     },
     {
-      "name": "year",
-      "symbol": "yr",
-      "aliases": [
-        "y",
-        "a"
-      ],
-      "attribute": "common",
+      "name": "year(common)",
+      "symbol": "yr(common)",
       "interval": "365",
-      "baseUnit": "day"
+      "baseUnit": "day",
+      "aliases": [
+        "y(common)",
+        "a(common)"
+      ]
     },
     {
-      "name": "year",
-      "symbol": "yr",
-      "aliases": [
-        "y",
-        "a"
-      ],
-      "attribute": "leap",
+      "name": "year(leap)",
+      "symbol": "yr(leap)",
       "interval": "366",
-      "baseUnit": "day"
+      "baseUnit": "day",
+      "aliases": [
+        "y(leap)",
+        "a(leap)"
+      ]
     },
     {
-      "name": "year",
-      "symbol": "yr",
-      "aliases": [
-        "y",
-        "a"
-      ],
-      "attribute": "gregorian",
+      "name": "year(gregorian)",
+      "symbol": "yr(gregorian)",
       "interval": "365.2425",
-      "baseUnit": "day"
+      "baseUnit": "day",
+      "aliases": [
+        "y(gregorian)",
+        "a(gregorian)"
+      ]
     },
     {
-      "name": "year",
-      "symbol": "yr",
-      "aliases": [
-        "y",
-        "a"
-      ],
-      "attribute": "sidereal",
+      "name": "year(sidereal)",
+      "symbol": "yr(sidereal)",
       "interval": "365.256363",
       "baseUnit": "day",
-      "notExact": true
+      "notExact": true,
+      "aliases": [
+        "y(sidereal)",
+        "a(sidereal)"
+      ]
     },
     {
-      "name": "year",
-      "symbol": "yr",
-      "aliases": [
-        "y",
-        "a"
-      ],
-      "attribute": "julian",
+      "name": "year(julian)",
+      "symbol": "yr(julian)",
       "interval": "365.25",
-      "baseUnit": "day"
+      "baseUnit": "day",
+      "aliases": [
+        "y(julian)",
+        "a(julian)"
+      ]
     },
     {
-      "name": "year",
-      "symbol": "yr",
-      "aliases": [
-        "y",
-        "a"
-      ],
-      "attribute": "tropical",
+      "name": "year(tropical)",
+      "symbol": "yr(tropical)",
       "interval": "365.256363",
       "baseUnit": "day",
-      "notExact": true
+      "notExact": true,
+      "aliases": [
+        "y(tropical)",
+        "a(tropical)"
+      ]
     },
     {
       "name": "decade",
       "symbol": "dec",
-      "baseUnit": "decade(gregorian)"
+      "baseUnit": "decade(gregorian)",
+      "attributes": [
+        "gregorian",
+        "sidereal",
+        "julian",
+        "tropical"
+      ]
     },
     {
-      "name": "decade",
-      "symbol": "dec",
-      "attribute": "gregorian",
+      "name": "decade(gregorian)",
+      "symbol": "dec(gregorian)",
       "interval": "10",
       "baseUnit": "year(gregorian)"
     },
     {
-      "name": "decade",
-      "symbol": "dec",
-      "attribute": "sidereal",
+      "name": "decade(sidereal)",
+      "symbol": "dec(sidereal)",
       "interval": "10",
       "baseUnit": "year(sidereal)"
     },
     {
-      "name": "decade",
-      "symbol": "dec",
-      "attribute": "julian",
+      "name": "decade(julian)",
+      "symbol": "dec(julian)",
       "interval": "10",
       "baseUnit": "year(julian)"
     },
     {
-      "name": "decade",
-      "symbol": "dec",
-      "attribute": "tropical",
+      "name": "decade(tropical)",
+      "symbol": "dec(tropical)",
       "interval": "10",
       "baseUnit": "year(tropical)"
     },
     {
       "name": "century",
-      "baseUnit": "century(gregorian)"
+      "baseUnit": "century(gregorian)",
+      "symbol": "century",
+      "attributes": [
+        "gregorian",
+        "sidereal",
+        "julian",
+        "topical"
+      ]
     },
     {
-      "name": "century",
-      "attribute": "gregorian",
+      "name": "century(gregorian)",
+      "symbol": "century(gregorian)",
       "interval": "100",
       "baseUnit": "year(gregorian)"
     },
     {
-      "name": "century",
-      "attribute": "sidereal",
+      "name": "century(sidereal)",
+      "symbol": "century(sidereal)",
       "interval": "100",
       "baseUnit": "year(sidereal)"
     },
     {
-      "name": "century",
-      "attribute": "julian",
+      "name": "century(julian)",
+      "symbol": "century(julian)",
       "interval": "100",
       "baseUnit": "year(julian)"
     },
     {
-      "name": "century",
-      "attribute": "topical",
+      "name": "century(topical)",
+      "symbol": "century(topical)",
       "interval": "100",
       "baseUnit": "year(tropical)"
     },
@@ -497,6 +516,9 @@
     }
   ],
   "use": {
-    "selfUnits": true
+    "subpackages": [
+      "em",
+      "mechanics"
+    ]
   }
 }

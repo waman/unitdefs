@@ -20,6 +20,8 @@ function simplifyUnitdef(unitdef){
 }
 
 function simplifyUnit(u){
+    if(u.symbol == undefined) u.symbol = u.name.replace(/\s/ig, '_');
+    
     // remove optional aliases (parenthesised aliase like { ... "aliases": ["(min)"] ...})
     if(u.aliases && u.aliases.filter(a => a.startsWith('('))){
         const as = u.aliases.filter(a => !a.startsWith('('));
@@ -41,7 +43,9 @@ function simplifyUnit(u){
 
             if(u.aliases){
                 if(p.aliases){
-                    pu.aliases = u.aliases.flatMap(a => p.aliases.map(pa => pa + a))
+                    const unitSymbols = [u.symbol, ...u.aliases];
+                    const prefixSymbols = [p.prefix, ...p.aliases];
+                    pu.aliases = unitSymbols.flatMap(a => prefixSymbols.map(pa => pa + a))
                                     .filter(a => a != pu.symbol);
                 }else{
                     pu.aliases = u.aliases.map(a => p.prefix + a);
@@ -63,11 +67,19 @@ function simplifyUnit(u){
 
     }else if(u.attributes){
         const su = util.cloneProps(u, ['attributes']);
+        su.attributes = u.attributes.map(a => a.name);
 
-        const atteds = u.attributes.map(a => {
-            const atted = util.cloneProps(u, ['interval', 'baseUnit', 'attributes']);  // attributed unit
-            atted.attribute = a.name;
-            util.copyProps(a, atted, ['name']);
+        const atteds = u.attributes.map(att => {
+            // attributed unit
+            const atted = {
+                'name': `${u.name}(${att.name})`,
+                'symbol': `${u.symbol}(${att.name})`
+            };
+            util.copyProps(att, atted, ['name']);
+            
+            if(atted.aliases == undefined && u.aliases != undefined)
+                atted.aliases = u.aliases.map(a => `${a}(${att.name})`);
+
             return atted;
         });
         return [su].concat(atteds);
@@ -96,9 +108,9 @@ function constructOperations(simplifiedUnitdefs, unitdefs){
 
     opes.forEach(ope => {
         const json = simplifiedUnitdefs.find(ud => ud.id == ope.target).json;
-        const op = util.cloneProps(ope, ['target']);
+        delete ope.target;
         if(json.operations == undefined) json.operations = new Array();
-        json.operations.push(op)
+        json.operations.push(ope)
     })
 
     function mkop(comp, op, result){
@@ -118,16 +130,22 @@ function constructOperations(simplifiedUnitdefs, unitdefs){
 }
 */
 function constructAttributes(unitdefs){
-    unitdefs.map(ud => ud.json).filter(j => j.units != undefined).forEach(json => {
-        const atts = json.units.filter(u => u.attribute != undefined)
+    unitdefs.filter(ud => ud.json.units).forEach(ud => {
+        const json = ud.json
+        const atts = json.units.filter(u => u.name.includes('('));
         if(atts.length > 0){
             json.attributes = new Array();
             atts.forEach(u => {
-                const att = json.attributes.find(a => a.name == u.attribute);
+                // decompose 'uName(aName)' to uName and aName
+                const i = u.name.indexOf('(');
+                const uName = u.name.substring(0, i);
+                const aName = u.name.substring(i+1, u.name.length-1);
+
+                const att = json.attributes.find(a => a.name == aName);
                 if(att == undefined)
-                    json.attributes.push({'name': u.attribute, 'parents': [u.name]});
+                    json.attributes.push({'name': aName, 'parents': [uName]});
                 else
-                    att.parents.push(u.name);
+                    att.parents.push(uName);
             });
         }
     });
@@ -147,75 +165,55 @@ function constructUse(unitdefs){
     unitdefs.forEach(unitdef => {
         let hasUse = false;
         const use = {};
-
-        // used types
-        const usedTypes = getUsedTypes(unitdef);
-        if(usedTypes.length > 0){
-            use.types = usedTypes; 
-            hasUse = true;
-        }
-
-        // used units
-        const uus = getUsedUnits(unitdef);
-        if(uus.usedUnits.length > 0){
-            use.units = uus.usedUnits; 
-            hasUse = true;
-        }
-        if(uus.useSelfUnits){
-            use.selfUnits = true;
-            hasUse = true;
-        }
+        const json = unitdef.json
 
         // constants
-        if(isUsingConstants(unitdef)){
+        if(isUsingConstants(json)){
             use.constants = true;
             hasUse = true;
         }
 
-        if(hasUse) unitdef.json.use = use
-    });
-
-    function getUsedTypes(unitdef){
-        const json = unitdef.json;
+        // used subpackages
         const typeSet = new Set();
 
-        // types under 'operations'
+        //*** types in SIUnit */
+        ['*', '/'].forEach(sep => {
+            if(json.SIUnit.includes(sep)){
+                json.SIUnit.split(sep).forEach(s => typeSet.add(s.trim()));
+            }
+        });
+
+        //*** types in 'convertibles'
+        if(json.convertibles){
+            json.convertibles.forEach(c => {
+                typeSet.add(c.result)
+                util.appendSubpackages(c.from, typeSet);
+                util.appendSubpackages(c.to, typeSet);
+            });
+        }
+
+        //*** types in 'operations'
         if(json.operations){
             json.operations.flatMap(op => [op.argument, op.result])
                 .forEach(t => typeSet.add(t));
         }
-        // types under 'convertibles'
-        if(json.convertibles){
-            json.convertibles.forEach(c => typeSet.add(c.result))
-        }
 
-        return resolveSubpackages(unitdef, typeSet, unitdefs, true);
-    }
-
-    function getUsedUnits(unitdef){
-        const json = unitdef.json;
-
-        let useSelfUnits = false;
-        const typeSet = new Set();
-
-        // units in 'interval'
+        //*** types in 'interval'
         if(json.units){
-            const unitRegex = util.getUnitRegex();
-            json.units.filter(u => u.baseUnit).flatMap(u => u.baseUnit.match(unitRegex)).forEach(u => {
-                if(u.includes('.')){
-                    typeSet.add(u.split('.')[0]);
-                }else{
-                    useSelfUnits = true;
-                }
-            });
+            json.units.filter(u => u.baseUnit)
+                .forEach(u => util.appendSubpackages(u.baseUnit, typeSet));
         }
 
-        const types = resolveSubpackages(unitdef, typeSet, unitdefs, false);
-        return { 'usedUnits': types, 'useSelfUnits': useSelfUnits };
-    }
+        const sps = util.resolveSubpackages(typeSet, unitdefs, unitdef.subpackage);
+        if(sps.length > 0){
+            use.subpackages = sps;
+            hasUse = true;
+        }
 
-    function isUsingConstants(unitdef){
-        const json = unitdef.json;
+        if(hasUse) unitdef.json.use = use;
+    });
+
+    function isUsingConstants(json){
         if(json.convertibles
              && json.convertibles.filter(c => c.factor).find(c => c.factor.includes('Constants')))
             return true;
@@ -225,17 +223,5 @@ function constructUse(unitdefs){
         else
             return false;
 
-    }
-
-    function resolveSubpackages(unitdef, typeSet, unitdefs, isRemovingSamePackage){
-        typeSet.delete(unitdef.id);
-        if(isRemovingSamePackage){
-            const sp = unitdef.subpackage;
-            const rms = new Array();
-            for(let t of typeSet) if(t.startsWith(sp)) rms.push(t);
-            rms.forEach(t => typeSet.delete(t));
-        }
-
-        return util.resolveSubpackages(typeSet, unitdefs);
     }
 }

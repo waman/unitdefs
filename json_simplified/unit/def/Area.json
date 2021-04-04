@@ -64,6 +64,8 @@
       "name": "square micrometre",
       "symbol": "μm²",
       "aliases": [
+        "mcm²",
+        "μm2",
         "mcm2"
       ],
       "baseUnit": "Length.micrometre^2"
@@ -112,6 +114,8 @@
       "name": "square kilometre",
       "symbol": "km²",
       "aliases": [
+        "Km²",
+        "km2",
         "Km2"
       ],
       "baseUnit": "Length.kilometre^2"
@@ -301,29 +305,22 @@
         "sq_li",
         "sq_lnk"
       ],
-      "baseUnit": "Length.link^2"
+      "baseUnit": "Length.link^2",
+      "attributes": [
+        "US"
+      ]
     },
     {
-      "name": "square link",
-      "symbol": "li²",
+      "name": "square link(US)",
+      "symbol": "li²(US)",
+      "baseUnit": "Length.link(US)^2",
       "aliases": [
-        "li2",
-        "lnk²",
-        "lnk2",
-        "sq_li",
-        "sq_lnk"
-      ],
-      "attribute": "US",
-      "baseUnit": "Length.link(US)^2"
-    },
-    {
-      "name": "square foot",
-      "symbol": "ft²",
-      "aliases": [
-        "ft2",
-        "sq_ft"
-      ],
-      "baseUnit": "Length.foot^2"
+        "li2(US)",
+        "lnk²(US)",
+        "lnk2(US)",
+        "sq_li(US)",
+        "sq_lnk(US)"
+      ]
     },
     {
       "name": "square foot",
@@ -332,8 +329,19 @@
         "ft2",
         "sq_ft"
       ],
-      "attribute": "US",
-      "baseUnit": "Length.foot(US)^2"
+      "baseUnit": "Length.foot^2",
+      "attributes": [
+        "US"
+      ]
+    },
+    {
+      "name": "square foot(US)",
+      "symbol": "ft²(US)",
+      "baseUnit": "Length.foot(US)^2",
+      "aliases": [
+        "ft2(US)",
+        "sq_ft(US)"
+      ]
     },
     {
       "name": "square chain",
@@ -342,17 +350,19 @@
         "ch2",
         "sq_ch"
       ],
-      "baseUnit": "Length.chain^2"
+      "baseUnit": "Length.chain^2",
+      "attributes": [
+        "US"
+      ]
     },
     {
-      "name": "square chain",
-      "symbol": "ch²",
+      "name": "square chain(US)",
+      "symbol": "ch²(US)",
+      "baseUnit": "Length.chain(US)^2",
       "aliases": [
-        "ch2",
-        "sq_ch"
-      ],
-      "attribute": "US",
-      "baseUnit": "Length.chain(US)^2"
+        "ch2(US)",
+        "sq_ch(US)"
+      ]
     },
     {
       "name": "square yard",
@@ -370,26 +380,19 @@
         "rd2",
         "sq_rd"
       ],
-      "baseUnit": "Length.rod^2"
+      "baseUnit": "Length.rod^2",
+      "attributes": [
+        "US"
+      ]
     },
     {
-      "name": "square rod",
-      "symbol": "rd²",
+      "name": "square rod(US)",
+      "symbol": "rd²(US)",
+      "baseUnit": "Length.rod(US)^2",
       "aliases": [
-        "rd2",
-        "sq_rd"
-      ],
-      "attribute": "US",
-      "baseUnit": "Length.rod(US)^2"
-    },
-    {
-      "name": "square mile",
-      "symbol": "mi²",
-      "aliases": [
-        "mi2",
-        "sq_mi"
-      ],
-      "baseUnit": "Length.mile^2"
+        "rd2(US)",
+        "sq_rd(US)"
+      ]
     },
     {
       "name": "square mile",
@@ -398,19 +401,32 @@
         "mi2",
         "sq_mi"
       ],
-      "attribute": "US",
-      "baseUnit": "Length.mile(US)^2"
+      "baseUnit": "Length.mile^2",
+      "attributes": [
+        "US"
+      ]
+    },
+    {
+      "name": "square mile(US)",
+      "symbol": "mi²(US)",
+      "baseUnit": "Length.mile(US)^2",
+      "aliases": [
+        "mi2(US)",
+        "sq_mi(US)"
+      ]
     },
     {
       "name": "acre",
       "symbol": "ac",
       "interval": "10",
-      "baseUnit": "square_chain"
+      "baseUnit": "square_chain",
+      "attributes": [
+        "US"
+      ]
     },
     {
-      "name": "acre",
-      "symbol": "ac",
-      "attribute": "US",
+      "name": "acre(US)",
+      "symbol": "ac(US)",
       "interval": "10",
       "baseUnit": "square_chain(US)"
     },
@@ -440,11 +456,15 @@
     {
       "name": "section",
       "interval": "640",
-      "baseUnit": "acre"
+      "baseUnit": "acre",
+      "symbol": "section",
+      "attributes": [
+        "US"
+      ]
     },
     {
-      "name": "section",
-      "attribute": "US",
+      "name": "section(US)",
+      "symbol": "section(US)",
       "interval": "640",
       "baseUnit": "acre(US)"
     },
@@ -487,10 +507,11 @@
     }
   ],
   "use": {
-    "units": [
-      "Length"
-    ],
-    "selfUnits": true,
-    "constants": true
+    "constants": true,
+    "subpackages": [
+      "fluid",
+      "angle",
+      "radiometry"
+    ]
   }
 }

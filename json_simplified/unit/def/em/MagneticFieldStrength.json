@@ -12,6 +12,9 @@
     }
   ],
   "use": {
-    "constants": true
+    "constants": true,
+    "subpackages": [
+      ""
+    ]
   }
 }

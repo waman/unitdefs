@@ -24,9 +24,9 @@
     }
   ],
   "use": {
-    "types": [
-      "angle.Frequency"
-    ],
-    "constants": true
+    "constants": true,
+    "subpackages": [
+      ""
+    ]
   }
 }

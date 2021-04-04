@@ -13,8 +13,8 @@
     }
   ],
   "use": {
-    "types": [
-      "em.ElectricalResistance"
+    "subpackages": [
+      ""
     ]
   }
 }

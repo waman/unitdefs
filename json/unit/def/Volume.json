@@ -105,12 +105,13 @@
 
     {"name": "barrel", "symbol": "bbl", "aliases": ["bl"], "interval": "42", "baseUnit": "gallon(US_fl)", "description": "oil barrel",
       "attributes": [
-        {"name": "US_fl", "aliases": ["fl_bl"], "interval": "31.5", "baseUnit": "gallon(US_fl)"},
+        {"name": "US_fl", "interval": "31.5", "baseUnit": "gallon(US_fl)"},
         {"name": "US_dry", "interval": "105", "baseUnit": "quart(US_dry)"},
         {"name": "imp", "interval": "36", "baseUnit": "gallon(imp)"}
       ]
     },
-    {"name": "fluid barrel", "symbol": "fl_bl", "baseUnit": "barrel(US_fl)"},
+    {"name": "fluid barrel", "symbol": "fl_bl", "baseUnit": "barrel(US_fl)",
+      "description": "This unit is equivalent to barrel(US_fl)."},
 
     {"name": "hogshead", "symbol": "hhd",
       "attributes": [

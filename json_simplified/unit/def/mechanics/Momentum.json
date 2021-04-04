@@ -13,9 +13,9 @@
     }
   ],
   "use": {
-    "types": [
-      "Area",
-      "fluid.DynamicViscosity"
+    "subpackages": [
+      "",
+      "fluid"
     ]
   }
 }

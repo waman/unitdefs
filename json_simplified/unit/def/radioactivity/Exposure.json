@@ -11,5 +11,11 @@
       "symbol": "R",
       "interval": "2.58e-4"
     }
-  ]
+  ],
+  "use": {
+    "subpackages": [
+      "em",
+      ""
+    ]
+  }
 }

@@ -16,5 +16,10 @@
       "symbol": "sfu",
       "interval": "1e-22"
     }
-  ]
+  ],
+  "use": {
+    "subpackages": [
+      "mechanics"
+    ]
+  }
 }

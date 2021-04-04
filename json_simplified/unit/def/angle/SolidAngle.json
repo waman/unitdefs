@@ -62,7 +62,8 @@
     {
       "name": "spat",
       "interval": "4 * Constants.Pi",
-      "baseUnit": "steradian"
+      "baseUnit": "steradian",
+      "symbol": "spat"
     },
     {
       "name": "square degree",
@@ -74,10 +75,9 @@
     }
   ],
   "use": {
-    "units": [
-      "Angle"
-    ],
-    "selfUnits": true,
-    "constants": true
+    "constants": true,
+    "subpackages": [
+      ""
+    ]
   }
 }

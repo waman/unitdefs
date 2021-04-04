@@ -243,18 +243,8 @@
     }
   ],
   "use": {
-    "units": [
-      "em.ElectricCharge",
-      "em.ElectricCurrent",
-      "em.Voltage",
-      "em.ElectricDipole",
-      "em.ElectricalResistance",
-      "em.ElectricalConductance",
-      "em.Capacitance",
-      "em.Inductance",
-      "em.MagneticFlux",
-      "em.MagneticFluxDensity",
-      "em.MagneticFieldStrength"
+    "subpackages": [
+      "em"
     ]
   }
 }

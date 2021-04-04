@@ -128,9 +128,8 @@
     }
   ],
   "use": {
-    "units": [
-      "photometry.LuminousIntensity",
-      "Area"
+    "subpackages": [
+      ""
     ]
   }
 }

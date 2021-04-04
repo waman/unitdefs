@@ -247,12 +247,9 @@
     }
   ],
   "use": {
-    "types": [
-      "em.ElectricCurrent",
-      "em.Inductance",
-      "Area",
-      "em.MagneticFluxDensity"
-    ],
-    "constants": true
+    "constants": true,
+    "subpackages": [
+      ""
+    ]
   }
 }

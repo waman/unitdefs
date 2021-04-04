@@ -13,8 +13,9 @@
     }
   ],
   "use": {
-    "types": [
-      "em.Inductance"
+    "subpackages": [
+      "mechanics",
+      ""
     ]
   }
 }

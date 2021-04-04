@@ -187,19 +187,11 @@
     }
   ],
   "use": {
-    "units": [
-      "Length",
-      "Area",
-      "Volume",
-      "Mass",
-      "Time",
-      "Velocity",
-      "Angle",
-      "angle.SolidAngle",
-      "angle.Frequency",
-      "chem.AmountOfSubstance",
-      "thermo.Temperature",
-      "thermo.AbsoluteTemperature"
+    "subpackages": [
+      "",
+      "angle",
+      "chem",
+      "thermo"
     ]
   }
 }

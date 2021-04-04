@@ -117,5 +117,10 @@
       "symbol": "YP",
       "interval": "0.1 * 1e24"
     }
-  ]
+  ],
+  "use": {
+    "subpackages": [
+      ""
+    ]
+  }
 }

@@ -129,10 +129,9 @@
     }
   ],
   "use": {
-    "types": [
-      "mechanics.Energy",
-      "thermo.Temperature"
-    ],
-    "constants": true
+    "constants": true,
+    "subpackages": [
+      "mechanics"
+    ]
   }
 }

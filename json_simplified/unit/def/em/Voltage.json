@@ -141,12 +141,9 @@
     }
   ],
   "use": {
-    "types": [
-      "em.ElectricCurrent",
-      "em.ElectricalResistance",
-      "Time",
-      "em.MagneticFlux"
-    ],
-    "constants": true
+    "constants": true,
+    "subpackages": [
+      ""
+    ]
   }
 }
