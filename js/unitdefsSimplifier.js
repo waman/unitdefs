@@ -20,7 +20,7 @@ function simplifyUnitdef(unitdef){
 }
 
 function simplifyUnit(u){
-    if(u.symbol == undefined) u.symbol = u.name.replace(/\s/ig, '_');
+    if(u.symbol === undefined) u.symbol = u.name.replace(/\s/ig, '_');
     
     // remove optional aliases (parenthesised aliase like { ... "aliases": ["(min)"] ...})
     if(u.aliases && u.aliases.filter(a => a.startsWith('('))){
@@ -46,7 +46,7 @@ function simplifyUnit(u){
                     const unitSymbols = [u.symbol, ...u.aliases];
                     const prefixSymbols = [p.prefix, ...p.aliases];
                     pu.aliases = unitSymbols.flatMap(a => prefixSymbols.map(pa => pa + a))
-                                    .filter(a => a != pu.symbol);
+                                    .filter(a => a !== pu.symbol);
                 }else{
                     pu.aliases = u.aliases.map(a => p.prefix + a);
                 }
@@ -77,8 +77,13 @@ function simplifyUnit(u){
             };
             util.copyProps(att, atted, ['name']);
             
-            if(atted.aliases == undefined && u.aliases != undefined)
-                atted.aliases = u.aliases.map(a => `${a}(${att.name})`);
+            if(u.aliases !== undefined){
+                const attedAtts = u.aliases.map(a => `${a}(${att.name})`);
+                if(atted.aliases != undefined)
+                    atted.aliases.concat(attedAtts);
+                else
+                    atted.aliases = attedAtts;
+            }
 
             return atted;
         });
@@ -99,24 +104,44 @@ function simplifyUnit(u){
 */
 function constructOperations(simplifiedUnitdefs, unitdefs){
     const opes = unitdefs.filter(ud => ud.json.composites).flatMap(unitdef => {
-        return unitdef.json.composites.map(c => {
-            if(c.includes('*')) return mkop(c, '*', unitdef.id);
-            else if(c.includes('/')) return mkop(c, '/', unitdef.id);
-            else throw new Error('Necessary operators ("*" or "/") do not appear');
-        })
+        return unitdef.json.composites.flatMap(c => {
+            if(c.includes('*')){
+                const ss = c.split('*').map(s => s.trim());
+                return [
+                    {'operation': '*', 'target': ss[0], 'argument': ss[1], 'result': unitdef.id },
+                    {'operation': '*', 'target': ss[1], 'argument': ss[0], 'result': unitdef.id,
+                     'reverse': true }
+                ];
+            }else if(c.includes('/')){
+                const ss = c.split('/').map(s => s.trim());
+                return [
+                    {'operation': '/', 'target': ss[0], 'argument': ss[1], 'result': unitdef.id },
+                ];
+            }else{
+                throw new Error('Necessary operators ("*" or "/") do not appear');
+            }
+        });
     });
 
     opes.forEach(ope => {
-        const json = simplifiedUnitdefs.find(ud => ud.id == ope.target).json;
+        const json = simplifiedUnitdefs.find(ud => ud.id === ope.target).json;
         delete ope.target;
-        if(json.operations == undefined) json.operations = new Array();
-        json.operations.push(ope)
-    })
+        if(json.operations === undefined) json.operations = new Array();
 
-    function mkop(comp, op, result){
-        const ss = comp.split(op);
-        return {'operation': op, 'target': ss[0].trim(), 'argument': ss[1].trim(), 'result': result };
-    }
+        if(ope.operation === '*'){
+            const o2 = json.operations.find(o => o.operation === '*' && o.argument === ope.argument);
+            if(o2 === undefined){
+                json.operations.push(ope);
+            }else{
+                if(o2.result !== ope.result)
+                    throw new Error(`The result types are inconsistent: ${ope.result} and ${o2.result}`)
+                if(o2.reverse) 
+                    delete o2.reverse;
+            }
+        }else{
+            json.operations.push(ope);
+        }
+    });
 }
 
 /* construct 'attributes' element to the top of unitdef json:
@@ -141,8 +166,8 @@ function constructAttributes(unitdefs){
                 const uName = u.name.substring(0, i);
                 const aName = u.name.substring(i+1, u.name.length-1);
 
-                const att = json.attributes.find(a => a.name == aName);
-                if(att == undefined)
+                const att = json.attributes.find(a => a.name === aName);
+                if(att === undefined)
                     json.attributes.push({'name': aName, 'parents': [uName]});
                 else
                     att.parents.push(uName);

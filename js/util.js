@@ -76,8 +76,8 @@ exports.appendSubpackages = function(s, typeSet){
 exports.resolveSubpackages = function(types, unitdefs, selfSubpackage){
     const spSet = new Set();
     types.forEach(t => {
-        const sp = unitdefs.find(ud => ud.id == t).subpackage;
-        if(sp != selfSubpackage) spSet.add(sp);
+        const sp = unitdefs.find(ud => ud.id === t).subpackage;
+        if(sp !== selfSubpackage) spSet.add(sp);
     });
     return Array.from(spSet);
 }

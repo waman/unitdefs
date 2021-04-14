@@ -434,9 +434,45 @@
   ],
   "operations": [
     {
+      "operation": "*",
+      "argument": "ElectricCurrent",
+      "result": "ElectricCharge",
+      "reverse": true
+    },
+    {
+      "operation": "*",
+      "argument": "Voltage",
+      "result": "MagneticFlux",
+      "reverse": true
+    },
+    {
       "operation": "/",
       "argument": "Length",
       "result": "TimePerLength"
+    },
+    {
+      "operation": "*",
+      "argument": "Pressure",
+      "result": "DynamicViscosity",
+      "reverse": true
+    },
+    {
+      "operation": "*",
+      "argument": "Energy",
+      "result": "AngularMomentum",
+      "reverse": true
+    },
+    {
+      "operation": "*",
+      "argument": "Power",
+      "result": "Energy",
+      "reverse": true
+    },
+    {
+      "operation": "*",
+      "argument": "Force",
+      "result": "Momentum",
+      "reverse": true
     },
     {
       "operation": "*",
@@ -518,6 +554,7 @@
   "use": {
     "subpackages": [
       "em",
+      "fluid",
       "mechanics"
     ]
   }

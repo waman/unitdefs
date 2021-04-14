@@ -19,6 +19,14 @@
       "interval": "1e-2"
     }
   ],
+  "operations": [
+    {
+      "operation": "*",
+      "argument": "Mass",
+      "result": "Force",
+      "reverse": true
+    }
+  ],
   "use": {
     "subpackages": [
       ""

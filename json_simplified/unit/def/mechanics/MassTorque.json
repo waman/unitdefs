@@ -7,6 +7,11 @@
   "operations": [
     {
       "operation": "/",
+      "argument": "TimeSquared",
+      "result": "Force"
+    },
+    {
+      "operation": "/",
       "argument": "Time",
       "result": "Momentum"
     }

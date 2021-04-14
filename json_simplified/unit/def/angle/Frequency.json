@@ -123,10 +123,19 @@
       "interval": "1e24"
     }
   ],
+  "operations": [
+    {
+      "operation": "*",
+      "argument": "Area",
+      "result": "AreaFrequency",
+      "reverse": true
+    }
+  ],
   "use": {
     "constants": true,
     "subpackages": [
-      ""
+      "",
+      "radiometry"
     ]
   }
 }

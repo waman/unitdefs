@@ -230,6 +230,12 @@
       "operation": "*",
       "argument": "Time",
       "result": "DynamicViscosity"
+    },
+    {
+      "operation": "*",
+      "argument": "Volume",
+      "result": "Energy",
+      "reverse": true
     }
   ],
   "use": {

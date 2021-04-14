@@ -2,7 +2,7 @@
   "SIUnit": "newton",
   "dimension": {"M": 1, "L": 1, "T": -2},
 
-  "composites": ["Mass * Acceleration"],
+  "composites": ["Mass * Acceleration", "MassTorque / TimeSquared"],
 
   "units": [
     {"name": "newton", "symbol": "N", "scalePrefixes": "all"},

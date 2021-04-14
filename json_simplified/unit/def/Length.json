@@ -444,6 +444,12 @@
       "result": "Area"
     },
     {
+      "operation": "*",
+      "argument": "ElectricCharge",
+      "result": "ElectricDipole",
+      "reverse": true
+    },
+    {
       "operation": "/",
       "argument": "TimeSquared",
       "result": "Acceleration"
@@ -454,9 +460,21 @@
       "result": "Energy"
     },
     {
+      "operation": "*",
+      "argument": "Mass",
+      "result": "MassTorque",
+      "reverse": true
+    },
+    {
       "operation": "/",
       "argument": "Time",
       "result": "Velocity"
+    },
+    {
+      "operation": "*",
+      "argument": "Area",
+      "result": "Volume",
+      "reverse": true
     }
   ],
   "attributes": [

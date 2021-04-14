@@ -48,7 +48,7 @@ function readUnitdefs(srcRoot){
         return fs.readdirSync(dir).flatMap(f => {
             const fn = path.join(dir, f);
             if(fs.statSync(fn).isDirectory()){
-                const sp = subpackage == '' ? f : path.join(subpackage, f);
+                const sp = subpackage === '' ? f : path.join(subpackage, f);
                 return read(def, sp);
             }else{
                 const id = f.replace('.json', '');
