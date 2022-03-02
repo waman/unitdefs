@@ -1,25 +1,25 @@
 {
   "description": "This can be used as a unit of radiant flux (radiation).",
-  "SIUnit": "watt",
+  "si_unit": "watt",
   "dimension": {"M": 1, "L": 2, "T": -3},
 
   "composites": ["Energy / Time"],
 
   "units": [
-    {"name": "watt", "symbol": "W", "scalePrefixes": "all"},
+    {"name": "watt", "symbol": "W", "scale_prefixes": "all"},
 
-    {"name": "horsepower", "symbol": "hp", "aliases": ["HP"], "baseUnit": "horsepower(mechanical)",
+    {"name": "horsepower", "symbol": "hp", "aliases": ["HP"], "base_unit": "horsepower(mechanical)",
       "attributes": [
-        {"name": "mechanical", "interval": "33000", "baseUnit": "Length.foot * Force.pound_force / Time.minute"},
-        {"name": "metric", "aliases": ["PS"], "interval": "75", "baseUnit": "Force.kilogram_force * Length.metre / Time.second"},
+        {"name": "mechanical", "interval": "33000", "base_unit": "Length.foot * Force.pound_force / Time.minute"},
+        {"name": "metric", "aliases": ["PS"], "interval": "75", "base_unit": "Force.kilogram_force * Length.metre / Time.second"},
         {"name": "electrical", "interval": "746"},
         {"name": "boiler", "interval": "9812.5"}
       ]
     },
 
-    {"name": "lusec", "baseUnit":"Volume.litre * Pressure.micrometre_of_mercury / Time.second"},
-    {"name": "poncelet", "symbol": "p", "interval": "100", "baseUnit": "Length.metre * Force.kilogram_force / Time.second"},
+    {"name": "lusec", "base_unit":"Volume.litre * Pressure.micrometre_of_mercury / Time.second"},
+    {"name": "poncelet", "symbol": "p", "interval": "100", "base_unit": "Length.metre * Force.kilogram_force / Time.second"},
     {"name": "square foot equivalent direct radiation", "symbol": "sq_ft_EDR",
-      "interval":"240", "baseUnit": "Energy.british_thermal_unit(IT) / Time.hour"}
+      "interval":"240", "base_unit": "Energy.british_thermal_unit(IT) / Time.hour"}
   ]
 }

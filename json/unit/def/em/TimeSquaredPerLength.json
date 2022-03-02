@@ -1,6 +1,6 @@
 {
   "description": "This unit is defined for inductance in ESU and Gaussian unit systems",
-  "SIUnit": "TimeSquared / Length",
+  "si_unit": "TimeSquared / Length",
   "dimension": {"L": -1, "T": 2},
 
   "composites": ["TimeSquared / Length"],

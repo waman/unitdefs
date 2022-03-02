@@ -1,12 +1,12 @@
 {
-  "SIUnit": "weber",
+  "si_unit": "weber",
   "dimension": {"M": 1, "L": 2, "T": -2, "I": -1},
 
   "composites": ["Voltage * Time"],
 
   "units": [
-    {"name": "weber"  , "symbol": "Wb", "scalePrefixes": "all"},
-    {"name": "maxwell", "symbol": "Mx", "interval": "1e-8", "scalePrefixes": "all"},
+    {"name": "weber"  , "symbol": "Wb", "scale_prefixes": "all"},
+    {"name": "maxwell", "symbol": "Mx", "interval": "1e-8", "scale_prefixes": "all"},
     {"name": "statweber", "symbol": "statWb", "interval": "Constants.speed_of_light * 1e-6"}
   ]
 }

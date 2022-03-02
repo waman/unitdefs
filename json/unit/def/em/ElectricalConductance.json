@@ -1,5 +1,5 @@
 {
-  "SIUnit": "siemens",
+  "si_unit": "siemens",
   "dimension": {"M": -1, "L": -2, "T": 3, "I": 2},
 
   "composites": ["ElectricCurrent / Voltage"],
@@ -9,6 +9,6 @@
   ],
 
   "units":[
-    {"name": "siemens", "symbol": "S", "aliases": ["mho", "℧"], "scalePrefixes": "all"}
+    {"name": "siemens", "symbol": "S", "aliases": ["mho", "℧"], "scale_prefixes": "all"}
   ]
 }

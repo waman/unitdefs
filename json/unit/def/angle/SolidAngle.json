@@ -1,10 +1,10 @@
 {
-  "SIUnit": "steradian",
+  "si_unit": "steradian",
   "dimension": {},
 
   "units": [
-    {"name": "steradian", "symbol": "sr", "scalePrefixes": "smaller"},
-    {"name": "spat", "interval": "4 * Constants.Pi", "baseUnit": "steradian"},
-    {"name": "square degree", "symbol": "deg²", "aliases": ["deg2"], "baseUnit": "Angle.degree * Angle.degree"}
+    {"name": "steradian", "symbol": "sr", "scale_prefixes": "smaller"},
+    {"name": "spat", "interval": "4 * Constants.Pi", "base_unit": "steradian"},
+    {"name": "square degree", "symbol": "deg²", "aliases": ["deg2"], "base_unit": "Angle.degree * Angle.degree"}
   ]
 }

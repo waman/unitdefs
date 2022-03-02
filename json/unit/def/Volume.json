@@ -1,133 +1,133 @@
 {
-  "SIUnit": "Area * Length",
+  "si_unit": "Area * Length",
   "dimension": {"L":3},
 
   "composites": ["Area * Length"],
 
   "units": [
     {"name": "cubic metre", "symbol": "m³", "aliases": ["m3"],
-      "baseUnit": "Length.metre^3", "scalePrefixes": "all"},
+      "base_unit": "Length.metre^3", "scale_prefixes": "all"},
 
-    {"name": "litre", "symbol": "L", "interval": "1e-3", "scalePrefixes": "all"},
+    {"name": "litre", "symbol": "L", "interval": "1e-3", "scale_prefixes": "all"},
 
     {"name": "lambda", "symbol": "λ", "interval": "1e-9"},
 
-    {"name": "cubic inch", "symbol": "in³", "aliases": ["in3", "cu_in"], "baseUnit": "Length.inch^3"},
-    {"name": "cubic foot", "symbol": "ft³", "aliases": ["ft3", "cu_ft"], "baseUnit": "Length.foot^3"},
-    {"name": "cubic yard", "symbol": "yd³", "aliases": ["yd3", "cu_yd"], "baseUnit": "Length.yard^3"},
-    {"name": "cubic fathom", "symbol": "ftm³", "aliases": ["ftm3", "cu_fm"], "baseUnit": "Length.fathom^3"},
-    {"name": "cubic mile", "symbol": "mi³", "aliases": ["mi3", "cu_mi"], "baseUnit": "Length.mile^3"},
-    {"name": "acre foot", "symbol": "acre_ft", "baseUnit": "Area.acre * Length.foot"},
+    {"name": "cubic inch", "symbol": "in³", "aliases": ["in3", "cu_in"], "base_unit": "Length.inch^3"},
+    {"name": "cubic foot", "symbol": "ft³", "aliases": ["ft3", "cu_ft"], "base_unit": "Length.foot^3"},
+    {"name": "cubic yard", "symbol": "yd³", "aliases": ["yd3", "cu_yd"], "base_unit": "Length.yard^3"},
+    {"name": "cubic fathom", "symbol": "ftm³", "aliases": ["ftm3", "cu_fm"], "base_unit": "Length.fathom^3"},
+    {"name": "cubic mile", "symbol": "mi³", "aliases": ["mi3", "cu_mi"], "base_unit": "Length.mile^3"},
+    {"name": "acre foot", "symbol": "acre_ft", "base_unit": "Area.acre * Length.foot"},
 
-    {"name": "board foot", "symbol": "fbm", "interval": "144", "baseUnit": "cubic_inch"},
-    {"name": "gallon_beer", "symbol": "beer_gal", "interval": "282", "baseUnit": "cubic_inch"},
-    {"name": "perch", "symbol": "per", "interval": "33/2 * 3/2", "baseUnit": "cubic_foot"},
+    {"name": "board foot", "symbol": "fbm", "interval": "144", "base_unit": "cubic_inch"},
+    {"name": "gallon_beer", "symbol": "beer_gal", "interval": "282", "base_unit": "cubic_inch"},
+    {"name": "perch", "symbol": "per", "interval": "33/2 * 3/2", "base_unit": "cubic_foot"},
 
-    {"name": "minim", "aliases": ["(min)"], "baseUnit": "minim(US)",
+    {"name": "minim", "aliases": ["(min)"], "base_unit": "minim(US)",
       "attributes": [
-        {"name": "US", "interval": "1/480", "baseUnit": "fluid_ounce(US)"},
-        {"name": "imp", "interval": "1/480", "baseUnit": "fluid_ounce(imp)"}
+        {"name": "US", "interval": "1/480", "base_unit": "fluid_ounce(US)"},
+        {"name": "imp", "interval": "1/480", "base_unit": "fluid_ounce(imp)"}
       ]
     },
 
-    {"name": "teaspoon", "symbol": "tsp", "interval": "80", "baseUnit": "minim"},
-    {"name": "tablespoon", "symbol": "Tbsp", "interval": "3", "baseUnit": "teaspoon"},
+    {"name": "teaspoon", "symbol": "tsp", "interval": "80", "base_unit": "minim"},
+    {"name": "tablespoon", "symbol": "Tbsp", "interval": "3", "base_unit": "teaspoon"},
 
     {"name": "fluid ounce", "symbol": "fl_oz",
       "attributes": [
-        {"name": "US", "aliases": ["US_fl_oz"], "interval": "1/128", "baseUnit": "gallon(US_fl)"},
-        {"name": "imp", "interval": "1/160", "baseUnit": "gallon(imp)"}
+        {"name": "US", "aliases": ["US_fl_oz"], "interval": "1/128", "base_unit": "gallon(US_fl)"},
+        {"name": "imp", "interval": "1/160", "base_unit": "gallon(imp)"}
       ]
     },
 
-    {"name": "shot", "symbol": "jig", "interval": "3", "baseUnit": "tablespoon"},
+    {"name": "shot", "symbol": "jig", "interval": "3", "base_unit": "tablespoon"},
 
     {"name": "gill", "symbol": "gi",
       "attributes": [
-        {"name": "US", "interval": "4", "baseUnit": "fluid_ounce(US)"},
-        {"name": "imp", "aliases": ["nog"], "interval": "5", "baseUnit": "fluid_ounce(imp)"}
+        {"name": "US", "interval": "4", "base_unit": "fluid_ounce(US)"},
+        {"name": "imp", "aliases": ["nog"], "interval": "5", "base_unit": "fluid_ounce(imp)"}
       ]
     },
 
     {"name": "cup", "symbol": "cp",
       "attributes": [
         {"name": "metric", "interval": "250e-6"},
-        {"name": "US", "interval": "2", "baseUnit": "gill(US)"}
+        {"name": "US", "interval": "2", "base_unit": "gill(US)"}
       ]
     },
 
     {"name": "pint", "symbol": "pt",
       "attributes": [
-        {"name": "US_fl", "interval": "1/8", "baseUnit": "gallon(US_fl)"},
-        {"name": "US_dry", "interval": "1/8", "baseUnit": "gallon(US_dry)"},
-        {"name": "imp", "interval": "1/8", "baseUnit": "gallon(imp)"}
+        {"name": "US_fl", "interval": "1/8", "base_unit": "gallon(US_fl)"},
+        {"name": "US_dry", "interval": "1/8", "base_unit": "gallon(US_dry)"},
+        {"name": "imp", "interval": "1/8", "base_unit": "gallon(imp)"}
       ]
     },
 
     {"name": "quart", "symbol": "qt",
       "attributes": [
-        {"name": "US_fl", "interval": "1/4", "baseUnit": "gallon(US_fl)"},
-        {"name": "US_dry", "interval": "1/4", "baseUnit": "gallon(US_dry)"},
-        {"name": "imp", "interval": "1/4", "baseUnit": "gallon(imp)"}
+        {"name": "US_fl", "interval": "1/4", "base_unit": "gallon(US_fl)"},
+        {"name": "US_dry", "interval": "1/4", "base_unit": "gallon(US_dry)"},
+        {"name": "imp", "interval": "1/4", "base_unit": "gallon(imp)"}
       ]
     },
 
     {"name": "pottle", "symbol": "pot",
       "attributes": [
-        {"name": "US", "interval": "1/2", "baseUnit": "gallon(US_fl)"},
-        {"name": "imp", "interval": "1/2", "baseUnit": "gallon(imp)"}
+        {"name": "US", "interval": "1/2", "base_unit": "gallon(US_fl)"},
+        {"name": "imp", "interval": "1/2", "base_unit": "gallon(imp)"}
       ]
     },
 
-    {"name": "gallon", "symbol": "gal", "baseUnit": "gallon(US_fl)",
+    {"name": "gallon", "symbol": "gal", "base_unit": "gallon(US_fl)",
       "attributes": [
-        {"name": "US", "baseUnit": "gallon(US_fl)"},
-        {"name": "US_fl", "aliases": ["US_gal"], "interval": "231", "baseUnit": "cubic_inch"},
-        {"name": "US_dry", "interval": "1/8", "baseUnit": "bushel(US_lvl)"},
-        {"name": "imp", "aliases": ["imp_gal"], "interval": "4.54609", "baseUnit": "litre"}
+        {"name": "US", "base_unit": "gallon(US_fl)"},
+        {"name": "US_fl", "aliases": ["US_gal"], "interval": "231", "base_unit": "cubic_inch"},
+        {"name": "US_dry", "interval": "1/8", "base_unit": "bushel(US_lvl)"},
+        {"name": "imp", "aliases": ["imp_gal"], "interval": "4.54609", "base_unit": "litre"}
       ]
     },
 
-    {"name": "peck", "symbol": "pk", "baseUnit": "peck(US_dry)",
+    {"name": "peck", "symbol": "pk", "base_unit": "peck(US_dry)",
       "attributes": [
-        {"name": "US_dry", "interval": "1/4", "baseUnit": "bushel(US_lvl)"},
-        {"name": "imp", "interval": "2", "baseUnit": "gallon(imp)"}
+        {"name": "US_dry", "interval": "1/4", "base_unit": "bushel(US_lvl)"},
+        {"name": "imp", "interval": "2", "base_unit": "gallon(imp)"}
       ]
     },
 
-    {"name": "bushel", "symbol": "bu", "aliases": ["bsh"], "baseUnit": "bushel(US_lvl)",
+    {"name": "bushel", "symbol": "bu", "aliases": ["bsh"], "base_unit": "bushel(US_lvl)",
       "attributes": [
-        {"name": "US", "interval": "5/4", "baseUnit": "bushel(US_lvl)"},
-        {"name": "US_lvl", "interval": "2150.42", "baseUnit": "cubic_inch"},
-        {"name": "imp", "interval": "8", "baseUnit": "gallon(imp)"}
+        {"name": "US", "interval": "5/4", "base_unit": "bushel(US_lvl)"},
+        {"name": "US_lvl", "interval": "2150.42", "base_unit": "cubic_inch"},
+        {"name": "imp", "interval": "8", "base_unit": "gallon(imp)"}
       ]
     },
 
-    {"name": "barrel", "symbol": "bbl", "aliases": ["bl"], "interval": "42", "baseUnit": "gallon(US_fl)", "description": "oil barrel",
+    {"name": "barrel", "symbol": "bbl", "aliases": ["bl"], "interval": "42", "base_unit": "gallon(US_fl)", "description": "oil barrel",
       "attributes": [
-        {"name": "US_fl", "interval": "31.5", "baseUnit": "gallon(US_fl)"},
-        {"name": "US_dry", "interval": "105", "baseUnit": "quart(US_dry)"},
-        {"name": "imp", "interval": "36", "baseUnit": "gallon(imp)"}
+        {"name": "US_fl", "interval": "31.5", "base_unit": "gallon(US_fl)"},
+        {"name": "US_dry", "interval": "105", "base_unit": "quart(US_dry)"},
+        {"name": "imp", "interval": "36", "base_unit": "gallon(imp)"}
       ]
     },
-    {"name": "fluid barrel", "symbol": "fl_bl", "baseUnit": "barrel(US_fl)",
+    {"name": "fluid barrel", "symbol": "fl_bl", "base_unit": "barrel(US_fl)",
       "description": "This unit is equivalent to barrel(US_fl)."},
 
     {"name": "hogshead", "symbol": "hhd",
       "attributes": [
-        {"name": "US", "interval": "2", "baseUnit": "barrel(US_fl)"},
-        {"name": "imp", "interval": "2", "baseUnit": "barrel(imp)"}
+        {"name": "US", "interval": "2", "base_unit": "barrel(US_fl)"},
+        {"name": "imp", "interval": "2", "base_unit": "barrel(imp)"}
       ]
     },
     {"name": "fluid dram", "symbol": "fl_dr",
       "attributes": [
-        {"name": "US", "interval": "1/8", "baseUnit": "fluid_ounce(US)"},
-        {"name": "imp", "interval": "1/8", "baseUnit": "fluid_ounce(imp)"}
+        {"name": "US", "interval": "1/8", "base_unit": "fluid_ounce(US)"},
+        {"name": "imp", "interval": "1/8", "base_unit": "fluid_ounce(imp)"}
       ]
     },
 
 
-    {"name": "fluid scruple", "symbol": "fl_s", "interval": "1/24", "baseUnit": "fluid_ounce(imp)"},
-    {"name": "bucket", "symbol": "bkt", "interval": "4", "baseUnit": "gallon(imp)"}
+    {"name": "fluid scruple", "symbol": "fl_s", "interval": "1/24", "base_unit": "fluid_ounce(imp)"},
+    {"name": "bucket", "symbol": "bkt", "interval": "4", "base_unit": "gallon(imp)"}
   ]
 }

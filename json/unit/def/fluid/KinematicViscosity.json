@@ -1,10 +1,10 @@
 {
-  "SIUnit": "Area / Time",
+  "si_unit": "Area / Time",
   "dimension": {"L": 2, "T": -1},
 
   "composites": ["Area / Time"],
 
   "units": [
-    {"name": "stokes", "symbol": "St", "interval": "1e-4", "scalePrefixes": "all"}
+    {"name": "stokes", "symbol": "St", "interval": "1e-4", "scale_prefixes": "all"}
   ]
 }

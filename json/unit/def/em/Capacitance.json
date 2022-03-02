@@ -1,11 +1,11 @@
 {
-  "SIUnit":"farad",
+  "si_unit":"farad",
   "dimension": {"M": -1, "L": -2, "T": 4, "I": 2},
 
   "composites": ["ElectricCharge / Voltage"],
 
   "units": [
-    {"name":"farad", "symbol":"F", "scalePrefixes": "all"},
+    {"name":"farad", "symbol":"F", "scale_prefixes": "all"},
     {"name":"abfarad", "symbol":"abF", "interval": "1e9"},
     {"name": "statfarad", "symbol": "statF",
       "interval": "Constants.speed_of_light * Constants.speed_of_light * 1e-5",

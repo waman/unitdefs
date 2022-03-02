@@ -1,5 +1,5 @@
 {
-  "SIUnit": "heltz",
+  "si_unit": "heltz",
   "dimension": {"T": -1},
 
   "convertibles": [
@@ -7,6 +7,6 @@
   ],
 
   "units": [
-    {"name": "heltz", "symbol": "Hz", "scalePrefixes": "all"}
+    {"name": "heltz", "symbol": "Hz", "scale_prefixes": "all"}
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "SIUnit": "ElectricCurrent / Length",
+  "si_unit": "ElectricCurrent / Length",
   "dimension": {"L": -1, "I": 1},
 
   "composites": ["ElectricCurrent / Length", "Force / MagneticFlux"],

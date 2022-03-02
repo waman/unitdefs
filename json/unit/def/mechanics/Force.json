@@ -1,25 +1,25 @@
 {
-  "SIUnit": "newton",
+  "si_unit": "newton",
   "dimension": {"M": 1, "L": 1, "T": -2},
 
   "composites": ["Mass * Acceleration", "MassTorque / TimeSquared"],
 
   "units": [
-    {"name": "newton", "symbol": "N", "scalePrefixes": "all"},
-    {"name": "dyne", "symbol": "dyn", "interval": "1e-5", "scalePrefixes": "all"},
-    {"name": "kilogram force", "symbol": "kgf", "aliases": ["kp", "Gf"], "baseUnit": "Acceleration.standard_gravity", "notExact": true},
+    {"name": "newton", "symbol": "N", "scale_prefixes": "all"},
+    {"name": "dyne", "symbol": "dyn", "interval": "1e-5", "scale_prefixes": "all"},
+    {"name": "kilogram force", "symbol": "kgf", "aliases": ["kp", "Gf"], "base_unit": "Acceleration.standard_gravity", "notExact": true},
     {"name": "milligrave force", "symbol": "mGf", "aliases": ["gf"], "interval": "1e-3",
-      "baseUnit": "Acceleration.standard_gravity", "notExact": true},
+      "base_unit": "Acceleration.standard_gravity", "notExact": true},
     {"name": "atomic unit of force", "interval": "8.23872206e-8", "notExact": true},
 
-    {"name": "ounce force", "symbol": "ozf", "baseUnit": "Mass.ounce * Acceleration.standard_gravity"},
-    {"name": "pound force", "symbol": "lbf", "baseUnit": "Mass.pound * Acceleration.standard_gravity"},
-    {"name": "poundal", "symbol": "pdl", "baseUnit": "Mass.pound * Length.foot"},
+    {"name": "ounce force", "symbol": "ozf", "base_unit": "Mass.ounce * Acceleration.standard_gravity"},
+    {"name": "pound force", "symbol": "lbf", "base_unit": "Mass.pound * Acceleration.standard_gravity"},
+    {"name": "poundal", "symbol": "pdl", "base_unit": "Mass.pound * Length.foot"},
     {"name": "kip force", "symbol": "kipf", "aliases": ["klbf"], "interval": "1000",
-      "baseUnit": "Mass.pound * Acceleration.standard_gravity"},
-    {"name": "short ton force", "symbol": "sh_tnf", "baseUnit": "Mass.short_ton * Acceleration.standard_gravity"},
+      "base_unit": "Mass.pound * Acceleration.standard_gravity"},
+    {"name": "short ton force", "symbol": "sh_tnf", "base_unit": "Mass.short_ton * Acceleration.standard_gravity"},
     {"name": "long ton force", "symbol": "tnf", "aliases": ["long_tnf"],
-      "baseUnit": "Mass.long_ton * Acceleration.standard_gravity"},
+      "base_unit": "Mass.long_ton * Acceleration.standard_gravity"},
     {"name": "sthene", "symbol": "sn", "interval": "1e3"}
   ]
 }

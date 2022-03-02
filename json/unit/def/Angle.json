@@ -1,20 +1,20 @@
 {
-  "SIUnit": "radian",
+  "si_unit": "radian",
   "dimension": {},
   
   "units": [
     {"name": "radian", "symbol": "rad"},
 
     {"name": "degree", "symbol": "°", "aliases": ["deg"], "interval": "2 * Constants.Pi / 360"},
-    {"name": "arcmin", "aliases": ["MOA"], "interval": "1/60", "baseUnit": "degree"},
-    {"name": "arcsec", "aliases": ["as"], "interval": "1/60", "baseUnit": "arcmin"},
+    {"name": "arcmin", "aliases": ["MOA"], "interval": "1/60", "base_unit": "degree"},
+    {"name": "arcsec", "aliases": ["as"], "interval": "1/60", "base_unit": "arcmin"},
     
     {"name": "gradian", "symbol": "ᵍ", "aliases": ["grad", "gon"], "interval": "2 * Constants.Pi / 400"},
     {"name": "turn", "symbol": "tr", "interval": "2 * Constants.Pi"},
 
-    {"name": "sign", "interval": "30", "baseUnit": "degree"},
-    {"name": "octant", "interval": "45", "baseUnit": "degree"},
-    {"name": "sextant", "interval": "60", "baseUnit": "degree"},
-    {"name": "quadrant", "interval": "90", "baseUnit": "degree"}
+    {"name": "sign", "interval": "30", "base_unit": "degree"},
+    {"name": "octant", "interval": "45", "base_unit": "degree"},
+    {"name": "sextant", "interval": "60", "base_unit": "degree"},
+    {"name": "quadrant", "interval": "90", "base_unit": "degree"}
   ]
 }

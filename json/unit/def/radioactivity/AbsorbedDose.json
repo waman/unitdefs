@@ -1,12 +1,12 @@
 {
-  "SIUnit": "gray",
+  "si_unit": "gray",
   "dimension": {"L": 2, "T": -2},
 
   "composites": ["Energy / Mass"],
 
   "units": [
-    {"name": "gray", "symbol": "Gy", "scalePrefixes": "all"},
-    {"name": "rad", "interval": "1e-2", "scalePrefixes": "all"}
+    {"name": "gray", "symbol": "Gy", "scale_prefixes": "all"},
+    {"name": "rad", "interval": "1e-2", "scale_prefixes": "all"}
   ]
 
 }

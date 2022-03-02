@@ -1,5 +1,5 @@
 {
-  "SIUnit": "ElectricCharge / Mass",
+  "si_unit": "ElectricCharge / Mass",
   "dimension": {"M": -1, "T": 1, "I": 1},
 
   "composites": ["ElectricCharge / Mass"],

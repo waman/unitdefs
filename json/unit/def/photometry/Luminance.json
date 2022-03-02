@@ -1,5 +1,5 @@
 {
-  "SIUnit": "LuminousIntensity / Area",
+  "si_unit": "LuminousIntensity / Area",
   "dimension": {"L": -2, "J": 1},
 
   "composites": ["LuminousIntensity / Area"],
@@ -11,6 +11,6 @@
     {"name": "skot", "symbol": "sk", "interval": "1e-3 / Constants.Pi"},
     {"name": "bril", "interval": "1e-7 / Constants.Pi"},
     {"name": "foot lambert", "symbol": "fLb", "interval": "1 / Constants.Pi",
-      "baseUnit": "LuminousIntensity.candela / Area.square_foot"}
+      "base_unit": "LuminousIntensity.candela / Area.square_foot"}
   ]
 }

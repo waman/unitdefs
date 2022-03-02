@@ -1,11 +1,11 @@
 {
-  "SIUnit": "Time * Time",
+  "si_unit": "Time * Time",
   "dimension": {"T": 2},
 
   "composites": ["Time * Time"],
 
   "units": [
     {"name": "second squared", "symbol": "s²", "aliases": ["s2", "sec²", "sec2"],
-      "baseUnit": "Time.second^2", "scalePrefixes": "smaller"}
+      "base_unit": "Time.second^2", "scale_prefixes": "smaller"}
   ]
 }

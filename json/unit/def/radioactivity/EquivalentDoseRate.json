@@ -1,5 +1,5 @@
 {
-  "SIUnit": "EquivalentDose / Time",
+  "si_unit": "EquivalentDose / Time",
   "dimension": {"L": 2, "T": -3},
 
   "composites": ["EquivalentDose / Time"]

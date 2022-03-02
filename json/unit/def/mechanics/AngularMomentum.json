@@ -1,6 +1,6 @@
 {
   "description": "This can be used as a unit of action.",
-  "SIUnit": "Energy * Time",
+  "si_unit": "Energy * Time",
   "dimension": {"M": 1, "L": 2, "T": -1},
 
   "composites": ["Energy * Time"],

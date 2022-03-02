@@ -1,5 +1,5 @@
 {
-  "SIUnit": "Mass * Length",
+  "si_unit": "Mass * Length",
   "dimension": {"M": 1, "L": 1},
 
   "composites": ["Mass * Length"]

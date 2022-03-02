@@ -1,5 +1,5 @@
 {
-  "SIUnit": "ohm",
+  "si_unit": "ohm",
   "dimension": {"M": 1, "L": 2, "T": -3, "I": -2},
 
   "composites": ["Voltage / ElectricCurrent"],
@@ -9,7 +9,7 @@
   ],
 
   "units":[
-    {"name": "ohm", "symbol": "Ω", "aliases": ["ohm"], "scalePrefixes": "all"},
+    {"name": "ohm", "symbol": "Ω", "aliases": ["ohm"], "scale_prefixes": "all"},
     {"name": "abohm", "symbol": "abΩ", "aliases": ["abohm"], "interval": "1e-9"},
     {"name": "statohm", "symbol": "statΩ", "aliases": ["statohm"],
       "interval": "Constants.speed_of_light * Constants.speed_of_light * 1e-5",

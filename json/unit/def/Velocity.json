@@ -1,5 +1,5 @@
 {
-  "SIUnit": "Length / Time",
+  "si_unit": "Length / Time",
   "dimension": {"L":1, "T": -1},
 
   "composites": ["Length / Time"],
@@ -8,7 +8,7 @@
     {"name": "speed of light", "symbol": "c", "interval": "Constants.speed_of_light"},
     {"name": "mach number", "symbol": "M", "interval": "340", "notExact": true},
 
-    {"name": "knot", "symbol": "kn", "aliases": ["kt"], "baseUnit": "Length.nautical_mile / Time.hour"},
-    {"name": "kine", "baseUnit": "Length.centimetre / Time.second"}
+    {"name": "knot", "symbol": "kn", "aliases": ["kt"], "base_unit": "Length.nautical_mile / Time.hour"},
+    {"name": "kine", "base_unit": "Length.centimetre / Time.second"}
   ]
 }

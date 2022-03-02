@@ -1,11 +1,11 @@
 {
-  "SIUnit": "henry",
+  "si_unit": "henry",
   "dimension": {"M": 1, "L": 2, "T": -2, "I": -2},
 
   "composites": ["MagneticFlux / ElectricCurrent"],
 
   "units": [
-    {"name": "henry", "symbol": "H", "scalePrefixes": "all"},
+    {"name": "henry", "symbol": "H", "scale_prefixes": "all"},
     {"name": "abhenry", "symbol": "abH", "interval": "1e-9"},
     {"name": "stathenry", "symbol": "statH",
       "interval": "Constants.speed_of_light * Constants.speed_of_light * 1e-5",

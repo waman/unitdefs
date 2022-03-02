@@ -1,8 +1,8 @@
 {
-  "SIUnit":"lumen",
+  "si_unit":"lumen",
   "dimension": {"J": 1},
 
   "units": [
-    {"name":"lumen", "symbol":"lm", "scalePrefixes": "all"}
+    {"name":"lumen", "symbol":"lm", "scale_prefixes": "all"}
   ]
 }

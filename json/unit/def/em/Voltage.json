@@ -1,11 +1,11 @@
 {
-  "SIUnit": "volt",
+  "si_unit": "volt",
   "dimension": {"M": 1, "L": 2, "T": -3, "I": -1},
 
   "composites": ["Power / ElectricCurrent"],
 
   "units": [
-    {"name": "volt", "symbol": "V", "scalePrefixes": "all"},
+    {"name": "volt", "symbol": "V", "scale_prefixes": "all"},
     {"name": "abvolt", "symbol": "abV", "interval": "1e-8"},
     {"name": "statvolt", "symbol": "statV", "interval": "Constants.speed_of_light * 1e-6"}
   ]

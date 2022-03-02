@@ -1,5 +1,5 @@
 {
-  "SIUnit": "kelvin",
+  "si_unit": "kelvin",
   "dimension": {"Θ": 1},
 
   "convertibles": [
@@ -8,6 +8,6 @@
   ],
   
   "units": [
-    {"name": "kelvin", "symbol": "K", "scalePrefixes": "all"}
+    {"name": "kelvin", "symbol": "K", "scale_prefixes": "all"}
   ]
 }

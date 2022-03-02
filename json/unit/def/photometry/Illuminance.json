@@ -1,12 +1,12 @@
 {
-  "SIUnit": "lux",
+  "si_unit": "lux",
   "dimension": {"L": -2, "J": 1},
 
   "composites": ["LuminousFlux / Area"],
 
   "units": [
-    {"name": "lux", "symbol": "lx", "scalePrefixes": "all"},
+    {"name": "lux", "symbol": "lx", "scale_prefixes": "all"},
     {"name": "phot", "symbol": "ph", "interval": "1e4"},
-    {"name": "foot candle", "symbol": "fc", "interval": "1", "baseUnit": "LuminousIntensity.candela / Area.square_foot"}
+    {"name": "foot candle", "symbol": "fc", "interval": "1", "base_unit": "LuminousIntensity.candela / Area.square_foot"}
   ]
 }

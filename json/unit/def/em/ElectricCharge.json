@@ -1,11 +1,11 @@
 {
-  "SIUnit": "coulomb",
+  "si_unit": "coulomb",
   "dimension": {"T": 1, "I": 1},
 
   "composites": ["ElectricCurrent * Time"],
 
   "units": [
-    {"name": "coulomb", "symbol": "C", "scalePrefixes": "all"},
+    {"name": "coulomb", "symbol": "C", "scale_prefixes": "all"},
     {"name": "atomic unit of charge", "symbol": "au", "aliases":["e"], "interval": "Constants.elementary_charge"},
     {"name": "abcoulomb", "symbol": "abC", "aliases": ["emu"], "interval": "10"},
     {"name": "statcoulomb", "symbol": "statC", "aliases": ["Fr", "esu"], "interval": "0.1 / Constants.speed_of_light"},

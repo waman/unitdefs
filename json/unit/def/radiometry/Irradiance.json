@@ -1,5 +1,5 @@
 {
-  "SIUnit": "Power / Area",
+  "si_unit": "Power / Area",
   "dimension": {"M": 1, "T": -3},
 
   "composites": ["Power / Area"]

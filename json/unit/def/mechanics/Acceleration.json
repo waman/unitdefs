@@ -1,5 +1,5 @@
 {
-  "SIUnit": "Length / TimeSquared",
+  "si_unit": "Length / TimeSquared",
   "dimension":{"L": 1, "T": -2},
 
   "composites": ["Length / TimeSquared", "Velocity / Time"],

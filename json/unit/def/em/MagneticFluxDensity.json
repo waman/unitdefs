@@ -1,12 +1,12 @@
 {
-  "SIUnit": "tesla",
+  "si_unit": "tesla",
   "dimension": {"M": 1, "T": -2, "I": -1},
 
   "composites": ["MagneticFlux / Area"],
 
   "units": [
-    {"name": "tesla", "symbol": "T", "scalePrefixes": "all"},
-    {"name": "gauss", "symbol": "G", "aliases": ["Gs"], "interval": "1e-4", "scalePrefixes": "all"},
+    {"name": "tesla", "symbol": "T", "scale_prefixes": "all"},
+    {"name": "gauss", "symbol": "G", "aliases": ["Gs"], "interval": "1e-4", "scale_prefixes": "all"},
     {"name": "stattesla", "symbol": "statT", "interval": "Constants.speed_of_light * 1e-2"}
   ]
 }

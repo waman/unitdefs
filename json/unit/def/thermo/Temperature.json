@@ -1,5 +1,5 @@
 {
-  "SIUnit": "kelvin",
+  "si_unit": "kelvin",
   "dimension": {"Θ": 1},
 
   "convertibles": [
@@ -7,7 +7,7 @@
   ],
   
   "units": [
-    {"name": "kelvin", "symbol": "K", "scalePrefixes": "all"},
+    {"name": "kelvin", "symbol": "K", "scale_prefixes": "all"},
     {"name": "celsius", "symbol": "℃", "aliases": ["°C", "degC"], "zero": "273.15"},
     {"name": "fahrenheit", "symbol": "℉", "aliases": ["°F", "degF"], "zero": "273.15 - 5/9 * 32", "interval": "5/9"},
     {"name": "rankine", "symbol": "°R", "aliases": ["degR"], "interval": "5/9"},

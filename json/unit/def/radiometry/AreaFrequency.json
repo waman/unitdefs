@@ -1,5 +1,5 @@
 {
-  "SIUnit": "Area * Frequency",
+  "si_unit": "Area * Frequency",
   "dimension": {"L": 2, "T": -1},
 
   "composites": ["Area * Frequency"]

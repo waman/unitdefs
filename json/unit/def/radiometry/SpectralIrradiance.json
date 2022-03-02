@@ -1,6 +1,6 @@
 {
   "description": "This unit is, exactly speaking, spectral irradiance in frequency.",
-  "SIUnit": "Power / AreaFrequency",
+  "si_unit": "Power / AreaFrequency",
   "dimension": {"M": 1, "T": -2},
 
   "composites": ["Power / AreaFrequency", "Irradiance / Frequency"],

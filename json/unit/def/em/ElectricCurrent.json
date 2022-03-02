@@ -1,11 +1,11 @@
 {
-  "SIUnit": "ampere",
+  "si_unit": "ampere",
   "dimension": {"I": 1},
 
   "composites": ["ElectricCharge / Time"],
 
   "units": [
-    {"name": "ampere"  , "symbol": "A", "scalePrefixes": "all"},
+    {"name": "ampere"  , "symbol": "A", "scale_prefixes": "all"},
     {"name": "abampere", "symbol": "abA", "aliases": ["abamp", "Bi"], "interval": "10"},
     {"name": "statampere", "symbol": "statA", "interval": "0.1 / Constants.speed_of_light"}
   ]
