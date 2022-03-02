@@ -3,7 +3,7 @@
   "dimension": {"M":1},
 
   "convertibles": [
-    {"result": "Energy", "from": "kilogram", "to": "joule", "factor": "Constants.SpeedOfLight * Constants.SpeedOfLight"}
+    {"result": "Energy", "from": "kilogram", "to": "joule", "factor": "Constants.speed_of_light * Constants.speed_of_light"}
   ],
 
   "units": [
@@ -16,9 +16,9 @@
     {"name": "gamma", "symbol": "γ", "baseUnit": "microgram"},
     {"name": "quintal", "symbol": "q", "interval": "100", "baseUnit": "kilogram"},
 
-    {"name": "dalton", "symbol": "Da", "aliases": ["u", "AMU"], "interval": "Constants.AtomicMassUnit", "notExact":true,
+    {"name": "dalton", "symbol": "Da", "aliases": ["u", "AMU"], "interval": "Constants.atomic_mass_unit", "notExact":true,
       "description": "atomic mass unit"},
-    {"name": "electron mass", "symbol": "m_e", "interval": "Constants.ElectronMass", "notExact":true},
+    {"name": "electron mass", "symbol": "m_e", "interval": "Constants.electron_mass", "notExact":true},
 
     {"name": "grain", "symbol": "gr", "interval": "1/7000", "baseUnit": "pound"},
 

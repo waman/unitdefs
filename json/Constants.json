@@ -1,22 +1,22 @@
 [
   {"name": "Pi"},
 
-  {"name": "BohrRadius", "value": "5.2917721090380e-11"},
-  {"name": "SpeedOfLight", "value":"299792458"},
+  {"name": "Bohr radius", "value": "5.2917721090380e-11"},
+  {"name": "speed of light", "value":"299792458"},
 
-  {"name": "GravitationalConstant", "value": "6.6743015e-11"},
-  {"name": "ElectronMass", "value": "9.1093829140e-31"},
-  {"name": "AtomicMassUnit", "value": "1.6605390666050e-27"},
-  {"name": "RydbergConstant", "value": "10973731.56816021"},
-  {"name": "PlanckConstant", "value": "6.62607015e-34"},
-  {"name": "ReducedPlanckConstant"},
+  {"name": "gravitational constant", "value": "6.6743015e-11"},
+  {"name": "electron mass", "value": "9.1093829140e-31"},
+  {"name": "atomic mass unit", "value": "1.6605390666050e-27"},
+  {"name": "Rydberg constant", "value": "10973731.56816021"},
+  {"name": "Planck constant", "value": "6.62607015e-34"},
+  {"name": "reduced Planck constant"},
 
-  {"name": "ElementaryCharge", "value": "1.602176634e-19"},
-  {"name": "CoulombConstant", "value": "8.987551792314e9"},
-  {"name": "BohrMagneton", "value": "9.27400999457e-24"},
-  {"name": "VacuumPermittivity", "value": "8.854187812813e-12"},
-  {"name": "FineStructureConstant", "value": "0.007297352569311"},
+  {"name": "elementary charge", "value": "1.602176634e-19"},
+  {"name": "Coulomb constant", "value": "8.987551792314e9"},
+  {"name": "Bohr magneton", "value": "9.27400999457e-24"},
+  {"name": "vacuum permittivity", "value": "8.854187812813e-12"},
+  {"name": "fine structure constant", "value": "0.007297352569311"},
 
-  {"name": "BoltzmannConstant", "value": "1.380649e-23"},
-  {"name": "AvogadroConstant", "value": "6.02214076e23"}
+  {"name": "Boltzmann constant", "value": "1.380649e-23"},
+  {"name": "Avogadro constant", "value": "6.02214076e23"}
 ]

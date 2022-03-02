@@ -5,7 +5,7 @@
   "composites": ["Energy / AbsoluteTemperature"],
 
   "units": [
-    {"name": "nat", "aliases": ["k_B"], "interval": "Constants.BoltzmannConstant"},
+    {"name": "nat", "aliases": ["k_B"], "interval": "Constants.Boltzmann_constant"},
     {"name": "bit", "aliases": ["Sh"], "interval": "log(2)", "baseUnit": "nat"},
     {"name": "ban", "aliases": ["Hart"], "interval": "log(10)", "baseUnit": "nat"},
 

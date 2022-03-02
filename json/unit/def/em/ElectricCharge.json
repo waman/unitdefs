@@ -6,9 +6,9 @@
 
   "units": [
     {"name": "coulomb", "symbol": "C", "scalePrefixes": "all"},
-    {"name": "atomic unit of charge", "symbol": "au", "aliases":["e"], "interval": "Constants.ElementaryCharge"},
+    {"name": "atomic unit of charge", "symbol": "au", "aliases":["e"], "interval": "Constants.elementary_charge"},
     {"name": "abcoulomb", "symbol": "abC", "aliases": ["emu"], "interval": "10"},
-    {"name": "statcoulomb", "symbol": "statC", "aliases": ["Fr", "esu"], "interval": "0.1 / Constants.SpeedOfLight"},
-    {"name": "faraday", "symbol": "F", "interval": "Constants.AvogadroConstant * Constants.ElementaryCharge"}
+    {"name": "statcoulomb", "symbol": "statC", "aliases": ["Fr", "esu"], "interval": "0.1 / Constants.speed_of_light"},
+    {"name": "faraday", "symbol": "F", "interval": "Constants.Avogadro_constant * Constants.elementary_charge"}
   ]
 }

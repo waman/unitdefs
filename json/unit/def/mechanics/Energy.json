@@ -5,15 +5,15 @@
   "composites": ["Force * Length", "Length * Force", "Power * Time", "Volume * Pressure"],
 
   "convertibles": [
-    {"result": "AbsoluteTemperature", "from": "joule", "to": "kelvin", "factor": "1 / Constants.BoltzmannConstant"},
-    {"result": "Mass", "from": "joule", "to": "kilogram", "factor": "1 / (Constants.SpeedOfLight * Constants.SpeedOfLight)"}
+    {"result": "AbsoluteTemperature", "from": "joule", "to": "kelvin", "factor": "1 / Constants.Boltzmann_constant"},
+    {"result": "Mass", "from": "joule", "to": "kilogram", "factor": "1 / (Constants.speed_of_light * Constants.speed_of_light)"}
   ],
 
   "units": [
     {"name": "joule", "symbol": "J", "scalePrefixes": "all"},
     {"name": "erg", "interval": "1e-7"},
-    {"name": "electronvolt", "symbol": "eV", "interval": "Constants.ElementaryCharge", "scalePrefixes": "all", "notExact": true},
-    {"name": "rydberg", "symbol": "Ry", "interval": "Constants.RydbergConstant * Constants.PlanckConstant * Constants.SpeedOfLight", "notExact": true},
+    {"name": "electronvolt", "symbol": "eV", "interval": "Constants.elementary_charge", "scalePrefixes": "all", "notExact": true},
+    {"name": "rydberg", "symbol": "Ry", "interval": "Constants.Rydberg_constant * Constants.Planck_constant * Constants.speed_of_light", "notExact": true},
     {"name": "atomic unit of energy", "symbol": "E_h", "interval": "2", "baseUnit": "rydberg", "notExact": true},
 
     {"name": "watt hour", "symbol": "Wh", "baseUnit": "Power.watt * Time.hour"},

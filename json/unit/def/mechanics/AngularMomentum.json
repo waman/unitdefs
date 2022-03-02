@@ -6,8 +6,8 @@
   "composites": ["Energy * Time"],
 
   "units": [
-    {"name": "planck constant", "symbol": "h", "interval": "Constants.PlanckConstant"},
+    {"name": "planck constant", "symbol": "h", "interval": "Constants.Planck_constant"},
     {"name": "reduced planck constant", "symbol": "ħ", "aliases": ["hbar", "atomic_unit_of_action"],
-      "interval": "Constants.PlanckConstant / 2.0 / Constants.Pi"}
+      "interval": "Constants.Planck_constant / 2.0 / Constants.Pi"}
   ]
 }

@@ -8,7 +8,7 @@
     {"name":"farad", "symbol":"F", "scalePrefixes": "all"},
     {"name":"abfarad", "symbol":"abF", "interval": "1e9"},
     {"name": "statfarad", "symbol": "statF",
-      "interval": "Constants.SpeedOfLight * Constants.SpeedOfLight * 1e-5",
+      "interval": "Constants.speed_of_light * Constants.speed_of_light * 1e-5",
       "description": "Formal unit for Gaussian and ESU CGS unit system."}
   ]
 }

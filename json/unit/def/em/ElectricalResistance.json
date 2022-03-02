@@ -12,7 +12,7 @@
     {"name": "ohm", "symbol": "Ω", "aliases": ["ohm"], "scalePrefixes": "all"},
     {"name": "abohm", "symbol": "abΩ", "aliases": ["abohm"], "interval": "1e-9"},
     {"name": "statohm", "symbol": "statΩ", "aliases": ["statohm"],
-      "interval": "Constants.SpeedOfLight * Constants.SpeedOfLight * 1e-5",
+      "interval": "Constants.speed_of_light * Constants.speed_of_light * 1e-5",
       "description": "Formal unit for Gaussian and ESU CGS unit system."}
   ]
 }

@@ -5,7 +5,7 @@
   "composites": ["Length / Time"],
 
   "units": [
-    {"name": "speed of light", "symbol": "c", "interval": "Constants.SpeedOfLight"},
+    {"name": "speed of light", "symbol": "c", "interval": "Constants.speed_of_light"},
     {"name": "mach number", "symbol": "M", "interval": "340", "notExact": true},
 
     {"name": "knot", "symbol": "kn", "aliases": ["kt"], "baseUnit": "Length.nautical_mile / Time.hour"},
