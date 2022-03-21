@@ -22,7 +22,7 @@ function simplifyUnitdef(unitdef){
 function simplifyUnit(u){
     if(u.symbol === undefined) u.symbol = u.name.replace(/\s/ig, '_');
     
-    // remove optional aliases (parenthesised aliase like { ... "aliases": ["(min)"] ...})
+    // remove optional aliases (parenthesised alias like { ... "aliases": ["(min)"] ...})
     if(u.aliases && u.aliases.filter(a => a.startsWith('('))){
         const as = u.aliases.filter(a => !a.startsWith('('));
         if(as.length > 0){
@@ -203,8 +203,8 @@ function constructUse(unitdefs){
 
         //*** types in SIUnit */
         ['*', '/'].forEach(sep => {
-            if(json.SIUnit.includes(sep)){
-                json.SIUnit.split(sep).forEach(s => typeSet.add(s.trim()));
+            if(json.si_unit.includes(sep)){
+                json.si_unit.split(sep).forEach(s => typeSet.add(s.trim()));
             }
         });
 

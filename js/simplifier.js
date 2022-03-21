@@ -15,18 +15,18 @@ const simpleResources = ['Properties.json', 'Constants.json', 'ScalePrefixes.jso
 simpleResources.forEach(rsrc => copyResource(rsrc));
 
 // json/unit/def
-const unitdefsSimplifier = require('./unitdefsSimplifier.js');
+const unitdefsSimplifier = require('./unit_def_simplifier.js');
 const unitdefs = readUnitdefs(src);
 
 const simplifiedUnitdefs = unitdefsSimplifier.simplify(unitdefs);
 writeUnitdefs(dest, simplifiedUnitdefs);
 
 // json/unit/custom
-const unitCustomsSimplifier = require('./unitCustomsSimplifier.js');
+const unitCustomsSimplifier = require('./unit_custom_simplifier.js');
 unitCustomsSimplifier.simplify(src, dest, simplifiedUnitdefs);
 
 // json/unitsystem
-const unitsystemSimplifier = require('./unitsystemSimplifier.js');
+const unitsystemSimplifier = require('./unitsystem_simplifier.js');
 unitsystemSimplifier.simplify(src, dest, simplifiedUnitdefs);
 
 
