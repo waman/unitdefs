@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const util = require('./util.js');
-const checker = require('./consistencyChecker.js');
+const checker = require('./consistency_checker.js');
 
 exports.simplify = function(src, dest, unitdefs){
     const unitsystemSrc = path.join(src, 'unitsystem');

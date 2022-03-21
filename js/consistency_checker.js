@@ -12,7 +12,6 @@ exports.checkUnitSystem = function(unitsystem, unitdefs){  // unitsystem: {'id':
             checkNecessaryEntriesExist(unitsystem, unitdefs, "electromagnetic", isNecessaryElectromagneticUnit)
             break;
     }
-
 }
   
 function checkNecessaryEntriesExist(unitsystem, unitdefs, unitKind, cond){
