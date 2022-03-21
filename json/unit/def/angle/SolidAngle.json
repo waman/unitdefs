@@ -4,7 +4,7 @@
 
   "units": [
     {"name": "steradian", "symbol": "sr", "scale_prefixes": "smaller"},
-    {"name": "spat", "interval": "4 * Constants.Pi", "base_unit": "steradian"},
+    {"name": "spat", "interval": "4 * Constants.pi", "base_unit": "steradian"},
     {"name": "square degree", "symbol": "deg²", "aliases": ["deg2"], "base_unit": "Angle.degree * Angle.degree"}
   ]
 }

@@ -5,11 +5,11 @@
   "composites": ["Angle / Time"],
 
   "convertibles": [
-    {"result": "Frequency", "from": "Angle.radian / Time.second", "to": "heltz", "factor": "1 / (2 * Constants.Pi)"}
+    {"result": "Frequency", "from": "Angle.radian / Time.second", "to": "heltz", "factor": "1 / (2 * Constants.pi)"}
   ],
 
   "units":[
-    {"name": "cycle per second", "symbol": "cps", "interval": "2 * Constants.Pi"},
-    {"name": "revolution per minute", "symbol": "rpm", "interval": "2 * Constants.Pi / 60"}
+    {"name": "cycle per second", "symbol": "cps", "interval": "2 * Constants.pi"},
+    {"name": "revolution per minute", "symbol": "rpm", "interval": "2 * Constants.pi / 60"}
   ]
 }

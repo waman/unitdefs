@@ -5,6 +5,6 @@
   "composites": ["ElectricCurrent / Length", "Force / MagneticFlux"],
 
   "units": [
-    {"name": "oersted", "symbol": "Oe", "interval": "1e3 / (4 * Constants.Pi)"}
+    {"name": "oersted", "symbol": "Oe", "interval": "1e3 / (4 * Constants.pi)"}
   ]
 }

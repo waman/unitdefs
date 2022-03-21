@@ -6,11 +6,11 @@
 
   "units": [
     {"name": "stilb", "symbol": "sb", "interval": "1e4"},
-    {"name": "lambert", "symbol": "Lb", "interval": "1e4 / Constants.Pi"},
-    {"name": "apo stilb", "symbol": "asb", "interval": "1 / Constants.Pi"},
-    {"name": "skot", "symbol": "sk", "interval": "1e-3 / Constants.Pi"},
-    {"name": "bril", "interval": "1e-7 / Constants.Pi"},
-    {"name": "foot lambert", "symbol": "fLb", "interval": "1 / Constants.Pi",
+    {"name": "lambert", "symbol": "Lb", "interval": "1e4 / Constants.pi"},
+    {"name": "apo stilb", "symbol": "asb", "interval": "1 / Constants.pi"},
+    {"name": "skot", "symbol": "sk", "interval": "1e-3 / Constants.pi"},
+    {"name": "bril", "interval": "1e-7 / Constants.pi"},
+    {"name": "foot lambert", "symbol": "fLb", "interval": "1 / Constants.pi",
       "base_unit": "LuminousIntensity.candela / Area.square_foot"}
   ]
 }

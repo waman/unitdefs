@@ -8,6 +8,6 @@
   "units": [
     {"name": "planck constant", "symbol": "h", "interval": "Constants.Planck_constant"},
     {"name": "reduced planck constant", "symbol": "ħ", "aliases": ["hbar", "atomic_unit_of_action"],
-      "interval": "Constants.Planck_constant / 2.0 / Constants.Pi"}
+      "interval": "Constants.Planck_constant / 2.0 / Constants.pi"}
   ]
 }

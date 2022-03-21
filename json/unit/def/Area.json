@@ -50,8 +50,8 @@
     },
     {"name": "rood", "symbol": "ro", "interval": "1/4", "base_unit": "acre"},
     
-    {"name": "circular mil", "symbol": "circ_mil", "interval": "Constants.Pi / 4", "base_unit": "square_mil"},
-    {"name": "circular inch", "symbol": "circ_in", "interval": "Constants.Pi / 4", "base_unit": "square_inch"},
+    {"name": "circular mil", "symbol": "circ_mil", "interval": "Constants.pi / 4", "base_unit": "square_mil"},
+    {"name": "circular inch", "symbol": "circ_in", "interval": "Constants.pi / 4", "base_unit": "square_inch"},
     
     {"name": "board", "symbol": "bd", "base_unit": "Length.inch * Length.foot"},
     {"name": "section", "interval": "640", "base_unit": "acre",

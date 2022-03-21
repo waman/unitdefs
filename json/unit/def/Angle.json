@@ -5,12 +5,12 @@
   "units": [
     {"name": "radian", "symbol": "rad"},
 
-    {"name": "degree", "symbol": "°", "aliases": ["deg"], "interval": "2 * Constants.Pi / 360"},
+    {"name": "degree", "symbol": "°", "aliases": ["deg"], "interval": "2 * Constants.pi / 360"},
     {"name": "arcmin", "aliases": ["MOA"], "interval": "1/60", "base_unit": "degree"},
     {"name": "arcsec", "aliases": ["as"], "interval": "1/60", "base_unit": "arcmin"},
     
-    {"name": "gradian", "symbol": "ᵍ", "aliases": ["grad", "gon"], "interval": "2 * Constants.Pi / 400"},
-    {"name": "turn", "symbol": "tr", "interval": "2 * Constants.Pi"},
+    {"name": "gradian", "symbol": "ᵍ", "aliases": ["grad", "gon"], "interval": "2 * Constants.pi / 400"},
+    {"name": "turn", "symbol": "tr", "interval": "2 * Constants.pi"},
 
     {"name": "sign", "interval": "30", "base_unit": "degree"},
     {"name": "octant", "interval": "45", "base_unit": "degree"},
