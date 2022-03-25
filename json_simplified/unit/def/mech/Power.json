@@ -1,0 +1,137 @@
+{
+  "description": "This can be used as a unit of radiant flux (radiation).",
+  "si_unit": "watt",
+  "dimension": {
+    "M": 1,
+    "L": 2,
+    "T": -3
+  },
+  "units": [
+    {
+      "name": "watt",
+      "symbol": "W",
+      "scale_prefixes": "all"
+    },
+    {
+      "name": "horsepower",
+      "symbol": "hp",
+      "aliases": [
+        "HP"
+      ],
+      "base_unit": "horsepower(mechanical)",
+      "attributes": [
+        "mechanical",
+        "metric",
+        "electrical",
+        "boiler"
+      ]
+    },
+    {
+      "name": "horsepower(mechanical)",
+      "symbol": "hp(mechanical)",
+      "interval": "33000",
+      "base_unit": "Length.foot * Force.pound_force / Time.minute",
+      "aliases": [
+        "HP(mechanical)"
+      ]
+    },
+    {
+      "name": "horsepower(metric)",
+      "symbol": "hp(metric)",
+      "aliases": [
+        "PS"
+      ],
+      "interval": "75",
+      "base_unit": "Force.kilogram_force * Length.metre / Time.second"
+    },
+    {
+      "name": "horsepower(electrical)",
+      "symbol": "hp(electrical)",
+      "interval": "746",
+      "aliases": [
+        "HP(electrical)"
+      ]
+    },
+    {
+      "name": "horsepower(boiler)",
+      "symbol": "hp(boiler)",
+      "interval": "9812.5",
+      "aliases": [
+        "HP(boiler)"
+      ]
+    },
+    {
+      "name": "lusec",
+      "base_unit": "Volume.litre * Pressure.micrometre_of_mercury / Time.second",
+      "symbol": "lusec"
+    },
+    {
+      "name": "poncelet",
+      "symbol": "p",
+      "interval": "100",
+      "base_unit": "Length.metre * Force.kilogram_force / Time.second"
+    },
+    {
+      "name": "square foot equivalent direct radiation",
+      "symbol": "sq_ft_EDR",
+      "interval": "240",
+      "base_unit": "Energy.british_thermal_unit(IT) / Time.hour"
+    }
+  ],
+  "operations": [
+    {
+      "operation": "/",
+      "argument": "ElectricCurrent",
+      "result": "Voltage"
+    },
+    {
+      "operation": "*",
+      "argument": "Time",
+      "result": "Energy"
+    },
+    {
+      "operation": "/",
+      "argument": "AreaFrequency",
+      "result": "freq.SpectralIrradiance"
+    },
+    {
+      "operation": "/",
+      "argument": "Area",
+      "result": "Irradiance"
+    }
+  ],
+  "attributes": [
+    {
+      "name": "mechanical",
+      "parents": [
+        "horsepower"
+      ]
+    },
+    {
+      "name": "metric",
+      "parents": [
+        "horsepower"
+      ]
+    },
+    {
+      "name": "electrical",
+      "parents": [
+        "horsepower"
+      ]
+    },
+    {
+      "name": "boiler",
+      "parents": [
+        "horsepower"
+      ]
+    }
+  ],
+  "use": {
+    "subpackages": [
+      "em",
+      "",
+      "radio.freq",
+      "radio"
+    ]
+  }
+}

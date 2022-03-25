@@ -1,0 +1,118 @@
+{
+  "si_unit": "newton",
+  "dimension": {
+    "M": 1,
+    "L": 1,
+    "T": -2
+  },
+  "units": [
+    {
+      "name": "newton",
+      "symbol": "N",
+      "scale_prefixes": "all"
+    },
+    {
+      "name": "dyne",
+      "symbol": "dyn",
+      "interval": "1e-5",
+      "scale_prefixes": "all"
+    },
+    {
+      "name": "kilogram force",
+      "symbol": "kgf",
+      "aliases": [
+        "kp",
+        "Gf"
+      ],
+      "base_unit": "Acceleration.standard_gravity",
+      "notExact": true
+    },
+    {
+      "name": "milligrave force",
+      "symbol": "mGf",
+      "aliases": [
+        "gf"
+      ],
+      "interval": "1e-3",
+      "base_unit": "Acceleration.standard_gravity",
+      "notExact": true
+    },
+    {
+      "name": "atomic unit of force",
+      "interval": "8.23872206e-8",
+      "notExact": true,
+      "symbol": "atomic_unit_of_force"
+    },
+    {
+      "name": "ounce force",
+      "symbol": "ozf",
+      "base_unit": "Mass.ounce * Acceleration.standard_gravity"
+    },
+    {
+      "name": "pound force",
+      "symbol": "lbf",
+      "base_unit": "Mass.pound * Acceleration.standard_gravity"
+    },
+    {
+      "name": "poundal",
+      "symbol": "pdl",
+      "base_unit": "Mass.pound * Length.foot"
+    },
+    {
+      "name": "kip force",
+      "symbol": "kipf",
+      "aliases": [
+        "klbf"
+      ],
+      "interval": "1000",
+      "base_unit": "Mass.pound * Acceleration.standard_gravity"
+    },
+    {
+      "name": "short ton force",
+      "symbol": "sh_tnf",
+      "base_unit": "Mass.short_ton * Acceleration.standard_gravity"
+    },
+    {
+      "name": "long ton force",
+      "symbol": "tnf",
+      "aliases": [
+        "long_tnf"
+      ],
+      "base_unit": "Mass.long_ton * Acceleration.standard_gravity"
+    },
+    {
+      "name": "sthene",
+      "symbol": "sn",
+      "interval": "1e3"
+    }
+  ],
+  "operations": [
+    {
+      "operation": "/",
+      "argument": "MagneticFlux",
+      "result": "MagneticFieldStrength"
+    },
+    {
+      "operation": "/",
+      "argument": "Area",
+      "result": "Pressure"
+    },
+    {
+      "operation": "*",
+      "argument": "Length",
+      "result": "Energy"
+    },
+    {
+      "operation": "*",
+      "argument": "Time",
+      "result": "Momentum"
+    }
+  ],
+  "use": {
+    "subpackages": [
+      "em",
+      "",
+      "fluid"
+    ]
+  }
+}

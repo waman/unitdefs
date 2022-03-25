@@ -1,0 +1,32 @@
+{
+  "si_unit": "Time * Time",
+  "dimension": {
+    "T": 2
+  },
+  "units": [
+    {
+      "name": "second squared",
+      "symbol": "s²",
+      "aliases": [
+        "s2",
+        "sec²",
+        "sec2"
+      ],
+      "base_unit": "Time.second^2",
+      "scale_prefixes": "smaller"
+    }
+  ],
+  "operations": [
+    {
+      "operation": "/",
+      "argument": "Length",
+      "result": "TimeSquaredPerLength"
+    }
+  ],
+  "use": {
+    "subpackages": [
+      "",
+      "em"
+    ]
+  }
+}

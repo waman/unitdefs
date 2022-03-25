@@ -1,0 +1,21 @@
+{
+  "si_unit": "Force * Time",
+  "dimension": {
+    "M": 1,
+    "L": 1,
+    "T": 1
+  },
+  "operations": [
+    {
+      "operation": "/",
+      "argument": "Area",
+      "result": "DynamicViscosity"
+    }
+  ],
+  "use": {
+    "subpackages": [
+      "",
+      "fluid"
+    ]
+  }
+}

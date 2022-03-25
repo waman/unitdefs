@@ -1,0 +1,25 @@
+{
+  "si_unit": "lumen",
+  "dimension": {
+    "J": 1
+  },
+  "units": [
+    {
+      "name": "lumen",
+      "symbol": "lm",
+      "scale_prefixes": "all"
+    }
+  ],
+  "operations": [
+    {
+      "operation": "/",
+      "argument": "Area",
+      "result": "Illuminance"
+    }
+  ],
+  "use": {
+    "subpackages": [
+      ""
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "si_unit": "Mass * Length",
+  "dimension": {
+    "M": 1,
+    "L": 1
+  },
+  "operations": [
+    {
+      "operation": "/",
+      "argument": "TimeSquared",
+      "result": "Force"
+    },
+    {
+      "operation": "/",
+      "argument": "Time",
+      "result": "Momentum"
+    }
+  ],
+  "use": {
+    "subpackages": [
+      ""
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "si_unit": "kelvin",
+  "dimension": {
+    "Θ": 1
+  },
+  "convertibles": [
+    {
+      "result": "Energy",
+      "from": "kelvin",
+      "to": "joule",
+      "factor": "Constants.Boltzmann_constant"
+    },
+    {
+      "result": "Temperature",
+      "from": "kelvin",
+      "to": "kelvin"
+    }
+  ],
+  "units": [
+    {
+      "name": "kelvin",
+      "symbol": "K",
+      "scale_prefixes": "all"
+    }
+  ],
+  "use": {
+    "constants": true,
+    "subpackages": [
+      "mech"
+    ]
+  }
+}

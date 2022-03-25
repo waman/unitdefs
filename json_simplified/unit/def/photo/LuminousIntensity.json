@@ -1,0 +1,25 @@
+{
+  "si_unit": "candela",
+  "dimension": {
+    "J": 1
+  },
+  "units": [
+    {
+      "name": "candela",
+      "symbol": "cd",
+      "scale_prefixes": "all"
+    }
+  ],
+  "operations": [
+    {
+      "operation": "/",
+      "argument": "Area",
+      "result": "Luminance"
+    }
+  ],
+  "use": {
+    "subpackages": [
+      ""
+    ]
+  }
+}

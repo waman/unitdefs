@@ -1,0 +1,31 @@
+{
+  "description": "This can be used as a unit of action.",
+  "si_unit": "Energy * Time",
+  "dimension": {
+    "M": 1,
+    "L": 2,
+    "T": -1
+  },
+  "units": [
+    {
+      "name": "planck constant",
+      "symbol": "h",
+      "interval": "Constants.Planck_constant"
+    },
+    {
+      "name": "reduced planck constant",
+      "symbol": "ħ",
+      "aliases": [
+        "hbar",
+        "atomic_unit_of_action"
+      ],
+      "interval": "Constants.Planck_constant / 2.0 / Constants.pi"
+    }
+  ],
+  "use": {
+    "constants": true,
+    "subpackages": [
+      ""
+    ]
+  }
+}

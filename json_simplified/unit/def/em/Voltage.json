@@ -1,5 +1,5 @@
 {
-  "SIUnit": "volt",
+  "si_unit": "volt",
   "dimension": {
     "M": 1,
     "L": 2,
@@ -9,113 +9,8 @@
   "units": [
     {
       "name": "volt",
-      "symbol": "V"
-    },
-    {
-      "name": "yoctovolt",
-      "symbol": "yV",
-      "interval": "1e-24"
-    },
-    {
-      "name": "zeptovolt",
-      "symbol": "zV",
-      "interval": "1e-21"
-    },
-    {
-      "name": "attovolt",
-      "symbol": "aV",
-      "interval": "1e-18"
-    },
-    {
-      "name": "femtovolt",
-      "symbol": "fV",
-      "interval": "1e-15"
-    },
-    {
-      "name": "picovolt",
-      "symbol": "pV",
-      "interval": "1e-12"
-    },
-    {
-      "name": "nanovolt",
-      "symbol": "nV",
-      "interval": "1e-9"
-    },
-    {
-      "name": "microvolt",
-      "symbol": "μV",
-      "aliases": [
-        "mcV"
-      ],
-      "interval": "1e-6"
-    },
-    {
-      "name": "millivolt",
-      "symbol": "mV",
-      "interval": "1e-3"
-    },
-    {
-      "name": "centivolt",
-      "symbol": "cV",
-      "interval": "1e-2"
-    },
-    {
-      "name": "decivolt",
-      "symbol": "dV",
-      "interval": "1e-1"
-    },
-    {
-      "name": "decavolt",
-      "symbol": "daV",
-      "interval": "1e1"
-    },
-    {
-      "name": "hectovolt",
-      "symbol": "hV",
-      "interval": "1e2"
-    },
-    {
-      "name": "kilovolt",
-      "symbol": "kV",
-      "aliases": [
-        "KV"
-      ],
-      "interval": "1e3"
-    },
-    {
-      "name": "megavolt",
-      "symbol": "MV",
-      "interval": "1e6"
-    },
-    {
-      "name": "gigavolt",
-      "symbol": "GV",
-      "interval": "1e9"
-    },
-    {
-      "name": "teravolt",
-      "symbol": "TV",
-      "interval": "1e12"
-    },
-    {
-      "name": "petavolt",
-      "symbol": "PV",
-      "interval": "1e15"
-    },
-    {
-      "name": "exavolt",
-      "symbol": "EV",
-      "interval": "1e18"
-    },
-    {
-      "name": "zettavolt",
-      "symbol": "ZV",
-      "interval": "1e21"
-    },
-    {
-      "name": "yottavolt",
-      "symbol": "YV",
-      "interval": "1e24"
+      "symbol": "V",
+      "scale_prefixes": "all"
     },
     {
       "name": "abvolt",
@@ -125,7 +20,7 @@
     {
       "name": "statvolt",
       "symbol": "statV",
-      "interval": "Constants.SpeedOfLight * 1e-6"
+      "interval": "Constants.speed_of_light * 1e-6"
     }
   ],
   "operations": [

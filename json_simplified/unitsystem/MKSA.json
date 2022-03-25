@@ -54,7 +54,7 @@
     "subpackages": [
       "em",
       "",
-      "radioactivity"
+      "ra"
     ]
   }
 }

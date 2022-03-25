@@ -160,7 +160,7 @@
   ],
   "use": {
     "subpackages": [
-      "mechanics",
+      "mech",
       "fluid"
     ]
   }

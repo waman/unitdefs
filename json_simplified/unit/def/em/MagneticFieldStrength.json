@@ -1,5 +1,5 @@
 {
-  "SIUnit": "ElectricCurrent / Length",
+  "si_unit": "ElectricCurrent / Length",
   "dimension": {
     "L": -1,
     "I": 1
@@ -8,7 +8,7 @@
     {
       "name": "oersted",
       "symbol": "Oe",
-      "interval": "1e3 / (4 * Constants.Pi)"
+      "interval": "1e3 / (4 * Constants.pi)"
     }
   ],
   "use": {

@@ -190,8 +190,8 @@
     "subpackages": [
       "",
       "angle",
-      "chem",
-      "thermo"
+      "chm",
+      "therm"
     ]
   }
 }

@@ -1,0 +1,21 @@
+{
+  "si_unit": "ElectricCharge / Mass",
+  "dimension": {
+    "M": -1,
+    "T": 1,
+    "I": 1
+  },
+  "units": [
+    {
+      "name": "roentgen",
+      "symbol": "R",
+      "interval": "2.58e-4"
+    }
+  ],
+  "use": {
+    "subpackages": [
+      "em",
+      ""
+    ]
+  }
+}

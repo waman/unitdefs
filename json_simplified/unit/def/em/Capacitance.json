@@ -1,5 +1,5 @@
 {
-  "SIUnit": "farad",
+  "si_unit": "farad",
   "dimension": {
     "M": -1,
     "L": -2,
@@ -9,113 +9,8 @@
   "units": [
     {
       "name": "farad",
-      "symbol": "F"
-    },
-    {
-      "name": "yoctofarad",
-      "symbol": "yF",
-      "interval": "1e-24"
-    },
-    {
-      "name": "zeptofarad",
-      "symbol": "zF",
-      "interval": "1e-21"
-    },
-    {
-      "name": "attofarad",
-      "symbol": "aF",
-      "interval": "1e-18"
-    },
-    {
-      "name": "femtofarad",
-      "symbol": "fF",
-      "interval": "1e-15"
-    },
-    {
-      "name": "picofarad",
-      "symbol": "pF",
-      "interval": "1e-12"
-    },
-    {
-      "name": "nanofarad",
-      "symbol": "nF",
-      "interval": "1e-9"
-    },
-    {
-      "name": "microfarad",
-      "symbol": "μF",
-      "aliases": [
-        "mcF"
-      ],
-      "interval": "1e-6"
-    },
-    {
-      "name": "millifarad",
-      "symbol": "mF",
-      "interval": "1e-3"
-    },
-    {
-      "name": "centifarad",
-      "symbol": "cF",
-      "interval": "1e-2"
-    },
-    {
-      "name": "decifarad",
-      "symbol": "dF",
-      "interval": "1e-1"
-    },
-    {
-      "name": "decafarad",
-      "symbol": "daF",
-      "interval": "1e1"
-    },
-    {
-      "name": "hectofarad",
-      "symbol": "hF",
-      "interval": "1e2"
-    },
-    {
-      "name": "kilofarad",
-      "symbol": "kF",
-      "aliases": [
-        "KF"
-      ],
-      "interval": "1e3"
-    },
-    {
-      "name": "megafarad",
-      "symbol": "MF",
-      "interval": "1e6"
-    },
-    {
-      "name": "gigafarad",
-      "symbol": "GF",
-      "interval": "1e9"
-    },
-    {
-      "name": "terafarad",
-      "symbol": "TF",
-      "interval": "1e12"
-    },
-    {
-      "name": "petafarad",
-      "symbol": "PF",
-      "interval": "1e15"
-    },
-    {
-      "name": "exafarad",
-      "symbol": "EF",
-      "interval": "1e18"
-    },
-    {
-      "name": "zettafarad",
-      "symbol": "ZF",
-      "interval": "1e21"
-    },
-    {
-      "name": "yottafarad",
-      "symbol": "YF",
-      "interval": "1e24"
+      "symbol": "F",
+      "scale_prefixes": "all"
     },
     {
       "name": "abfarad",
@@ -125,7 +20,7 @@
     {
       "name": "statfarad",
       "symbol": "statF",
-      "interval": "Constants.SpeedOfLight * Constants.SpeedOfLight * 1e-5",
+      "interval": "Constants.speed_of_light * Constants.speed_of_light * 1e-5",
       "description": "Formal unit for Gaussian and ESU CGS unit system."
     }
   ],

@@ -125,11 +125,12 @@
     "subpackages": [
       "",
       "angle",
-      "density",
+      "dens",
       "fluid",
-      "mechanics",
-      "radiometry",
-      "radioactivity"
+      "mech",
+      "radio",
+      "radio.freq",
+      "ra"
     ]
   }
 }

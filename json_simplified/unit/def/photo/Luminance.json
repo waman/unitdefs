@@ -1,0 +1,46 @@
+{
+  "si_unit": "LuminousIntensity / Area",
+  "dimension": {
+    "L": -2,
+    "J": 1
+  },
+  "units": [
+    {
+      "name": "stilb",
+      "symbol": "sb",
+      "interval": "1e4"
+    },
+    {
+      "name": "lambert",
+      "symbol": "Lb",
+      "interval": "1e4 / Constants.pi"
+    },
+    {
+      "name": "apo stilb",
+      "symbol": "asb",
+      "interval": "1 / Constants.pi"
+    },
+    {
+      "name": "skot",
+      "symbol": "sk",
+      "interval": "1e-3 / Constants.pi"
+    },
+    {
+      "name": "bril",
+      "interval": "1e-7 / Constants.pi",
+      "symbol": "bril"
+    },
+    {
+      "name": "foot lambert",
+      "symbol": "fLb",
+      "interval": "1 / Constants.pi",
+      "base_unit": "LuminousIntensity.candela / Area.square_foot"
+    }
+  ],
+  "use": {
+    "constants": true,
+    "subpackages": [
+      ""
+    ]
+  }
+}

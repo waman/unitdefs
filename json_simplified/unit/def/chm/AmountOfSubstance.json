@@ -1,0 +1,25 @@
+{
+  "si_unit": "mole",
+  "dimension": {
+    "N": 1
+  },
+  "units": [
+    {
+      "name": "mole",
+      "symbol": "mol",
+      "scale_prefixes": "all"
+    }
+  ],
+  "operations": [
+    {
+      "operation": "/",
+      "argument": "Time",
+      "result": "Catalysis"
+    }
+  ],
+  "use": {
+    "subpackages": [
+      ""
+    ]
+  }
+}

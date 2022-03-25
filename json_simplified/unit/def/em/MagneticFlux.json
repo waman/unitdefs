@@ -1,5 +1,5 @@
 {
-  "SIUnit": "weber",
+  "si_unit": "weber",
   "dimension": {
     "M": 1,
     "L": 2,
@@ -9,229 +9,19 @@
   "units": [
     {
       "name": "weber",
-      "symbol": "Wb"
-    },
-    {
-      "name": "yoctoweber",
-      "symbol": "yWb",
-      "interval": "1e-24"
-    },
-    {
-      "name": "zeptoweber",
-      "symbol": "zWb",
-      "interval": "1e-21"
-    },
-    {
-      "name": "attoweber",
-      "symbol": "aWb",
-      "interval": "1e-18"
-    },
-    {
-      "name": "femtoweber",
-      "symbol": "fWb",
-      "interval": "1e-15"
-    },
-    {
-      "name": "picoweber",
-      "symbol": "pWb",
-      "interval": "1e-12"
-    },
-    {
-      "name": "nanoweber",
-      "symbol": "nWb",
-      "interval": "1e-9"
-    },
-    {
-      "name": "microweber",
-      "symbol": "μWb",
-      "aliases": [
-        "mcWb"
-      ],
-      "interval": "1e-6"
-    },
-    {
-      "name": "milliweber",
-      "symbol": "mWb",
-      "interval": "1e-3"
-    },
-    {
-      "name": "centiweber",
-      "symbol": "cWb",
-      "interval": "1e-2"
-    },
-    {
-      "name": "deciweber",
-      "symbol": "dWb",
-      "interval": "1e-1"
-    },
-    {
-      "name": "decaweber",
-      "symbol": "daWb",
-      "interval": "1e1"
-    },
-    {
-      "name": "hectoweber",
-      "symbol": "hWb",
-      "interval": "1e2"
-    },
-    {
-      "name": "kiloweber",
-      "symbol": "kWb",
-      "aliases": [
-        "KWb"
-      ],
-      "interval": "1e3"
-    },
-    {
-      "name": "megaweber",
-      "symbol": "MWb",
-      "interval": "1e6"
-    },
-    {
-      "name": "gigaweber",
-      "symbol": "GWb",
-      "interval": "1e9"
-    },
-    {
-      "name": "teraweber",
-      "symbol": "TWb",
-      "interval": "1e12"
-    },
-    {
-      "name": "petaweber",
-      "symbol": "PWb",
-      "interval": "1e15"
-    },
-    {
-      "name": "exaweber",
-      "symbol": "EWb",
-      "interval": "1e18"
-    },
-    {
-      "name": "zettaweber",
-      "symbol": "ZWb",
-      "interval": "1e21"
-    },
-    {
-      "name": "yottaweber",
-      "symbol": "YWb",
-      "interval": "1e24"
+      "symbol": "Wb",
+      "scale_prefixes": "all"
     },
     {
       "name": "maxwell",
       "symbol": "Mx",
-      "interval": "1e-8"
-    },
-    {
-      "name": "yoctomaxwell",
-      "symbol": "yMx",
-      "interval": "1e-8 * 1e-24"
-    },
-    {
-      "name": "zeptomaxwell",
-      "symbol": "zMx",
-      "interval": "1e-8 * 1e-21"
-    },
-    {
-      "name": "attomaxwell",
-      "symbol": "aMx",
-      "interval": "1e-8 * 1e-18"
-    },
-    {
-      "name": "femtomaxwell",
-      "symbol": "fMx",
-      "interval": "1e-8 * 1e-15"
-    },
-    {
-      "name": "picomaxwell",
-      "symbol": "pMx",
-      "interval": "1e-8 * 1e-12"
-    },
-    {
-      "name": "nanomaxwell",
-      "symbol": "nMx",
-      "interval": "1e-8 * 1e-9"
-    },
-    {
-      "name": "micromaxwell",
-      "symbol": "μMx",
-      "aliases": [
-        "mcMx"
-      ],
-      "interval": "1e-8 * 1e-6"
-    },
-    {
-      "name": "millimaxwell",
-      "symbol": "mMx",
-      "interval": "1e-8 * 1e-3"
-    },
-    {
-      "name": "centimaxwell",
-      "symbol": "cMx",
-      "interval": "1e-8 * 1e-2"
-    },
-    {
-      "name": "decimaxwell",
-      "symbol": "dMx",
-      "interval": "1e-8 * 1e-1"
-    },
-    {
-      "name": "decamaxwell",
-      "symbol": "daMx",
-      "interval": "1e-8 * 1e1"
-    },
-    {
-      "name": "hectomaxwell",
-      "symbol": "hMx",
-      "interval": "1e-8 * 1e2"
-    },
-    {
-      "name": "kilomaxwell",
-      "symbol": "kMx",
-      "aliases": [
-        "KMx"
-      ],
-      "interval": "1e-8 * 1e3"
-    },
-    {
-      "name": "megamaxwell",
-      "symbol": "MMx",
-      "interval": "1e-8 * 1e6"
-    },
-    {
-      "name": "gigamaxwell",
-      "symbol": "GMx",
-      "interval": "1e-8 * 1e9"
-    },
-    {
-      "name": "teramaxwell",
-      "symbol": "TMx",
-      "interval": "1e-8 * 1e12"
-    },
-    {
-      "name": "petamaxwell",
-      "symbol": "PMx",
-      "interval": "1e-8 * 1e15"
-    },
-    {
-      "name": "examaxwell",
-      "symbol": "EMx",
-      "interval": "1e-8 * 1e18"
-    },
-    {
-      "name": "zettamaxwell",
-      "symbol": "ZMx",
-      "interval": "1e-8 * 1e21"
-    },
-    {
-      "name": "yottamaxwell",
-      "symbol": "YMx",
-      "interval": "1e-8 * 1e24"
+      "interval": "1e-8",
+      "scale_prefixes": "all"
     },
     {
       "name": "statweber",
       "symbol": "statWb",
-      "interval": "Constants.SpeedOfLight * 1e-6"
+      "interval": "Constants.speed_of_light * 1e-6"
     }
   ],
   "operations": [

@@ -1,0 +1,32 @@
+{
+  "si_unit": "sievert",
+  "dimension": {
+    "L": 2,
+    "T": -2
+  },
+  "units": [
+    {
+      "name": "sievert",
+      "symbol": "Sv",
+      "scale_prefixes": "all"
+    },
+    {
+      "name": "roentgen equivalent man",
+      "symbol": "rem",
+      "interval": "1e-2",
+      "scale_prefixes": "all"
+    }
+  ],
+  "operations": [
+    {
+      "operation": "/",
+      "argument": "Time",
+      "result": "EquivalentDoseRate"
+    }
+  ],
+  "use": {
+    "subpackages": [
+      ""
+    ]
+  }
+}

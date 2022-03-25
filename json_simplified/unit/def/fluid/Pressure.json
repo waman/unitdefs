@@ -1,5 +1,5 @@
 {
-  "SIUnit": "pascal",
+  "si_unit": "pascal",
   "dimension": {
     "M": 1,
     "L": -1,
@@ -8,118 +8,13 @@
   "units": [
     {
       "name": "pascal",
-      "symbol": "Pa"
-    },
-    {
-      "name": "yoctopascal",
-      "symbol": "yPa",
-      "interval": "1e-24"
-    },
-    {
-      "name": "zeptopascal",
-      "symbol": "zPa",
-      "interval": "1e-21"
-    },
-    {
-      "name": "attopascal",
-      "symbol": "aPa",
-      "interval": "1e-18"
-    },
-    {
-      "name": "femtopascal",
-      "symbol": "fPa",
-      "interval": "1e-15"
-    },
-    {
-      "name": "picopascal",
-      "symbol": "pPa",
-      "interval": "1e-12"
-    },
-    {
-      "name": "nanopascal",
-      "symbol": "nPa",
-      "interval": "1e-9"
-    },
-    {
-      "name": "micropascal",
-      "symbol": "μPa",
-      "aliases": [
-        "mcPa"
-      ],
-      "interval": "1e-6"
-    },
-    {
-      "name": "millipascal",
-      "symbol": "mPa",
-      "interval": "1e-3"
-    },
-    {
-      "name": "centipascal",
-      "symbol": "cPa",
-      "interval": "1e-2"
-    },
-    {
-      "name": "decipascal",
-      "symbol": "dPa",
-      "interval": "1e-1"
-    },
-    {
-      "name": "decapascal",
-      "symbol": "daPa",
-      "interval": "1e1"
-    },
-    {
-      "name": "hectopascal",
-      "symbol": "hPa",
-      "interval": "1e2"
-    },
-    {
-      "name": "kilopascal",
-      "symbol": "kPa",
-      "aliases": [
-        "KPa"
-      ],
-      "interval": "1e3"
-    },
-    {
-      "name": "megapascal",
-      "symbol": "MPa",
-      "interval": "1e6"
-    },
-    {
-      "name": "gigapascal",
-      "symbol": "GPa",
-      "interval": "1e9"
-    },
-    {
-      "name": "terapascal",
-      "symbol": "TPa",
-      "interval": "1e12"
-    },
-    {
-      "name": "petapascal",
-      "symbol": "PPa",
-      "interval": "1e15"
-    },
-    {
-      "name": "exapascal",
-      "symbol": "EPa",
-      "interval": "1e18"
-    },
-    {
-      "name": "zettapascal",
-      "symbol": "ZPa",
-      "interval": "1e21"
-    },
-    {
-      "name": "yottapascal",
-      "symbol": "YPa",
-      "interval": "1e24"
+      "symbol": "Pa",
+      "scale_prefixes": "all"
     },
     {
       "name": "barye",
       "symbol": "Ba",
-      "baseUnit": "Force.dyne / Area.square_centimetre"
+      "base_unit": "Force.dyne / Area.square_centimetre"
     },
     {
       "name": "atmosphere",
@@ -129,7 +24,7 @@
     {
       "name": "atmosphere technical",
       "symbol": "at",
-      "baseUnit": "Force.kilogram_force / Area.square_centimetre"
+      "base_unit": "Force.kilogram_force / Area.square_centimetre"
     },
     {
       "name": "bar",
@@ -144,23 +39,23 @@
     {
       "name": "torr",
       "interval": "1/760",
-      "baseUnit": "atmosphere",
+      "base_unit": "atmosphere",
       "symbol": "torr"
     },
     {
       "name": "kip per square inch",
       "symbol": "ksi",
-      "baseUnit": "Force.kip_force / Area.square_inch"
+      "base_unit": "Force.kip_force / Area.square_inch"
     },
     {
       "name": "pound per square foot",
       "symbol": "psf",
-      "baseUnit": "Force.pound_force / Area.square_foot"
+      "base_unit": "Force.pound_force / Area.square_foot"
     },
     {
       "name": "pound per square inch",
       "symbol": "psi",
-      "baseUnit": "Force.pound_force / Area.square_inch"
+      "base_unit": "Force.pound_force / Area.square_inch"
     },
     {
       "name": "micrometre of mercury",
@@ -168,27 +63,27 @@
       "aliases": [
         "mcmHg"
       ],
-      "baseUnit": "Density.mercury * Length.micrometre * Acceleration.standard_gravity"
+      "base_unit": "Density.mercury * Length.micrometre * Acceleration.standard_gravity"
     },
     {
       "name": "millimetre of mercury",
       "symbol": "mmHg",
-      "baseUnit": "Density.mercury * Length.millimetre * Acceleration.standard_gravity"
+      "base_unit": "Density.mercury * Length.millimetre * Acceleration.standard_gravity"
     },
     {
       "name": "centimetre of mercury",
       "symbol": "cmHg",
-      "baseUnit": "Density.mercury * Length.centimetre * Acceleration.standard_gravity"
+      "base_unit": "Density.mercury * Length.centimetre * Acceleration.standard_gravity"
     },
     {
       "name": "inch of mercury",
       "symbol": "inHg",
-      "baseUnit": "Density.mercury * Length.inch * Acceleration.standard_gravity"
+      "base_unit": "Density.mercury * Length.inch * Acceleration.standard_gravity"
     },
     {
       "name": "foot of mercury",
       "symbol": "ftHg",
-      "baseUnit": "Density.mercury * Length.foot * Acceleration.standard_gravity"
+      "base_unit": "Density.mercury * Length.foot * Acceleration.standard_gravity"
     },
     {
       "name": "millimetre of water",
@@ -197,7 +92,7 @@
         "mmH2O",
         "mmAq"
       ],
-      "baseUnit": "Density.water * Length.millimetre * Acceleration.standard_gravity"
+      "base_unit": "Density.water * Length.millimetre * Acceleration.standard_gravity"
     },
     {
       "name": "centimetre of water",
@@ -206,7 +101,7 @@
         "cmH2O",
         "cmAq"
       ],
-      "baseUnit": "Density.water * Length.centimetre * Acceleration.standard_gravity"
+      "base_unit": "Density.water * Length.centimetre * Acceleration.standard_gravity"
     },
     {
       "name": "inch of water",
@@ -214,7 +109,7 @@
       "aliases": [
         "inH2O"
       ],
-      "baseUnit": "Density.water * Length.inch * Acceleration.standard_gravity"
+      "base_unit": "Density.water * Length.inch * Acceleration.standard_gravity"
     },
     {
       "name": "foot of water",
@@ -222,7 +117,7 @@
       "aliases": [
         "ftH2O"
       ],
-      "baseUnit": "Density.water * Length.foot * Acceleration.standard_gravity"
+      "base_unit": "Density.water * Length.foot * Acceleration.standard_gravity"
     }
   ],
   "operations": [
@@ -241,7 +136,7 @@
   "use": {
     "subpackages": [
       "",
-      "mechanics"
+      "mech"
     ]
   }
 }

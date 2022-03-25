@@ -1,0 +1,98 @@
+{
+  "si_unit": "Energy / AbsoluteTemperature",
+  "dimension": {
+    "M": 1,
+    "L": 2,
+    "T": -2,
+    "Θ": -1
+  },
+  "units": [
+    {
+      "name": "nat",
+      "aliases": [
+        "k_B"
+      ],
+      "interval": "Constants.Boltzmann_constant",
+      "symbol": "nat"
+    },
+    {
+      "name": "bit",
+      "aliases": [
+        "Sh"
+      ],
+      "interval": "log(2)",
+      "base_unit": "nat",
+      "symbol": "bit"
+    },
+    {
+      "name": "ban",
+      "aliases": [
+        "Hart"
+      ],
+      "interval": "log(10)",
+      "base_unit": "nat",
+      "symbol": "ban"
+    },
+    {
+      "name": "byte",
+      "symbol": "B",
+      "interval": "8",
+      "base_unit": "bit",
+      "scale_prefixes": "larger"
+    },
+    {
+      "name": "kibibyte",
+      "symbol": "KiB",
+      "interval": "1024",
+      "base_unit": "byte"
+    },
+    {
+      "name": "mebibyte",
+      "symbol": "MiB",
+      "interval": "1024",
+      "base_unit": "kibibyte"
+    },
+    {
+      "name": "gibibyte",
+      "symbol": "GiB",
+      "interval": "1024",
+      "base_unit": "mebibyte"
+    },
+    {
+      "name": "tebibyte",
+      "symbol": "TiB",
+      "interval": "1024",
+      "base_unit": "gibibyte"
+    },
+    {
+      "name": "pebibyte",
+      "symbol": "PiB",
+      "interval": "1024",
+      "base_unit": "tebibyte"
+    },
+    {
+      "name": "exbibyte",
+      "symbol": "EiB",
+      "interval": "1024",
+      "base_unit": "pebibyte"
+    },
+    {
+      "name": "zebibyte",
+      "symbol": "ZiB",
+      "interval": "1024",
+      "base_unit": "exbibyte"
+    },
+    {
+      "name": "yobibyte",
+      "symbol": "YiB",
+      "interval": "1024",
+      "base_unit": "zebibyte"
+    }
+  ],
+  "use": {
+    "constants": true,
+    "subpackages": [
+      "mech"
+    ]
+  }
+}

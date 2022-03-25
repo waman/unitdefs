@@ -1,0 +1,263 @@
+{
+  "si_unit": "joule",
+  "dimension": {
+    "M": 1,
+    "L": 2,
+    "T": -2
+  },
+  "convertibles": [
+    {
+      "result": "AbsoluteTemperature",
+      "from": "joule",
+      "to": "kelvin",
+      "factor": "1 / Constants.Boltzmann_constant"
+    },
+    {
+      "result": "Mass",
+      "from": "joule",
+      "to": "kilogram",
+      "factor": "1 / (Constants.speed_of_light * Constants.speed_of_light)"
+    }
+  ],
+  "units": [
+    {
+      "name": "joule",
+      "symbol": "J",
+      "scale_prefixes": "all"
+    },
+    {
+      "name": "erg",
+      "interval": "1e-7",
+      "symbol": "erg"
+    },
+    {
+      "name": "electronvolt",
+      "symbol": "eV",
+      "interval": "Constants.elementary_charge",
+      "scale_prefixes": "all",
+      "notExact": true
+    },
+    {
+      "name": "rydberg",
+      "symbol": "Ry",
+      "interval": "Constants.Rydberg_constant * Constants.Planck_constant * Constants.speed_of_light",
+      "notExact": true
+    },
+    {
+      "name": "atomic unit of energy",
+      "symbol": "E_h",
+      "interval": "2",
+      "base_unit": "rydberg",
+      "notExact": true
+    },
+    {
+      "name": "watt hour",
+      "symbol": "Wh",
+      "base_unit": "Power.watt * Time.hour"
+    },
+    {
+      "name": "kilowatt hour",
+      "symbol": "kWh",
+      "base_unit": "Power.kilowatt * Time.hour"
+    },
+    {
+      "name": "litre atmosphere",
+      "symbol": "sl",
+      "base_unit": "Volume.litre * Pressure.atmosphere"
+    },
+    {
+      "name": "calorie",
+      "symbol": "cal",
+      "base_unit": "calorie(th)",
+      "attributes": [
+        "th",
+        "IT",
+        "mean"
+      ]
+    },
+    {
+      "name": "calorie(th)",
+      "symbol": "cal(th)",
+      "aliases": [
+        "cal_th"
+      ],
+      "interval": "4.184"
+    },
+    {
+      "name": "calorie(IT)",
+      "symbol": "cal(IT)",
+      "aliases": [
+        "cal_IT"
+      ],
+      "interval": "4.1868"
+    },
+    {
+      "name": "calorie(mean)",
+      "symbol": "cal(mean)",
+      "aliases": [
+        "cal_mean"
+      ],
+      "interval": "4.190",
+      "notExact": true
+    },
+    {
+      "name": "calorie 4℃",
+      "symbol": "cal_4℃",
+      "interval": "4.204",
+      "notExact": true
+    },
+    {
+      "name": "calorie 15℃",
+      "symbol": "cal_15℃",
+      "interval": "4.1855"
+    },
+    {
+      "name": "calorie 20℃",
+      "symbol": "cal_20℃",
+      "interval": "4.182",
+      "notExact": true
+    },
+    {
+      "name": "kilocalorie",
+      "symbol": "kcal",
+      "aliases": [
+        "Cal"
+      ],
+      "interval": "1000",
+      "base_unit": "calorie"
+    },
+    {
+      "name": "tonne of coal equivalent",
+      "symbol": "TCE",
+      "interval": "7e9",
+      "base_unit": "calorie(th)"
+    },
+    {
+      "name": "tonne of oil equivalent",
+      "symbol": "toe",
+      "interval": "1e10",
+      "base_unit": "calorie(IT)"
+    },
+    {
+      "name": "ton of TNT",
+      "symbol": "tTNT",
+      "interval": "1e9",
+      "base_unit": "calorie(th)"
+    },
+    {
+      "name": "british thermal unit",
+      "symbol": "BTU",
+      "base_unit": "british_thermal_unit(IT)",
+      "attributes": [
+        "ISO",
+        "IT",
+        "mean",
+        "th"
+      ]
+    },
+    {
+      "name": "british thermal unit(ISO)",
+      "symbol": "BTU(ISO)",
+      "aliases": [
+        "BTU_ISO"
+      ],
+      "interval": "1.0545e3"
+    },
+    {
+      "name": "british thermal unit(IT)",
+      "symbol": "BTU(IT)",
+      "aliases": [
+        "BTU_IT"
+      ],
+      "interval": "1.05505585262e3"
+    },
+    {
+      "name": "british thermal unit(mean)",
+      "symbol": "BTU(mean)",
+      "aliases": [
+        "BTU_mean"
+      ],
+      "interval": "1.05587e3",
+      "notExact": true
+    },
+    {
+      "name": "british thermal unit(th)",
+      "symbol": "BTU(th)",
+      "aliases": [
+        "BTU_th"
+      ],
+      "interval": "1.054350e3",
+      "notExact": true
+    },
+    {
+      "name": "british thermal unit 59℉",
+      "symbol": "BTU_59℉",
+      "interval": "1.054804e3"
+    },
+    {
+      "name": "quad",
+      "interval": "1e15",
+      "base_unit": "british_thermal_unit(IT)",
+      "symbol": "quad"
+    }
+  ],
+  "operations": [
+    {
+      "operation": "*",
+      "argument": "Time",
+      "result": "AngularMomentum"
+    },
+    {
+      "operation": "/",
+      "argument": "Time",
+      "result": "Power"
+    },
+    {
+      "operation": "/",
+      "argument": "Mass",
+      "result": "AbsorbedDose"
+    },
+    {
+      "operation": "/",
+      "argument": "AbsoluteTemperature",
+      "result": "Entropy"
+    }
+  ],
+  "attributes": [
+    {
+      "name": "th",
+      "parents": [
+        "calorie",
+        "british thermal unit"
+      ]
+    },
+    {
+      "name": "IT",
+      "parents": [
+        "calorie",
+        "british thermal unit"
+      ]
+    },
+    {
+      "name": "mean",
+      "parents": [
+        "calorie",
+        "british thermal unit"
+      ]
+    },
+    {
+      "name": "ISO",
+      "parents": [
+        "british thermal unit"
+      ]
+    }
+  ],
+  "use": {
+    "constants": true,
+    "subpackages": [
+      "therm",
+      "",
+      "ra"
+    ]
+  }
+}

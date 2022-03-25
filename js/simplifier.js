@@ -43,16 +43,17 @@ function readUnitdefs(srcRoot){
     const def = path.join(srcRoot, 'unit', 'def')
     return read(def, '');
 
-    function read(def, subpackage){
-        const dir = path.join(def, subpackage);
+    function read(def, subdir){
+        const dir = path.join(def, subdir);
         return fs.readdirSync(dir).flatMap(f => {
             const fn = path.join(dir, f);
             if(fs.statSync(fn).isDirectory()){
-                const sp = subpackage === '' ? f : path.join(subpackage, f);
+                const sp = subdir === '' ? f : path.join(subdir, f);
                 return read(def, sp);
             }else{
                 const id = f.replace('.json', '');
                 const json = JSON.parse(fs.readFileSync(fn, 'utf8'));
+                const subpackage = subdir.replace(path.sep, '.');
                 return [{ 'id': id, 'subpackage': subpackage, 'json': json }];
             }
         });
@@ -63,7 +64,7 @@ function readUnitdefs(srcRoot){
 function writeUnitdefs(destRoot, unitdefs){
     const def = path.join(destRoot, 'unit', 'def')
     unitdefs.forEach(unitdef => {
-        const destDir = path.join(def, unitdef.subpackage);
+        const destDir = path.join(def, unitdef.subpackage.replace('.', path.sep));
         if(!fs.existsSync(destDir)) util.mkdirs(destDir);
 
         const dest = path.join(destDir, unitdef.id + '.json');

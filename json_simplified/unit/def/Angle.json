@@ -1,5 +1,5 @@
 {
-  "SIUnit": "radian",
+  "si_unit": "radian",
   "dimension": {},
   "units": [
     {
@@ -12,7 +12,7 @@
       "aliases": [
         "deg"
       ],
-      "interval": "2 * Constants.Pi / 360"
+      "interval": "2 * Constants.pi / 360"
     },
     {
       "name": "arcmin",
@@ -20,7 +20,7 @@
         "MOA"
       ],
       "interval": "1/60",
-      "baseUnit": "degree",
+      "base_unit": "degree",
       "symbol": "arcmin"
     },
     {
@@ -29,7 +29,7 @@
         "as"
       ],
       "interval": "1/60",
-      "baseUnit": "arcmin",
+      "base_unit": "arcmin",
       "symbol": "arcsec"
     },
     {
@@ -39,35 +39,35 @@
         "grad",
         "gon"
       ],
-      "interval": "2 * Constants.Pi / 400"
+      "interval": "2 * Constants.pi / 400"
     },
     {
       "name": "turn",
       "symbol": "tr",
-      "interval": "2 * Constants.Pi"
+      "interval": "2 * Constants.pi"
     },
     {
       "name": "sign",
       "interval": "30",
-      "baseUnit": "degree",
+      "base_unit": "degree",
       "symbol": "sign"
     },
     {
       "name": "octant",
       "interval": "45",
-      "baseUnit": "degree",
+      "base_unit": "degree",
       "symbol": "octant"
     },
     {
       "name": "sextant",
       "interval": "60",
-      "baseUnit": "degree",
+      "base_unit": "degree",
       "symbol": "sextant"
     },
     {
       "name": "quadrant",
       "interval": "90",
-      "baseUnit": "degree",
+      "base_unit": "degree",
       "symbol": "quadrant"
     }
   ],

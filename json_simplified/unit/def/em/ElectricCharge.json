@@ -1,5 +1,5 @@
 {
-  "SIUnit": "coulomb",
+  "si_unit": "coulomb",
   "dimension": {
     "T": 1,
     "I": 1
@@ -7,113 +7,8 @@
   "units": [
     {
       "name": "coulomb",
-      "symbol": "C"
-    },
-    {
-      "name": "yoctocoulomb",
-      "symbol": "yC",
-      "interval": "1e-24"
-    },
-    {
-      "name": "zeptocoulomb",
-      "symbol": "zC",
-      "interval": "1e-21"
-    },
-    {
-      "name": "attocoulomb",
-      "symbol": "aC",
-      "interval": "1e-18"
-    },
-    {
-      "name": "femtocoulomb",
-      "symbol": "fC",
-      "interval": "1e-15"
-    },
-    {
-      "name": "picocoulomb",
-      "symbol": "pC",
-      "interval": "1e-12"
-    },
-    {
-      "name": "nanocoulomb",
-      "symbol": "nC",
-      "interval": "1e-9"
-    },
-    {
-      "name": "microcoulomb",
-      "symbol": "μC",
-      "aliases": [
-        "mcC"
-      ],
-      "interval": "1e-6"
-    },
-    {
-      "name": "millicoulomb",
-      "symbol": "mC",
-      "interval": "1e-3"
-    },
-    {
-      "name": "centicoulomb",
-      "symbol": "cC",
-      "interval": "1e-2"
-    },
-    {
-      "name": "decicoulomb",
-      "symbol": "dC",
-      "interval": "1e-1"
-    },
-    {
-      "name": "decacoulomb",
-      "symbol": "daC",
-      "interval": "1e1"
-    },
-    {
-      "name": "hectocoulomb",
-      "symbol": "hC",
-      "interval": "1e2"
-    },
-    {
-      "name": "kilocoulomb",
-      "symbol": "kC",
-      "aliases": [
-        "KC"
-      ],
-      "interval": "1e3"
-    },
-    {
-      "name": "megacoulomb",
-      "symbol": "MC",
-      "interval": "1e6"
-    },
-    {
-      "name": "gigacoulomb",
-      "symbol": "GC",
-      "interval": "1e9"
-    },
-    {
-      "name": "teracoulomb",
-      "symbol": "TC",
-      "interval": "1e12"
-    },
-    {
-      "name": "petacoulomb",
-      "symbol": "PC",
-      "interval": "1e15"
-    },
-    {
-      "name": "exacoulomb",
-      "symbol": "EC",
-      "interval": "1e18"
-    },
-    {
-      "name": "zettacoulomb",
-      "symbol": "ZC",
-      "interval": "1e21"
-    },
-    {
-      "name": "yottacoulomb",
-      "symbol": "YC",
-      "interval": "1e24"
+      "symbol": "C",
+      "scale_prefixes": "all"
     },
     {
       "name": "atomic unit of charge",
@@ -121,7 +16,7 @@
       "aliases": [
         "e"
       ],
-      "interval": "Constants.ElementaryCharge"
+      "interval": "Constants.elementary_charge"
     },
     {
       "name": "abcoulomb",
@@ -138,12 +33,12 @@
         "Fr",
         "esu"
       ],
-      "interval": "0.1 / Constants.SpeedOfLight"
+      "interval": "0.1 / Constants.speed_of_light"
     },
     {
       "name": "faraday",
       "symbol": "F",
-      "interval": "Constants.AvogadroConstant * Constants.ElementaryCharge"
+      "interval": "Constants.Avogadro_constant * Constants.elementary_charge"
     }
   ],
   "operations": [
@@ -172,7 +67,7 @@
     "constants": true,
     "subpackages": [
       "",
-      "radioactivity"
+      "ra"
     ]
   }
 }

@@ -1,0 +1,21 @@
+{
+  "si_unit": "Power / Area",
+  "dimension": {
+    "M": 1,
+    "T": -3
+  },
+  "operations": [
+    {
+      "operation": "/",
+      "argument": "Frequency",
+      "result": "freq.SpectralIrradiance"
+    }
+  ],
+  "use": {
+    "subpackages": [
+      "mech",
+      "",
+      "angle"
+    ]
+  }
+}

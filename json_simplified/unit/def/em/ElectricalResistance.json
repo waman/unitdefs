@@ -1,5 +1,5 @@
 {
-  "SIUnit": "ohm",
+  "si_unit": "ohm",
   "dimension": {
     "M": 1,
     "L": 2,
@@ -20,171 +20,8 @@
       "symbol": "Ω",
       "aliases": [
         "ohm"
-      ]
-    },
-    {
-      "name": "yoctoohm",
-      "symbol": "yΩ",
-      "aliases": [
-        "yohm"
       ],
-      "interval": "1e-24"
-    },
-    {
-      "name": "zeptoohm",
-      "symbol": "zΩ",
-      "aliases": [
-        "zohm"
-      ],
-      "interval": "1e-21"
-    },
-    {
-      "name": "attoohm",
-      "symbol": "aΩ",
-      "aliases": [
-        "aohm"
-      ],
-      "interval": "1e-18"
-    },
-    {
-      "name": "femtoohm",
-      "symbol": "fΩ",
-      "aliases": [
-        "fohm"
-      ],
-      "interval": "1e-15"
-    },
-    {
-      "name": "picoohm",
-      "symbol": "pΩ",
-      "aliases": [
-        "pohm"
-      ],
-      "interval": "1e-12"
-    },
-    {
-      "name": "nanoohm",
-      "symbol": "nΩ",
-      "aliases": [
-        "nohm"
-      ],
-      "interval": "1e-9"
-    },
-    {
-      "name": "microohm",
-      "symbol": "μΩ",
-      "aliases": [
-        "mcΩ",
-        "μohm",
-        "mcohm"
-      ],
-      "interval": "1e-6"
-    },
-    {
-      "name": "milliohm",
-      "symbol": "mΩ",
-      "aliases": [
-        "mohm"
-      ],
-      "interval": "1e-3"
-    },
-    {
-      "name": "centiohm",
-      "symbol": "cΩ",
-      "aliases": [
-        "cohm"
-      ],
-      "interval": "1e-2"
-    },
-    {
-      "name": "deciohm",
-      "symbol": "dΩ",
-      "aliases": [
-        "dohm"
-      ],
-      "interval": "1e-1"
-    },
-    {
-      "name": "decaohm",
-      "symbol": "daΩ",
-      "aliases": [
-        "daohm"
-      ],
-      "interval": "1e1"
-    },
-    {
-      "name": "hectoohm",
-      "symbol": "hΩ",
-      "aliases": [
-        "hohm"
-      ],
-      "interval": "1e2"
-    },
-    {
-      "name": "kiloohm",
-      "symbol": "kΩ",
-      "aliases": [
-        "KΩ",
-        "kohm",
-        "Kohm"
-      ],
-      "interval": "1e3"
-    },
-    {
-      "name": "megaohm",
-      "symbol": "MΩ",
-      "aliases": [
-        "Mohm"
-      ],
-      "interval": "1e6"
-    },
-    {
-      "name": "gigaohm",
-      "symbol": "GΩ",
-      "aliases": [
-        "Gohm"
-      ],
-      "interval": "1e9"
-    },
-    {
-      "name": "teraohm",
-      "symbol": "TΩ",
-      "aliases": [
-        "Tohm"
-      ],
-      "interval": "1e12"
-    },
-    {
-      "name": "petaohm",
-      "symbol": "PΩ",
-      "aliases": [
-        "Pohm"
-      ],
-      "interval": "1e15"
-    },
-    {
-      "name": "exaohm",
-      "symbol": "EΩ",
-      "aliases": [
-        "Eohm"
-      ],
-      "interval": "1e18"
-    },
-    {
-      "name": "zettaohm",
-      "symbol": "ZΩ",
-      "aliases": [
-        "Zohm"
-      ],
-      "interval": "1e21"
-    },
-    {
-      "name": "yottaohm",
-      "symbol": "YΩ",
-      "aliases": [
-        "Yohm"
-      ],
-      "interval": "1e24"
+      "scale_prefixes": "all"
     },
     {
       "name": "abohm",
@@ -200,7 +37,7 @@
       "aliases": [
         "statohm"
       ],
-      "interval": "Constants.SpeedOfLight * Constants.SpeedOfLight * 1e-5",
+      "interval": "Constants.speed_of_light * Constants.speed_of_light * 1e-5",
       "description": "Formal unit for Gaussian and ESU CGS unit system."
     }
   ],

@@ -1,0 +1,13 @@
+{
+  "si_unit": "Area * Frequency",
+  "dimension": {
+    "L": 2,
+    "T": -1
+  },
+  "use": {
+    "subpackages": [
+      "",
+      "angle"
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
   "description": "This unit is defined for electrical resistance in ESU and Gaussian unit systems",
-  "SIUnit": "Time / Length",
+  "si_unit": "Time / Length",
   "dimension": {
     "L": -1,
     "T": 1

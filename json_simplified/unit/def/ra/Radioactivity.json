@@ -1,0 +1,24 @@
+{
+  "si_unit": "becquerel",
+  "dimension": {
+    "T": -1
+  },
+  "units": [
+    {
+      "name": "becquerel",
+      "symbol": "Bq",
+      "scale_prefixes": "all"
+    },
+    {
+      "name": "curie",
+      "symbol": "Ci",
+      "interval": "3.7e10",
+      "scale_prefixes": "all"
+    },
+    {
+      "name": "rutherford",
+      "symbol": "Rd",
+      "base_unit": "megabecquerel"
+    }
+  ]
+}

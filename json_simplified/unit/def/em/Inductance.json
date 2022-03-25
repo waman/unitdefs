@@ -1,5 +1,5 @@
 {
-  "SIUnit": "henry",
+  "si_unit": "henry",
   "dimension": {
     "M": 1,
     "L": 2,
@@ -9,113 +9,8 @@
   "units": [
     {
       "name": "henry",
-      "symbol": "H"
-    },
-    {
-      "name": "yoctohenry",
-      "symbol": "yH",
-      "interval": "1e-24"
-    },
-    {
-      "name": "zeptohenry",
-      "symbol": "zH",
-      "interval": "1e-21"
-    },
-    {
-      "name": "attohenry",
-      "symbol": "aH",
-      "interval": "1e-18"
-    },
-    {
-      "name": "femtohenry",
-      "symbol": "fH",
-      "interval": "1e-15"
-    },
-    {
-      "name": "picohenry",
-      "symbol": "pH",
-      "interval": "1e-12"
-    },
-    {
-      "name": "nanohenry",
-      "symbol": "nH",
-      "interval": "1e-9"
-    },
-    {
-      "name": "microhenry",
-      "symbol": "μH",
-      "aliases": [
-        "mcH"
-      ],
-      "interval": "1e-6"
-    },
-    {
-      "name": "millihenry",
-      "symbol": "mH",
-      "interval": "1e-3"
-    },
-    {
-      "name": "centihenry",
-      "symbol": "cH",
-      "interval": "1e-2"
-    },
-    {
-      "name": "decihenry",
-      "symbol": "dH",
-      "interval": "1e-1"
-    },
-    {
-      "name": "decahenry",
-      "symbol": "daH",
-      "interval": "1e1"
-    },
-    {
-      "name": "hectohenry",
-      "symbol": "hH",
-      "interval": "1e2"
-    },
-    {
-      "name": "kilohenry",
-      "symbol": "kH",
-      "aliases": [
-        "KH"
-      ],
-      "interval": "1e3"
-    },
-    {
-      "name": "megahenry",
-      "symbol": "MH",
-      "interval": "1e6"
-    },
-    {
-      "name": "gigahenry",
-      "symbol": "GH",
-      "interval": "1e9"
-    },
-    {
-      "name": "terahenry",
-      "symbol": "TH",
-      "interval": "1e12"
-    },
-    {
-      "name": "petahenry",
-      "symbol": "PH",
-      "interval": "1e15"
-    },
-    {
-      "name": "exahenry",
-      "symbol": "EH",
-      "interval": "1e18"
-    },
-    {
-      "name": "zettahenry",
-      "symbol": "ZH",
-      "interval": "1e21"
-    },
-    {
-      "name": "yottahenry",
-      "symbol": "YH",
-      "interval": "1e24"
+      "symbol": "H",
+      "scale_prefixes": "all"
     },
     {
       "name": "abhenry",
@@ -125,7 +20,7 @@
     {
       "name": "stathenry",
       "symbol": "statH",
-      "interval": "Constants.SpeedOfLight * Constants.SpeedOfLight * 1e-5",
+      "interval": "Constants.speed_of_light * Constants.speed_of_light * 1e-5",
       "description": "Formal unit for Gaussian and ESU CGS unit system."
     }
   ],

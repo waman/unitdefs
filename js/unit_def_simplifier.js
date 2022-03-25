@@ -114,11 +114,23 @@ function constructOperations(simplifiedUnitdefs, unitdefs){
                 ];
             }else if(c.includes('/')){
                 const ss = c.split('/').map(s => s.trim());
+                const resultType = extractResultType(unitdef)
                 return [
-                    {'operation': '/', 'target': ss[0], 'argument': ss[1], 'result': unitdef.id },
+                    {'operation': '/', 'target': ss[0], 'argument': ss[1], 'result': resultType },
                 ];
             }else{
                 throw new Error('Necessary operators ("*" or "/") do not appear');
+            }
+
+            // radio.freq.SpectralIrradiance returns freq.SpectralIrradiance
+            function extractResultType(unitdef){
+                const subpackage = unitdef.subpackage;
+                if(subpackage.includes('.')){
+                    const i = subpackage.indexOf('.');
+                    return subpackage.substring(i+1) + '.' + unitdef.id;
+                }else{
+                    return unitdef.id
+                }
             }
         });
     });
@@ -201,7 +213,7 @@ function constructUse(unitdefs){
         // used subpackages
         const typeSet = new Set();
 
-        //*** types in SIUnit */
+        //*** types in si_unit */
         ['*', '/'].forEach(sep => {
             if(json.si_unit.includes(sep)){
                 json.si_unit.split(sep).forEach(s => typeSet.add(s.trim()));
@@ -219,8 +231,11 @@ function constructUse(unitdefs){
 
         //*** types in 'operations'
         if(json.operations){
-            json.operations.flatMap(op => [op.argument, op.result])
-                .forEach(t => typeSet.add(t));
+            json.operations.forEach(op => {
+                typeSet.add(op.argument);
+                // exclude freq.SpectralIrradiance
+                if(!op.result.includes('.')) typeSet.add(op.result);
+            });
         }
 
         //*** types in 'interval'

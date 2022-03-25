@@ -1,5 +1,5 @@
 {
-  "SIUnit": "Angle / Time",
+  "si_unit": "Angle / Time",
   "dimension": {
     "T": -1
   },
@@ -8,19 +8,19 @@
       "result": "Frequency",
       "from": "Angle.radian / Time.second",
       "to": "heltz",
-      "factor": "1 / (2 * Constants.Pi)"
+      "factor": "1 / (2 * Constants.pi)"
     }
   ],
   "units": [
     {
       "name": "cycle per second",
       "symbol": "cps",
-      "interval": "2 * Constants.Pi"
+      "interval": "2 * Constants.pi"
     },
     {
       "name": "revolution per minute",
       "symbol": "rpm",
-      "interval": "2 * Constants.Pi / 60"
+      "interval": "2 * Constants.pi / 60"
     }
   ],
   "use": {

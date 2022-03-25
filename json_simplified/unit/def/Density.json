@@ -1,5 +1,5 @@
 {
-  "SIUnit": "Mass / Volume",
+  "si_unit": "Mass / Volume",
   "dimension": {
     "M": 1,
     "L": -3
