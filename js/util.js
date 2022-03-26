@@ -39,7 +39,7 @@ function getScalePrefixes(){
     return prefixes;
 }
 
-exports.getPrefixes = function(scalePrefixKind, excludePrefixes){
+exports.getPrefixes = function(scalePrefixKind, exclude_prefixes){
     let ps;
     switch(scalePrefixKind){
         case 'all': 
@@ -52,8 +52,8 @@ exports.getPrefixes = function(scalePrefixKind, excludePrefixes){
             ps = scalePrefixes.larger;
             break;
     }
-    if(excludePrefixes){
-        return ps.filter(p => !excludePrefixes.includes(p.prefix));
+    if(exclude_prefixes){
+        return ps.filter(p => !exclude_prefixes.includes(p.prefix));
     }else{
         return ps;
     }

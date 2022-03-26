@@ -32,11 +32,11 @@ function simplifyUnit(u){
         }
     }
 
-    if(u.scalePrefixes){
+    if(u.scale_prefixes){
         const su = util.cloneProps(u, ['scalePrefixes', 'excludePrefixes']);  // simplified unit
 
         const prefixer = prefixerProvider.get(u.name);
-        const prefixed = util.getPrefixes(u.scalePrefixes, u.excludePrefixes).map(p => {
+        const prefixed = util.getPrefixes(u.scale_prefixes, u.exclude_prefixes).map(p => {
             const pu = {};  // prefixed unit
             prefixer.putName(pu, p, u);
             pu.symbol = p.prefix + u.symbol;
@@ -58,7 +58,7 @@ function simplifyUnit(u){
             prefixer.putInterval(pu, p, u);
             prefixer.putBaseUnit(pu, p, u);
 
-            if(u.notExact) pu.notExact = u.notExact;
+            if(u.not_exact) pu.not_exact = u.not_exact;
 
             return pu;
         });
@@ -240,8 +240,8 @@ function constructUse(unitdefs){
 
         //*** types in 'interval'
         if(json.units){
-            json.units.filter(u => u.baseUnit)
-                .forEach(u => util.appendSubpackages(u.baseUnit, typeSet));
+            json.units.filter(u => u.base_unit)
+                .forEach(u => util.appendSubpackages(u.base_unit, typeSet));
         }
 
         const sps = util.resolveSubpackages(typeSet, unitdefs, unitdef.subpackage);

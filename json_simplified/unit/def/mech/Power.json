@@ -13,6 +13,112 @@
       "scale_prefixes": "all"
     },
     {
+      "name": "yoctowatt",
+      "symbol": "yW",
+      "interval": "1e-24"
+    },
+    {
+      "name": "zeptowatt",
+      "symbol": "zW",
+      "interval": "1e-21"
+    },
+    {
+      "name": "attowatt",
+      "symbol": "aW",
+      "interval": "1e-18"
+    },
+    {
+      "name": "femtowatt",
+      "symbol": "fW",
+      "interval": "1e-15"
+    },
+    {
+      "name": "picowatt",
+      "symbol": "pW",
+      "interval": "1e-12"
+    },
+    {
+      "name": "nanowatt",
+      "symbol": "nW",
+      "interval": "1e-9"
+    },
+    {
+      "name": "microwatt",
+      "symbol": "μW",
+      "aliases": [
+        "mcW"
+      ],
+      "interval": "1e-6"
+    },
+    {
+      "name": "milliwatt",
+      "symbol": "mW",
+      "interval": "1e-3"
+    },
+    {
+      "name": "centiwatt",
+      "symbol": "cW",
+      "interval": "1e-2"
+    },
+    {
+      "name": "deciwatt",
+      "symbol": "dW",
+      "interval": "1e-1"
+    },
+    {
+      "name": "decawatt",
+      "symbol": "daW",
+      "interval": "1e1"
+    },
+    {
+      "name": "hectowatt",
+      "symbol": "hW",
+      "interval": "1e2"
+    },
+    {
+      "name": "kilowatt",
+      "symbol": "kW",
+      "aliases": [
+        "KW"
+      ],
+      "interval": "1e3"
+    },
+    {
+      "name": "megawatt",
+      "symbol": "MW",
+      "interval": "1e6"
+    },
+    {
+      "name": "gigawatt",
+      "symbol": "GW",
+      "interval": "1e9"
+    },
+    {
+      "name": "terawatt",
+      "symbol": "TW",
+      "interval": "1e12"
+    },
+    {
+      "name": "petawatt",
+      "symbol": "PW",
+      "interval": "1e15"
+    },
+    {
+      "name": "exawatt",
+      "symbol": "EW",
+      "interval": "1e18"
+    },
+    {
+      "name": "zettawatt",
+      "symbol": "ZW",
+      "interval": "1e21"
+    },
+    {
+      "name": "yottawatt",
+      "symbol": "YW",
+      "interval": "1e24"
+    },
+    {
       "name": "horsepower",
       "symbol": "hp",
       "aliases": [
@@ -131,7 +237,8 @@
       "em",
       "",
       "radio.freq",
-      "radio"
+      "radio",
+      "fluid"
     ]
   }
 }

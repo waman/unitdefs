@@ -14,7 +14,7 @@
       "name": "mach number",
       "symbol": "M",
       "interval": "340",
-      "notExact": true
+      "not_exact": true
     },
     {
       "name": "knot",

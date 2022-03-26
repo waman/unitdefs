@@ -10,10 +10,222 @@
       "scale_prefixes": "all"
     },
     {
+      "name": "yoctobecquerel",
+      "symbol": "yBq",
+      "interval": "1e-24"
+    },
+    {
+      "name": "zeptobecquerel",
+      "symbol": "zBq",
+      "interval": "1e-21"
+    },
+    {
+      "name": "attobecquerel",
+      "symbol": "aBq",
+      "interval": "1e-18"
+    },
+    {
+      "name": "femtobecquerel",
+      "symbol": "fBq",
+      "interval": "1e-15"
+    },
+    {
+      "name": "picobecquerel",
+      "symbol": "pBq",
+      "interval": "1e-12"
+    },
+    {
+      "name": "nanobecquerel",
+      "symbol": "nBq",
+      "interval": "1e-9"
+    },
+    {
+      "name": "microbecquerel",
+      "symbol": "μBq",
+      "aliases": [
+        "mcBq"
+      ],
+      "interval": "1e-6"
+    },
+    {
+      "name": "millibecquerel",
+      "symbol": "mBq",
+      "interval": "1e-3"
+    },
+    {
+      "name": "centibecquerel",
+      "symbol": "cBq",
+      "interval": "1e-2"
+    },
+    {
+      "name": "decibecquerel",
+      "symbol": "dBq",
+      "interval": "1e-1"
+    },
+    {
+      "name": "decabecquerel",
+      "symbol": "daBq",
+      "interval": "1e1"
+    },
+    {
+      "name": "hectobecquerel",
+      "symbol": "hBq",
+      "interval": "1e2"
+    },
+    {
+      "name": "kilobecquerel",
+      "symbol": "kBq",
+      "aliases": [
+        "KBq"
+      ],
+      "interval": "1e3"
+    },
+    {
+      "name": "megabecquerel",
+      "symbol": "MBq",
+      "interval": "1e6"
+    },
+    {
+      "name": "gigabecquerel",
+      "symbol": "GBq",
+      "interval": "1e9"
+    },
+    {
+      "name": "terabecquerel",
+      "symbol": "TBq",
+      "interval": "1e12"
+    },
+    {
+      "name": "petabecquerel",
+      "symbol": "PBq",
+      "interval": "1e15"
+    },
+    {
+      "name": "exabecquerel",
+      "symbol": "EBq",
+      "interval": "1e18"
+    },
+    {
+      "name": "zettabecquerel",
+      "symbol": "ZBq",
+      "interval": "1e21"
+    },
+    {
+      "name": "yottabecquerel",
+      "symbol": "YBq",
+      "interval": "1e24"
+    },
+    {
       "name": "curie",
       "symbol": "Ci",
       "interval": "3.7e10",
       "scale_prefixes": "all"
+    },
+    {
+      "name": "yoctocurie",
+      "symbol": "yCi",
+      "interval": "3.7e10 * 1e-24"
+    },
+    {
+      "name": "zeptocurie",
+      "symbol": "zCi",
+      "interval": "3.7e10 * 1e-21"
+    },
+    {
+      "name": "attocurie",
+      "symbol": "aCi",
+      "interval": "3.7e10 * 1e-18"
+    },
+    {
+      "name": "femtocurie",
+      "symbol": "fCi",
+      "interval": "3.7e10 * 1e-15"
+    },
+    {
+      "name": "picocurie",
+      "symbol": "pCi",
+      "interval": "3.7e10 * 1e-12"
+    },
+    {
+      "name": "nanocurie",
+      "symbol": "nCi",
+      "interval": "3.7e10 * 1e-9"
+    },
+    {
+      "name": "microcurie",
+      "symbol": "μCi",
+      "aliases": [
+        "mcCi"
+      ],
+      "interval": "3.7e10 * 1e-6"
+    },
+    {
+      "name": "millicurie",
+      "symbol": "mCi",
+      "interval": "3.7e10 * 1e-3"
+    },
+    {
+      "name": "centicurie",
+      "symbol": "cCi",
+      "interval": "3.7e10 * 1e-2"
+    },
+    {
+      "name": "decicurie",
+      "symbol": "dCi",
+      "interval": "3.7e10 * 1e-1"
+    },
+    {
+      "name": "decacurie",
+      "symbol": "daCi",
+      "interval": "3.7e10 * 1e1"
+    },
+    {
+      "name": "hectocurie",
+      "symbol": "hCi",
+      "interval": "3.7e10 * 1e2"
+    },
+    {
+      "name": "kilocurie",
+      "symbol": "kCi",
+      "aliases": [
+        "KCi"
+      ],
+      "interval": "3.7e10 * 1e3"
+    },
+    {
+      "name": "megacurie",
+      "symbol": "MCi",
+      "interval": "3.7e10 * 1e6"
+    },
+    {
+      "name": "gigacurie",
+      "symbol": "GCi",
+      "interval": "3.7e10 * 1e9"
+    },
+    {
+      "name": "teracurie",
+      "symbol": "TCi",
+      "interval": "3.7e10 * 1e12"
+    },
+    {
+      "name": "petacurie",
+      "symbol": "PCi",
+      "interval": "3.7e10 * 1e15"
+    },
+    {
+      "name": "exacurie",
+      "symbol": "ECi",
+      "interval": "3.7e10 * 1e18"
+    },
+    {
+      "name": "zettacurie",
+      "symbol": "ZCi",
+      "interval": "3.7e10 * 1e21"
+    },
+    {
+      "name": "yottacurie",
+      "symbol": "YCi",
+      "interval": "3.7e10 * 1e24"
     },
     {
       "name": "rutherford",

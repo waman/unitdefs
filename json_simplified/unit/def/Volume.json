@@ -14,10 +14,280 @@
       "scale_prefixes": "all"
     },
     {
+      "name": "cubic yoctometre",
+      "symbol": "ym³",
+      "aliases": [
+        "ym3"
+      ],
+      "base_unit": "Length.yoctometre^3"
+    },
+    {
+      "name": "cubic zeptometre",
+      "symbol": "zm³",
+      "aliases": [
+        "zm3"
+      ],
+      "base_unit": "Length.zeptometre^3"
+    },
+    {
+      "name": "cubic attometre",
+      "symbol": "am³",
+      "aliases": [
+        "am3"
+      ],
+      "base_unit": "Length.attometre^3"
+    },
+    {
+      "name": "cubic femtometre",
+      "symbol": "fm³",
+      "aliases": [
+        "fm3"
+      ],
+      "base_unit": "Length.femtometre^3"
+    },
+    {
+      "name": "cubic picometre",
+      "symbol": "pm³",
+      "aliases": [
+        "pm3"
+      ],
+      "base_unit": "Length.picometre^3"
+    },
+    {
+      "name": "cubic nanometre",
+      "symbol": "nm³",
+      "aliases": [
+        "nm3"
+      ],
+      "base_unit": "Length.nanometre^3"
+    },
+    {
+      "name": "cubic micrometre",
+      "symbol": "μm³",
+      "aliases": [
+        "mcm³",
+        "μm3",
+        "mcm3"
+      ],
+      "base_unit": "Length.micrometre^3"
+    },
+    {
+      "name": "cubic millimetre",
+      "symbol": "mm³",
+      "aliases": [
+        "mm3"
+      ],
+      "base_unit": "Length.millimetre^3"
+    },
+    {
+      "name": "cubic centimetre",
+      "symbol": "cm³",
+      "aliases": [
+        "cm3"
+      ],
+      "base_unit": "Length.centimetre^3"
+    },
+    {
+      "name": "cubic decimetre",
+      "symbol": "dm³",
+      "aliases": [
+        "dm3"
+      ],
+      "base_unit": "Length.decimetre^3"
+    },
+    {
+      "name": "cubic decametre",
+      "symbol": "dam³",
+      "aliases": [
+        "dam3"
+      ],
+      "base_unit": "Length.decametre^3"
+    },
+    {
+      "name": "cubic hectometre",
+      "symbol": "hm³",
+      "aliases": [
+        "hm3"
+      ],
+      "base_unit": "Length.hectometre^3"
+    },
+    {
+      "name": "cubic kilometre",
+      "symbol": "km³",
+      "aliases": [
+        "Km³",
+        "km3",
+        "Km3"
+      ],
+      "base_unit": "Length.kilometre^3"
+    },
+    {
+      "name": "cubic megametre",
+      "symbol": "Mm³",
+      "aliases": [
+        "Mm3"
+      ],
+      "base_unit": "Length.megametre^3"
+    },
+    {
+      "name": "cubic gigametre",
+      "symbol": "Gm³",
+      "aliases": [
+        "Gm3"
+      ],
+      "base_unit": "Length.gigametre^3"
+    },
+    {
+      "name": "cubic terametre",
+      "symbol": "Tm³",
+      "aliases": [
+        "Tm3"
+      ],
+      "base_unit": "Length.terametre^3"
+    },
+    {
+      "name": "cubic petametre",
+      "symbol": "Pm³",
+      "aliases": [
+        "Pm3"
+      ],
+      "base_unit": "Length.petametre^3"
+    },
+    {
+      "name": "cubic exametre",
+      "symbol": "Em³",
+      "aliases": [
+        "Em3"
+      ],
+      "base_unit": "Length.exametre^3"
+    },
+    {
+      "name": "cubic zettametre",
+      "symbol": "Zm³",
+      "aliases": [
+        "Zm3"
+      ],
+      "base_unit": "Length.zettametre^3"
+    },
+    {
+      "name": "cubic yottametre",
+      "symbol": "Ym³",
+      "aliases": [
+        "Ym3"
+      ],
+      "base_unit": "Length.yottametre^3"
+    },
+    {
       "name": "litre",
       "symbol": "L",
       "interval": "1e-3",
       "scale_prefixes": "all"
+    },
+    {
+      "name": "yoctolitre",
+      "symbol": "yL",
+      "interval": "1e-3 * 1e-24"
+    },
+    {
+      "name": "zeptolitre",
+      "symbol": "zL",
+      "interval": "1e-3 * 1e-21"
+    },
+    {
+      "name": "attolitre",
+      "symbol": "aL",
+      "interval": "1e-3 * 1e-18"
+    },
+    {
+      "name": "femtolitre",
+      "symbol": "fL",
+      "interval": "1e-3 * 1e-15"
+    },
+    {
+      "name": "picolitre",
+      "symbol": "pL",
+      "interval": "1e-3 * 1e-12"
+    },
+    {
+      "name": "nanolitre",
+      "symbol": "nL",
+      "interval": "1e-3 * 1e-9"
+    },
+    {
+      "name": "microlitre",
+      "symbol": "μL",
+      "aliases": [
+        "mcL"
+      ],
+      "interval": "1e-3 * 1e-6"
+    },
+    {
+      "name": "millilitre",
+      "symbol": "mL",
+      "interval": "1e-3 * 1e-3"
+    },
+    {
+      "name": "centilitre",
+      "symbol": "cL",
+      "interval": "1e-3 * 1e-2"
+    },
+    {
+      "name": "decilitre",
+      "symbol": "dL",
+      "interval": "1e-3 * 1e-1"
+    },
+    {
+      "name": "decalitre",
+      "symbol": "daL",
+      "interval": "1e-3 * 1e1"
+    },
+    {
+      "name": "hectolitre",
+      "symbol": "hL",
+      "interval": "1e-3 * 1e2"
+    },
+    {
+      "name": "kilolitre",
+      "symbol": "kL",
+      "aliases": [
+        "KL"
+      ],
+      "interval": "1e-3 * 1e3"
+    },
+    {
+      "name": "megalitre",
+      "symbol": "ML",
+      "interval": "1e-3 * 1e6"
+    },
+    {
+      "name": "gigalitre",
+      "symbol": "GL",
+      "interval": "1e-3 * 1e9"
+    },
+    {
+      "name": "teralitre",
+      "symbol": "TL",
+      "interval": "1e-3 * 1e12"
+    },
+    {
+      "name": "petalitre",
+      "symbol": "PL",
+      "interval": "1e-3 * 1e15"
+    },
+    {
+      "name": "exalitre",
+      "symbol": "EL",
+      "interval": "1e-3 * 1e18"
+    },
+    {
+      "name": "zettalitre",
+      "symbol": "ZL",
+      "interval": "1e-3 * 1e21"
+    },
+    {
+      "name": "yottalitre",
+      "symbol": "YL",
+      "interval": "1e-3 * 1e24"
     },
     {
       "name": "lambda",

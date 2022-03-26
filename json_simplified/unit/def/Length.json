@@ -18,6 +18,112 @@
       "scale_prefixes": "all"
     },
     {
+      "name": "yoctometre",
+      "symbol": "ym",
+      "interval": "1e-24"
+    },
+    {
+      "name": "zeptometre",
+      "symbol": "zm",
+      "interval": "1e-21"
+    },
+    {
+      "name": "attometre",
+      "symbol": "am",
+      "interval": "1e-18"
+    },
+    {
+      "name": "femtometre",
+      "symbol": "fm",
+      "interval": "1e-15"
+    },
+    {
+      "name": "picometre",
+      "symbol": "pm",
+      "interval": "1e-12"
+    },
+    {
+      "name": "nanometre",
+      "symbol": "nm",
+      "interval": "1e-9"
+    },
+    {
+      "name": "micrometre",
+      "symbol": "μm",
+      "aliases": [
+        "mcm"
+      ],
+      "interval": "1e-6"
+    },
+    {
+      "name": "millimetre",
+      "symbol": "mm",
+      "interval": "1e-3"
+    },
+    {
+      "name": "centimetre",
+      "symbol": "cm",
+      "interval": "1e-2"
+    },
+    {
+      "name": "decimetre",
+      "symbol": "dm",
+      "interval": "1e-1"
+    },
+    {
+      "name": "decametre",
+      "symbol": "dam",
+      "interval": "1e1"
+    },
+    {
+      "name": "hectometre",
+      "symbol": "hm",
+      "interval": "1e2"
+    },
+    {
+      "name": "kilometre",
+      "symbol": "km",
+      "aliases": [
+        "Km"
+      ],
+      "interval": "1e3"
+    },
+    {
+      "name": "megametre",
+      "symbol": "Mm",
+      "interval": "1e6"
+    },
+    {
+      "name": "gigametre",
+      "symbol": "Gm",
+      "interval": "1e9"
+    },
+    {
+      "name": "terametre",
+      "symbol": "Tm",
+      "interval": "1e12"
+    },
+    {
+      "name": "petametre",
+      "symbol": "Pm",
+      "interval": "1e15"
+    },
+    {
+      "name": "exametre",
+      "symbol": "Em",
+      "interval": "1e18"
+    },
+    {
+      "name": "zettametre",
+      "symbol": "Zm",
+      "interval": "1e21"
+    },
+    {
+      "name": "yottametre",
+      "symbol": "Ym",
+      "interval": "1e24"
+    },
+    {
       "name": "micron",
       "symbol": "µ",
       "interval": "1e-6"
@@ -31,13 +137,13 @@
       "name": "atomic unit of length",
       "symbol": "a0",
       "interval": "5.291772109217e-11",
-      "notExact": true
+      "not_exact": true
     },
     {
       "name": "xunit",
       "symbol": "xu",
       "interval": "1.0021e-13",
-      "notExact": true,
+      "not_exact": true,
       "attributes": [
         "CuKα1",
         "MoKα1"
@@ -47,19 +153,19 @@
       "name": "xunit(CuKα1)",
       "symbol": "xu(CuKα1)",
       "interval": "1.0020769928e-13",
-      "notExact": true
+      "not_exact": true
     },
     {
       "name": "xunit(MoKα1)",
       "symbol": "xu(MoKα1)",
       "interval": "1.0020995553e-13",
-      "notExact": true
+      "not_exact": true
     },
     {
       "name": "planck length",
       "symbol": "l_p",
       "interval": "1.61624e-35",
-      "notExact": true
+      "not_exact": true
     },
     {
       "name": "astronomical unit",
@@ -78,7 +184,7 @@
       "name": "parsec",
       "symbol": "pc",
       "interval": "3.08567782e16",
-      "notExact": true
+      "not_exact": true
     },
     {
       "name": "mil",

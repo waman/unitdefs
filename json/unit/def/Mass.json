@@ -16,9 +16,9 @@
     {"name": "gamma", "symbol": "γ", "base_unit": "microgram"},
     {"name": "quintal", "symbol": "q", "interval": "100", "base_unit": "kilogram"},
 
-    {"name": "dalton", "symbol": "Da", "aliases": ["u", "AMU"], "interval": "Constants.atomic_mass_unit", "notExact":true,
+    {"name": "dalton", "symbol": "Da", "aliases": ["u", "AMU"], "interval": "Constants.atomic_mass_unit", "not_exact":true,
       "description": "atomic mass unit"},
-    {"name": "electron mass", "symbol": "m_e", "interval": "Constants.electron_mass", "notExact":true},
+    {"name": "electron mass", "symbol": "m_e", "interval": "Constants.electron_mass", "not_exact":true},
 
     {"name": "grain", "symbol": "gr", "interval": "1/7000", "base_unit": "pound"},
 

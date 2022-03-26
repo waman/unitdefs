@@ -14,6 +14,110 @@
       ],
       "base_unit": "Time.second^2",
       "scale_prefixes": "smaller"
+    },
+    {
+      "name": "yoctosecond squared",
+      "symbol": "ys²",
+      "aliases": [
+        "ys2",
+        "ysec²",
+        "ysec2"
+      ],
+      "base_unit": "Time.yoctosecond^2"
+    },
+    {
+      "name": "zeptosecond squared",
+      "symbol": "zs²",
+      "aliases": [
+        "zs2",
+        "zsec²",
+        "zsec2"
+      ],
+      "base_unit": "Time.zeptosecond^2"
+    },
+    {
+      "name": "attosecond squared",
+      "symbol": "as²",
+      "aliases": [
+        "as2",
+        "asec²",
+        "asec2"
+      ],
+      "base_unit": "Time.attosecond^2"
+    },
+    {
+      "name": "femtosecond squared",
+      "symbol": "fs²",
+      "aliases": [
+        "fs2",
+        "fsec²",
+        "fsec2"
+      ],
+      "base_unit": "Time.femtosecond^2"
+    },
+    {
+      "name": "picosecond squared",
+      "symbol": "ps²",
+      "aliases": [
+        "ps2",
+        "psec²",
+        "psec2"
+      ],
+      "base_unit": "Time.picosecond^2"
+    },
+    {
+      "name": "nanosecond squared",
+      "symbol": "ns²",
+      "aliases": [
+        "ns2",
+        "nsec²",
+        "nsec2"
+      ],
+      "base_unit": "Time.nanosecond^2"
+    },
+    {
+      "name": "microsecond squared",
+      "symbol": "μs²",
+      "aliases": [
+        "mcs²",
+        "μs2",
+        "mcs2",
+        "μsec²",
+        "mcsec²",
+        "μsec2",
+        "mcsec2"
+      ],
+      "base_unit": "Time.microsecond^2"
+    },
+    {
+      "name": "millisecond squared",
+      "symbol": "ms²",
+      "aliases": [
+        "ms2",
+        "msec²",
+        "msec2"
+      ],
+      "base_unit": "Time.millisecond^2"
+    },
+    {
+      "name": "centisecond squared",
+      "symbol": "cs²",
+      "aliases": [
+        "cs2",
+        "csec²",
+        "csec2"
+      ],
+      "base_unit": "Time.centisecond^2"
+    },
+    {
+      "name": "decisecond squared",
+      "symbol": "ds²",
+      "aliases": [
+        "ds2",
+        "dsec²",
+        "dsec2"
+      ],
+      "base_unit": "Time.decisecond^2"
     }
   ],
   "operations": [

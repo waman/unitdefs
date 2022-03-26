@@ -12,6 +12,112 @@
       "scale_prefixes": "all"
     },
     {
+      "name": "yoctopascal",
+      "symbol": "yPa",
+      "interval": "1e-24"
+    },
+    {
+      "name": "zeptopascal",
+      "symbol": "zPa",
+      "interval": "1e-21"
+    },
+    {
+      "name": "attopascal",
+      "symbol": "aPa",
+      "interval": "1e-18"
+    },
+    {
+      "name": "femtopascal",
+      "symbol": "fPa",
+      "interval": "1e-15"
+    },
+    {
+      "name": "picopascal",
+      "symbol": "pPa",
+      "interval": "1e-12"
+    },
+    {
+      "name": "nanopascal",
+      "symbol": "nPa",
+      "interval": "1e-9"
+    },
+    {
+      "name": "micropascal",
+      "symbol": "μPa",
+      "aliases": [
+        "mcPa"
+      ],
+      "interval": "1e-6"
+    },
+    {
+      "name": "millipascal",
+      "symbol": "mPa",
+      "interval": "1e-3"
+    },
+    {
+      "name": "centipascal",
+      "symbol": "cPa",
+      "interval": "1e-2"
+    },
+    {
+      "name": "decipascal",
+      "symbol": "dPa",
+      "interval": "1e-1"
+    },
+    {
+      "name": "decapascal",
+      "symbol": "daPa",
+      "interval": "1e1"
+    },
+    {
+      "name": "hectopascal",
+      "symbol": "hPa",
+      "interval": "1e2"
+    },
+    {
+      "name": "kilopascal",
+      "symbol": "kPa",
+      "aliases": [
+        "KPa"
+      ],
+      "interval": "1e3"
+    },
+    {
+      "name": "megapascal",
+      "symbol": "MPa",
+      "interval": "1e6"
+    },
+    {
+      "name": "gigapascal",
+      "symbol": "GPa",
+      "interval": "1e9"
+    },
+    {
+      "name": "terapascal",
+      "symbol": "TPa",
+      "interval": "1e12"
+    },
+    {
+      "name": "petapascal",
+      "symbol": "PPa",
+      "interval": "1e15"
+    },
+    {
+      "name": "exapascal",
+      "symbol": "EPa",
+      "interval": "1e18"
+    },
+    {
+      "name": "zettapascal",
+      "symbol": "ZPa",
+      "interval": "1e21"
+    },
+    {
+      "name": "yottapascal",
+      "symbol": "YPa",
+      "interval": "1e24"
+    },
+    {
       "name": "barye",
       "symbol": "Ba",
       "base_unit": "Force.dyne / Area.square_centimetre"

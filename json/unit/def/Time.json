@@ -9,7 +9,7 @@
 
     {"name": "day", "symbol": "d", "interval": "24", "base_unit": "hour",
       "attributes": [
-        {"name": "sidereal", "interval": "23.9344699", "base_unit": "hour", "notExact": true}
+        {"name": "sidereal", "interval": "23.9344699", "base_unit": "hour", "not_exact": true}
       ]
     },
 
@@ -29,9 +29,9 @@
         {"name": "common", "interval": "365", "base_unit": "day"},
         {"name": "leap", "interval": "366", "base_unit": "day"},
         {"name": "gregorian", "interval": "365.2425", "base_unit": "day"},
-        {"name": "sidereal", "interval": "365.256363", "base_unit": "day", "notExact": true},
+        {"name": "sidereal", "interval": "365.256363", "base_unit": "day", "not_exact": true},
         {"name": "julian", "interval": "365.25", "base_unit": "day"},
-        {"name": "tropical", "interval": "365.256363", "base_unit": "day", "notExact": true}
+        {"name": "tropical", "interval": "365.256363", "base_unit": "day", "not_exact": true}
       ]
     },
 
@@ -60,7 +60,7 @@
     {"name": "jitty_alternative", "symbol": "ja", "base_unit": "centisecond"},
     {"name": "fortnight", "symbol": "fn", "interval": "2", "base_unit": "week"},
 
-    {"name": "atomic unit of time", "symbol": "au", "interval": "2.418884254e-17", "notExact": true},
-    {"name": "planck time", "symbol": "t_p", "interval": "5.3910632e-44", "notExact": true}
+    {"name": "atomic unit of time", "symbol": "au", "interval": "2.418884254e-17", "not_exact": true},
+    {"name": "planck time", "symbol": "t_p", "interval": "5.3910632e-44", "not_exact": true}
   ]
 }

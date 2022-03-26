@@ -13,19 +13,19 @@
 
       {"name": "micron", "symbol": "µ", "interval": "1e-6"},
       {"name": "angstrom", "symbol": "Å", "interval": "1e-10"},
-      {"name": "atomic unit of length", "symbol": "a0", "interval": "5.291772109217e-11", "notExact": true},
-      {"name": "xunit", "symbol": "xu", "interval": "1.0021e-13", "notExact": true,
+      {"name": "atomic unit of length", "symbol": "a0", "interval": "5.291772109217e-11", "not_exact": true},
+      {"name": "xunit", "symbol": "xu", "interval": "1.0021e-13", "not_exact": true,
         "attributes": [
-          {"name": "CuKα1", "interval": "1.0020769928e-13", "notExact": true},
-          {"name": "MoKα1", "interval": "1.0020995553e-13", "notExact": true}
+          {"name": "CuKα1", "interval": "1.0020769928e-13", "not_exact": true},
+          {"name": "MoKα1", "interval": "1.0020995553e-13", "not_exact": true}
         ]
       },
     
-      {"name": "planck length", "symbol": "l_p", "interval": "1.61624e-35", "notExact": true},
+      {"name": "planck length", "symbol": "l_p", "interval": "1.61624e-35", "not_exact": true},
 
       {"name": "astronomical unit", "symbol": "AU", "aliases": ["ua"], "interval": "149597870700"},
       {"name": "light year", "symbol": "ly", "interval": "9.4607304725808e15"},
-      {"name": "parsec", "symbol": "pc", "interval": "3.08567782e16", "notExact": true},
+      {"name": "parsec", "symbol": "pc", "interval": "3.08567782e16", "not_exact": true},
 
       {"name": "mil", "aliases":["thou"], "interval": "1/1000", "base_unit": "inch"},
       {"name": "twip", "symbol": "twp", "interval": "1/20", "base_unit": "point"},

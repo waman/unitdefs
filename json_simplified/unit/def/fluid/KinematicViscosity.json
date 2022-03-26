@@ -10,6 +10,112 @@
       "symbol": "St",
       "interval": "1e-4",
       "scale_prefixes": "all"
+    },
+    {
+      "name": "yoctostokes",
+      "symbol": "ySt",
+      "interval": "1e-4 * 1e-24"
+    },
+    {
+      "name": "zeptostokes",
+      "symbol": "zSt",
+      "interval": "1e-4 * 1e-21"
+    },
+    {
+      "name": "attostokes",
+      "symbol": "aSt",
+      "interval": "1e-4 * 1e-18"
+    },
+    {
+      "name": "femtostokes",
+      "symbol": "fSt",
+      "interval": "1e-4 * 1e-15"
+    },
+    {
+      "name": "picostokes",
+      "symbol": "pSt",
+      "interval": "1e-4 * 1e-12"
+    },
+    {
+      "name": "nanostokes",
+      "symbol": "nSt",
+      "interval": "1e-4 * 1e-9"
+    },
+    {
+      "name": "microstokes",
+      "symbol": "μSt",
+      "aliases": [
+        "mcSt"
+      ],
+      "interval": "1e-4 * 1e-6"
+    },
+    {
+      "name": "millistokes",
+      "symbol": "mSt",
+      "interval": "1e-4 * 1e-3"
+    },
+    {
+      "name": "centistokes",
+      "symbol": "cSt",
+      "interval": "1e-4 * 1e-2"
+    },
+    {
+      "name": "decistokes",
+      "symbol": "dSt",
+      "interval": "1e-4 * 1e-1"
+    },
+    {
+      "name": "decastokes",
+      "symbol": "daSt",
+      "interval": "1e-4 * 1e1"
+    },
+    {
+      "name": "hectostokes",
+      "symbol": "hSt",
+      "interval": "1e-4 * 1e2"
+    },
+    {
+      "name": "kilostokes",
+      "symbol": "kSt",
+      "aliases": [
+        "KSt"
+      ],
+      "interval": "1e-4 * 1e3"
+    },
+    {
+      "name": "megastokes",
+      "symbol": "MSt",
+      "interval": "1e-4 * 1e6"
+    },
+    {
+      "name": "gigastokes",
+      "symbol": "GSt",
+      "interval": "1e-4 * 1e9"
+    },
+    {
+      "name": "terastokes",
+      "symbol": "TSt",
+      "interval": "1e-4 * 1e12"
+    },
+    {
+      "name": "petastokes",
+      "symbol": "PSt",
+      "interval": "1e-4 * 1e15"
+    },
+    {
+      "name": "exastokes",
+      "symbol": "ESt",
+      "interval": "1e-4 * 1e18"
+    },
+    {
+      "name": "zettastokes",
+      "symbol": "ZSt",
+      "interval": "1e-4 * 1e21"
+    },
+    {
+      "name": "yottastokes",
+      "symbol": "YSt",
+      "interval": "1e-4 * 1e24"
     }
   ],
   "use": {

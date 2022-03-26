@@ -26,6 +26,112 @@
       "scale_prefixes": "all"
     },
     {
+      "name": "yoctojoule",
+      "symbol": "yJ",
+      "interval": "1e-24"
+    },
+    {
+      "name": "zeptojoule",
+      "symbol": "zJ",
+      "interval": "1e-21"
+    },
+    {
+      "name": "attojoule",
+      "symbol": "aJ",
+      "interval": "1e-18"
+    },
+    {
+      "name": "femtojoule",
+      "symbol": "fJ",
+      "interval": "1e-15"
+    },
+    {
+      "name": "picojoule",
+      "symbol": "pJ",
+      "interval": "1e-12"
+    },
+    {
+      "name": "nanojoule",
+      "symbol": "nJ",
+      "interval": "1e-9"
+    },
+    {
+      "name": "microjoule",
+      "symbol": "μJ",
+      "aliases": [
+        "mcJ"
+      ],
+      "interval": "1e-6"
+    },
+    {
+      "name": "millijoule",
+      "symbol": "mJ",
+      "interval": "1e-3"
+    },
+    {
+      "name": "centijoule",
+      "symbol": "cJ",
+      "interval": "1e-2"
+    },
+    {
+      "name": "decijoule",
+      "symbol": "dJ",
+      "interval": "1e-1"
+    },
+    {
+      "name": "decajoule",
+      "symbol": "daJ",
+      "interval": "1e1"
+    },
+    {
+      "name": "hectojoule",
+      "symbol": "hJ",
+      "interval": "1e2"
+    },
+    {
+      "name": "kilojoule",
+      "symbol": "kJ",
+      "aliases": [
+        "KJ"
+      ],
+      "interval": "1e3"
+    },
+    {
+      "name": "megajoule",
+      "symbol": "MJ",
+      "interval": "1e6"
+    },
+    {
+      "name": "gigajoule",
+      "symbol": "GJ",
+      "interval": "1e9"
+    },
+    {
+      "name": "terajoule",
+      "symbol": "TJ",
+      "interval": "1e12"
+    },
+    {
+      "name": "petajoule",
+      "symbol": "PJ",
+      "interval": "1e15"
+    },
+    {
+      "name": "exajoule",
+      "symbol": "EJ",
+      "interval": "1e18"
+    },
+    {
+      "name": "zettajoule",
+      "symbol": "ZJ",
+      "interval": "1e21"
+    },
+    {
+      "name": "yottajoule",
+      "symbol": "YJ",
+      "interval": "1e24"
+    },
+    {
       "name": "erg",
       "interval": "1e-7",
       "symbol": "erg"
@@ -35,20 +141,146 @@
       "symbol": "eV",
       "interval": "Constants.elementary_charge",
       "scale_prefixes": "all",
-      "notExact": true
+      "not_exact": true
+    },
+    {
+      "name": "yoctoelectronvolt",
+      "symbol": "yeV",
+      "interval": "Constants.elementary_charge * 1e-24",
+      "not_exact": true
+    },
+    {
+      "name": "zeptoelectronvolt",
+      "symbol": "zeV",
+      "interval": "Constants.elementary_charge * 1e-21",
+      "not_exact": true
+    },
+    {
+      "name": "attoelectronvolt",
+      "symbol": "aeV",
+      "interval": "Constants.elementary_charge * 1e-18",
+      "not_exact": true
+    },
+    {
+      "name": "femtoelectronvolt",
+      "symbol": "feV",
+      "interval": "Constants.elementary_charge * 1e-15",
+      "not_exact": true
+    },
+    {
+      "name": "picoelectronvolt",
+      "symbol": "peV",
+      "interval": "Constants.elementary_charge * 1e-12",
+      "not_exact": true
+    },
+    {
+      "name": "nanoelectronvolt",
+      "symbol": "neV",
+      "interval": "Constants.elementary_charge * 1e-9",
+      "not_exact": true
+    },
+    {
+      "name": "microelectronvolt",
+      "symbol": "μeV",
+      "aliases": [
+        "mceV"
+      ],
+      "interval": "Constants.elementary_charge * 1e-6",
+      "not_exact": true
+    },
+    {
+      "name": "millielectronvolt",
+      "symbol": "meV",
+      "interval": "Constants.elementary_charge * 1e-3",
+      "not_exact": true
+    },
+    {
+      "name": "centielectronvolt",
+      "symbol": "ceV",
+      "interval": "Constants.elementary_charge * 1e-2",
+      "not_exact": true
+    },
+    {
+      "name": "decielectronvolt",
+      "symbol": "deV",
+      "interval": "Constants.elementary_charge * 1e-1",
+      "not_exact": true
+    },
+    {
+      "name": "decaelectronvolt",
+      "symbol": "daeV",
+      "interval": "Constants.elementary_charge * 1e1",
+      "not_exact": true
+    },
+    {
+      "name": "hectoelectronvolt",
+      "symbol": "heV",
+      "interval": "Constants.elementary_charge * 1e2",
+      "not_exact": true
+    },
+    {
+      "name": "kiloelectronvolt",
+      "symbol": "keV",
+      "aliases": [
+        "KeV"
+      ],
+      "interval": "Constants.elementary_charge * 1e3",
+      "not_exact": true
+    },
+    {
+      "name": "megaelectronvolt",
+      "symbol": "MeV",
+      "interval": "Constants.elementary_charge * 1e6",
+      "not_exact": true
+    },
+    {
+      "name": "gigaelectronvolt",
+      "symbol": "GeV",
+      "interval": "Constants.elementary_charge * 1e9",
+      "not_exact": true
+    },
+    {
+      "name": "teraelectronvolt",
+      "symbol": "TeV",
+      "interval": "Constants.elementary_charge * 1e12",
+      "not_exact": true
+    },
+    {
+      "name": "petaelectronvolt",
+      "symbol": "PeV",
+      "interval": "Constants.elementary_charge * 1e15",
+      "not_exact": true
+    },
+    {
+      "name": "exaelectronvolt",
+      "symbol": "EeV",
+      "interval": "Constants.elementary_charge * 1e18",
+      "not_exact": true
+    },
+    {
+      "name": "zettaelectronvolt",
+      "symbol": "ZeV",
+      "interval": "Constants.elementary_charge * 1e21",
+      "not_exact": true
+    },
+    {
+      "name": "yottaelectronvolt",
+      "symbol": "YeV",
+      "interval": "Constants.elementary_charge * 1e24",
+      "not_exact": true
     },
     {
       "name": "rydberg",
       "symbol": "Ry",
       "interval": "Constants.Rydberg_constant * Constants.Planck_constant * Constants.speed_of_light",
-      "notExact": true
+      "not_exact": true
     },
     {
       "name": "atomic unit of energy",
       "symbol": "E_h",
       "interval": "2",
       "base_unit": "rydberg",
-      "notExact": true
+      "not_exact": true
     },
     {
       "name": "watt hour",
@@ -98,13 +330,13 @@
         "cal_mean"
       ],
       "interval": "4.190",
-      "notExact": true
+      "not_exact": true
     },
     {
       "name": "calorie 4℃",
       "symbol": "cal_4℃",
       "interval": "4.204",
-      "notExact": true
+      "not_exact": true
     },
     {
       "name": "calorie 15℃",
@@ -115,7 +347,7 @@
       "name": "calorie 20℃",
       "symbol": "cal_20℃",
       "interval": "4.182",
-      "notExact": true
+      "not_exact": true
     },
     {
       "name": "kilocalorie",
@@ -178,7 +410,7 @@
         "BTU_mean"
       ],
       "interval": "1.05587e3",
-      "notExact": true
+      "not_exact": true
     },
     {
       "name": "british thermal unit(th)",
@@ -187,7 +419,7 @@
         "BTU_th"
       ],
       "interval": "1.054350e3",
-      "notExact": true
+      "not_exact": true
     },
     {
       "name": "british thermal unit 59℉",
@@ -257,7 +489,8 @@
     "subpackages": [
       "therm",
       "",
-      "ra"
+      "ra",
+      "fluid"
     ]
   }
 }

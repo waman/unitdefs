@@ -41,6 +41,69 @@
       "scale_prefixes": "larger"
     },
     {
+      "name": "decabyte",
+      "symbol": "daB",
+      "interval": "8 * 1e1",
+      "base_unit": "bit"
+    },
+    {
+      "name": "hectobyte",
+      "symbol": "hB",
+      "interval": "8 * 1e2",
+      "base_unit": "bit"
+    },
+    {
+      "name": "kilobyte",
+      "symbol": "kB",
+      "aliases": [
+        "KB"
+      ],
+      "interval": "8 * 1e3",
+      "base_unit": "bit"
+    },
+    {
+      "name": "megabyte",
+      "symbol": "MB",
+      "interval": "8 * 1e6",
+      "base_unit": "bit"
+    },
+    {
+      "name": "gigabyte",
+      "symbol": "GB",
+      "interval": "8 * 1e9",
+      "base_unit": "bit"
+    },
+    {
+      "name": "terabyte",
+      "symbol": "TB",
+      "interval": "8 * 1e12",
+      "base_unit": "bit"
+    },
+    {
+      "name": "petabyte",
+      "symbol": "PB",
+      "interval": "8 * 1e15",
+      "base_unit": "bit"
+    },
+    {
+      "name": "exabyte",
+      "symbol": "EB",
+      "interval": "8 * 1e18",
+      "base_unit": "bit"
+    },
+    {
+      "name": "zettabyte",
+      "symbol": "ZB",
+      "interval": "8 * 1e21",
+      "base_unit": "bit"
+    },
+    {
+      "name": "yottabyte",
+      "symbol": "YB",
+      "interval": "8 * 1e24",
+      "base_unit": "bit"
+    },
+    {
       "name": "kibibyte",
       "symbol": "KiB",
       "interval": "1024",

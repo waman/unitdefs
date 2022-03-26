@@ -10,6 +10,112 @@
       "scale_prefixes": "all"
     },
     {
+      "name": "yoctoampere",
+      "symbol": "yA",
+      "interval": "1e-24"
+    },
+    {
+      "name": "zeptoampere",
+      "symbol": "zA",
+      "interval": "1e-21"
+    },
+    {
+      "name": "attoampere",
+      "symbol": "aA",
+      "interval": "1e-18"
+    },
+    {
+      "name": "femtoampere",
+      "symbol": "fA",
+      "interval": "1e-15"
+    },
+    {
+      "name": "picoampere",
+      "symbol": "pA",
+      "interval": "1e-12"
+    },
+    {
+      "name": "nanoampere",
+      "symbol": "nA",
+      "interval": "1e-9"
+    },
+    {
+      "name": "microampere",
+      "symbol": "μA",
+      "aliases": [
+        "mcA"
+      ],
+      "interval": "1e-6"
+    },
+    {
+      "name": "milliampere",
+      "symbol": "mA",
+      "interval": "1e-3"
+    },
+    {
+      "name": "centiampere",
+      "symbol": "cA",
+      "interval": "1e-2"
+    },
+    {
+      "name": "deciampere",
+      "symbol": "dA",
+      "interval": "1e-1"
+    },
+    {
+      "name": "decaampere",
+      "symbol": "daA",
+      "interval": "1e1"
+    },
+    {
+      "name": "hectoampere",
+      "symbol": "hA",
+      "interval": "1e2"
+    },
+    {
+      "name": "kiloampere",
+      "symbol": "kA",
+      "aliases": [
+        "KA"
+      ],
+      "interval": "1e3"
+    },
+    {
+      "name": "megaampere",
+      "symbol": "MA",
+      "interval": "1e6"
+    },
+    {
+      "name": "gigaampere",
+      "symbol": "GA",
+      "interval": "1e9"
+    },
+    {
+      "name": "teraampere",
+      "symbol": "TA",
+      "interval": "1e12"
+    },
+    {
+      "name": "petaampere",
+      "symbol": "PA",
+      "interval": "1e15"
+    },
+    {
+      "name": "exaampere",
+      "symbol": "EA",
+      "interval": "1e18"
+    },
+    {
+      "name": "zettaampere",
+      "symbol": "ZA",
+      "interval": "1e21"
+    },
+    {
+      "name": "yottaampere",
+      "symbol": "YA",
+      "interval": "1e24"
+    },
+    {
       "name": "abampere",
       "symbol": "abA",
       "aliases": [

@@ -16,7 +16,7 @@
       "name": "atomic unit of electric dipole moment",
       "symbol": "ea0",
       "interval": "Constants.elementary_charge * Constants.Bohr_radius",
-      "notExact": true
+      "not_exact": true
     }
   ],
   "use": {

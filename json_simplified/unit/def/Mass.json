@@ -29,6 +29,104 @@
       ]
     },
     {
+      "name": "yoctogram",
+      "symbol": "yg",
+      "interval": "1e-3 * 1e-24"
+    },
+    {
+      "name": "zeptogram",
+      "symbol": "zg",
+      "interval": "1e-3 * 1e-21"
+    },
+    {
+      "name": "attogram",
+      "symbol": "ag",
+      "interval": "1e-3 * 1e-18"
+    },
+    {
+      "name": "femtogram",
+      "symbol": "fg",
+      "interval": "1e-3 * 1e-15"
+    },
+    {
+      "name": "picogram",
+      "symbol": "pg",
+      "interval": "1e-3 * 1e-12"
+    },
+    {
+      "name": "nanogram",
+      "symbol": "ng",
+      "interval": "1e-3 * 1e-9"
+    },
+    {
+      "name": "microgram",
+      "symbol": "μg",
+      "aliases": [
+        "mcg"
+      ],
+      "interval": "1e-3 * 1e-6"
+    },
+    {
+      "name": "milligram",
+      "symbol": "mg",
+      "interval": "1e-3 * 1e-3"
+    },
+    {
+      "name": "centigram",
+      "symbol": "cg",
+      "interval": "1e-3 * 1e-2"
+    },
+    {
+      "name": "decigram",
+      "symbol": "dg",
+      "interval": "1e-3 * 1e-1"
+    },
+    {
+      "name": "decagram",
+      "symbol": "dag",
+      "interval": "1e-3 * 1e1"
+    },
+    {
+      "name": "hectogram",
+      "symbol": "hg",
+      "interval": "1e-3 * 1e2"
+    },
+    {
+      "name": "megagram",
+      "symbol": "Mg",
+      "interval": "1e-3 * 1e6"
+    },
+    {
+      "name": "gigagram",
+      "symbol": "Gg",
+      "interval": "1e-3 * 1e9"
+    },
+    {
+      "name": "teragram",
+      "symbol": "Tg",
+      "interval": "1e-3 * 1e12"
+    },
+    {
+      "name": "petagram",
+      "symbol": "Pg",
+      "interval": "1e-3 * 1e15"
+    },
+    {
+      "name": "exagram",
+      "symbol": "Eg",
+      "interval": "1e-3 * 1e18"
+    },
+    {
+      "name": "zettagram",
+      "symbol": "Zg",
+      "interval": "1e-3 * 1e21"
+    },
+    {
+      "name": "yottagram",
+      "symbol": "Yg",
+      "interval": "1e-3 * 1e24"
+    },
+    {
       "name": "tonne",
       "symbol": "t",
       "interval": "1000"
@@ -56,14 +154,14 @@
         "AMU"
       ],
       "interval": "Constants.atomic_mass_unit",
-      "notExact": true,
+      "not_exact": true,
       "description": "atomic mass unit"
     },
     {
       "name": "electron mass",
       "symbol": "m_e",
       "interval": "Constants.electron_mass",
-      "notExact": true
+      "not_exact": true
     },
     {
       "name": "grain",

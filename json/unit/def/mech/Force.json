@@ -7,10 +7,10 @@
   "units": [
     {"name": "newton", "symbol": "N", "scale_prefixes": "all"},
     {"name": "dyne", "symbol": "dyn", "interval": "1e-5", "scale_prefixes": "all"},
-    {"name": "kilogram force", "symbol": "kgf", "aliases": ["kp", "Gf"], "base_unit": "Acceleration.standard_gravity", "notExact": true},
+    {"name": "kilogram force", "symbol": "kgf", "aliases": ["kp", "Gf"], "base_unit": "Acceleration.standard_gravity", "not_exact": true},
     {"name": "milligrave force", "symbol": "mGf", "aliases": ["gf"], "interval": "1e-3",
-      "base_unit": "Acceleration.standard_gravity", "notExact": true},
-    {"name": "atomic unit of force", "interval": "8.23872206e-8", "notExact": true},
+      "base_unit": "Acceleration.standard_gravity", "not_exact": true},
+    {"name": "atomic unit of force", "interval": "8.23872206e-8", "not_exact": true},
 
     {"name": "ounce force", "symbol": "ozf", "base_unit": "Mass.ounce * Acceleration.standard_gravity"},
     {"name": "pound force", "symbol": "lbf", "base_unit": "Mass.pound * Acceleration.standard_gravity"},

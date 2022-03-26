@@ -6,7 +6,7 @@
 
   "units": [
     {"name": "speed of light", "symbol": "c", "interval": "Constants.speed_of_light"},
-    {"name": "mach number", "symbol": "M", "interval": "340", "notExact": true},
+    {"name": "mach number", "symbol": "M", "interval": "340", "not_exact": true},
 
     {"name": "knot", "symbol": "kn", "aliases": ["kt"], "base_unit": "Length.nautical_mile / Time.hour"},
     {"name": "kine", "base_unit": "Length.centimetre / Time.second"}

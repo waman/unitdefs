@@ -14,6 +14,170 @@
       "scale_prefixes": "all"
     },
     {
+      "name": "square yoctometre",
+      "symbol": "ym²",
+      "aliases": [
+        "ym2"
+      ],
+      "base_unit": "Length.yoctometre^2"
+    },
+    {
+      "name": "square zeptometre",
+      "symbol": "zm²",
+      "aliases": [
+        "zm2"
+      ],
+      "base_unit": "Length.zeptometre^2"
+    },
+    {
+      "name": "square attometre",
+      "symbol": "am²",
+      "aliases": [
+        "am2"
+      ],
+      "base_unit": "Length.attometre^2"
+    },
+    {
+      "name": "square femtometre",
+      "symbol": "fm²",
+      "aliases": [
+        "fm2"
+      ],
+      "base_unit": "Length.femtometre^2"
+    },
+    {
+      "name": "square picometre",
+      "symbol": "pm²",
+      "aliases": [
+        "pm2"
+      ],
+      "base_unit": "Length.picometre^2"
+    },
+    {
+      "name": "square nanometre",
+      "symbol": "nm²",
+      "aliases": [
+        "nm2"
+      ],
+      "base_unit": "Length.nanometre^2"
+    },
+    {
+      "name": "square micrometre",
+      "symbol": "μm²",
+      "aliases": [
+        "mcm²",
+        "μm2",
+        "mcm2"
+      ],
+      "base_unit": "Length.micrometre^2"
+    },
+    {
+      "name": "square millimetre",
+      "symbol": "mm²",
+      "aliases": [
+        "mm2"
+      ],
+      "base_unit": "Length.millimetre^2"
+    },
+    {
+      "name": "square centimetre",
+      "symbol": "cm²",
+      "aliases": [
+        "cm2"
+      ],
+      "base_unit": "Length.centimetre^2"
+    },
+    {
+      "name": "square decimetre",
+      "symbol": "dm²",
+      "aliases": [
+        "dm2"
+      ],
+      "base_unit": "Length.decimetre^2"
+    },
+    {
+      "name": "square decametre",
+      "symbol": "dam²",
+      "aliases": [
+        "dam2"
+      ],
+      "base_unit": "Length.decametre^2"
+    },
+    {
+      "name": "square hectometre",
+      "symbol": "hm²",
+      "aliases": [
+        "hm2"
+      ],
+      "base_unit": "Length.hectometre^2"
+    },
+    {
+      "name": "square kilometre",
+      "symbol": "km²",
+      "aliases": [
+        "Km²",
+        "km2",
+        "Km2"
+      ],
+      "base_unit": "Length.kilometre^2"
+    },
+    {
+      "name": "square megametre",
+      "symbol": "Mm²",
+      "aliases": [
+        "Mm2"
+      ],
+      "base_unit": "Length.megametre^2"
+    },
+    {
+      "name": "square gigametre",
+      "symbol": "Gm²",
+      "aliases": [
+        "Gm2"
+      ],
+      "base_unit": "Length.gigametre^2"
+    },
+    {
+      "name": "square terametre",
+      "symbol": "Tm²",
+      "aliases": [
+        "Tm2"
+      ],
+      "base_unit": "Length.terametre^2"
+    },
+    {
+      "name": "square petametre",
+      "symbol": "Pm²",
+      "aliases": [
+        "Pm2"
+      ],
+      "base_unit": "Length.petametre^2"
+    },
+    {
+      "name": "square exametre",
+      "symbol": "Em²",
+      "aliases": [
+        "Em2"
+      ],
+      "base_unit": "Length.exametre^2"
+    },
+    {
+      "name": "square zettametre",
+      "symbol": "Zm²",
+      "aliases": [
+        "Zm2"
+      ],
+      "base_unit": "Length.zettametre^2"
+    },
+    {
+      "name": "square yottametre",
+      "symbol": "Ym²",
+      "aliases": [
+        "Ym2"
+      ],
+      "base_unit": "Length.yottametre^2"
+    },
+    {
       "name": "are",
       "symbol": "a",
       "interval": "1e2"
@@ -34,6 +198,92 @@
         "da",
         "h"
       ]
+    },
+    {
+      "name": "yoctobarn",
+      "symbol": "yb",
+      "interval": "1e-28 * 1e-24"
+    },
+    {
+      "name": "zeptobarn",
+      "symbol": "zb",
+      "interval": "1e-28 * 1e-21"
+    },
+    {
+      "name": "attobarn",
+      "symbol": "ab",
+      "interval": "1e-28 * 1e-18"
+    },
+    {
+      "name": "femtobarn",
+      "symbol": "fb",
+      "interval": "1e-28 * 1e-15"
+    },
+    {
+      "name": "picobarn",
+      "symbol": "pb",
+      "interval": "1e-28 * 1e-12"
+    },
+    {
+      "name": "nanobarn",
+      "symbol": "nb",
+      "interval": "1e-28 * 1e-9"
+    },
+    {
+      "name": "microbarn",
+      "symbol": "μb",
+      "aliases": [
+        "mcb"
+      ],
+      "interval": "1e-28 * 1e-6"
+    },
+    {
+      "name": "millibarn",
+      "symbol": "mb",
+      "interval": "1e-28 * 1e-3"
+    },
+    {
+      "name": "kilobarn",
+      "symbol": "kb",
+      "aliases": [
+        "Kb"
+      ],
+      "interval": "1e-28 * 1e3"
+    },
+    {
+      "name": "megabarn",
+      "symbol": "Mb",
+      "interval": "1e-28 * 1e6"
+    },
+    {
+      "name": "gigabarn",
+      "symbol": "Gb",
+      "interval": "1e-28 * 1e9"
+    },
+    {
+      "name": "terabarn",
+      "symbol": "Tb",
+      "interval": "1e-28 * 1e12"
+    },
+    {
+      "name": "petabarn",
+      "symbol": "Pb",
+      "interval": "1e-28 * 1e15"
+    },
+    {
+      "name": "exabarn",
+      "symbol": "Eb",
+      "interval": "1e-28 * 1e18"
+    },
+    {
+      "name": "zettabarn",
+      "symbol": "Zb",
+      "interval": "1e-28 * 1e21"
+    },
+    {
+      "name": "yottabarn",
+      "symbol": "Yb",
+      "interval": "1e-28 * 1e24"
     },
     {
       "name": "square mil",

@@ -10,7 +10,7 @@ class DefaultPrefixer{
             prefixedUnit.interval = prefix.scale;
     }
     putBaseUnit(prefixedUnit, _, unit){
-        if(unit.baseUnit) prefixedUnit.baseUnit = unit.baseUnit;
+        if(unit.base_unit) prefixedUnit.base_unit = unit.base_unit;
     }
 }
 
@@ -26,7 +26,7 @@ class MetrePoweredPrefixer{
     }
     putInterval(_){}
     putBaseUnit(prefixedUnit, prefix, _){
-        prefixedUnit.baseUnit = `Length.${prefix.name}metre^${this.power}`
+        prefixedUnit.base_unit = `Length.${prefix.name}metre^${this.power}`
     }
 }
 
@@ -37,7 +37,7 @@ class SecondSquaredPrefixer{
     }
     putInterval(_){}
     putBaseUnit(prefixedUnit, prefix, _){
-        prefixedUnit.baseUnit = `Time.${prefix.name}second^2`
+        prefixedUnit.base_unit = `Time.${prefix.name}second^2`
     }
 }
 

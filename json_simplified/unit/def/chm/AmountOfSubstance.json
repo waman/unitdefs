@@ -8,6 +8,112 @@
       "name": "mole",
       "symbol": "mol",
       "scale_prefixes": "all"
+    },
+    {
+      "name": "yoctomole",
+      "symbol": "ymol",
+      "interval": "1e-24"
+    },
+    {
+      "name": "zeptomole",
+      "symbol": "zmol",
+      "interval": "1e-21"
+    },
+    {
+      "name": "attomole",
+      "symbol": "amol",
+      "interval": "1e-18"
+    },
+    {
+      "name": "femtomole",
+      "symbol": "fmol",
+      "interval": "1e-15"
+    },
+    {
+      "name": "picomole",
+      "symbol": "pmol",
+      "interval": "1e-12"
+    },
+    {
+      "name": "nanomole",
+      "symbol": "nmol",
+      "interval": "1e-9"
+    },
+    {
+      "name": "micromole",
+      "symbol": "μmol",
+      "aliases": [
+        "mcmol"
+      ],
+      "interval": "1e-6"
+    },
+    {
+      "name": "millimole",
+      "symbol": "mmol",
+      "interval": "1e-3"
+    },
+    {
+      "name": "centimole",
+      "symbol": "cmol",
+      "interval": "1e-2"
+    },
+    {
+      "name": "decimole",
+      "symbol": "dmol",
+      "interval": "1e-1"
+    },
+    {
+      "name": "decamole",
+      "symbol": "damol",
+      "interval": "1e1"
+    },
+    {
+      "name": "hectomole",
+      "symbol": "hmol",
+      "interval": "1e2"
+    },
+    {
+      "name": "kilomole",
+      "symbol": "kmol",
+      "aliases": [
+        "Kmol"
+      ],
+      "interval": "1e3"
+    },
+    {
+      "name": "megamole",
+      "symbol": "Mmol",
+      "interval": "1e6"
+    },
+    {
+      "name": "gigamole",
+      "symbol": "Gmol",
+      "interval": "1e9"
+    },
+    {
+      "name": "teramole",
+      "symbol": "Tmol",
+      "interval": "1e12"
+    },
+    {
+      "name": "petamole",
+      "symbol": "Pmol",
+      "interval": "1e15"
+    },
+    {
+      "name": "examole",
+      "symbol": "Emol",
+      "interval": "1e18"
+    },
+    {
+      "name": "zettamole",
+      "symbol": "Zmol",
+      "interval": "1e21"
+    },
+    {
+      "name": "yottamole",
+      "symbol": "Ymol",
+      "interval": "1e24"
     }
   ],
   "operations": [

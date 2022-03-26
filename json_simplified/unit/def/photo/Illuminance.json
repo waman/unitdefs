@@ -11,6 +11,112 @@
       "scale_prefixes": "all"
     },
     {
+      "name": "yoctolux",
+      "symbol": "ylx",
+      "interval": "1e-24"
+    },
+    {
+      "name": "zeptolux",
+      "symbol": "zlx",
+      "interval": "1e-21"
+    },
+    {
+      "name": "attolux",
+      "symbol": "alx",
+      "interval": "1e-18"
+    },
+    {
+      "name": "femtolux",
+      "symbol": "flx",
+      "interval": "1e-15"
+    },
+    {
+      "name": "picolux",
+      "symbol": "plx",
+      "interval": "1e-12"
+    },
+    {
+      "name": "nanolux",
+      "symbol": "nlx",
+      "interval": "1e-9"
+    },
+    {
+      "name": "microlux",
+      "symbol": "μlx",
+      "aliases": [
+        "mclx"
+      ],
+      "interval": "1e-6"
+    },
+    {
+      "name": "millilux",
+      "symbol": "mlx",
+      "interval": "1e-3"
+    },
+    {
+      "name": "centilux",
+      "symbol": "clx",
+      "interval": "1e-2"
+    },
+    {
+      "name": "decilux",
+      "symbol": "dlx",
+      "interval": "1e-1"
+    },
+    {
+      "name": "decalux",
+      "symbol": "dalx",
+      "interval": "1e1"
+    },
+    {
+      "name": "hectolux",
+      "symbol": "hlx",
+      "interval": "1e2"
+    },
+    {
+      "name": "kilolux",
+      "symbol": "klx",
+      "aliases": [
+        "Klx"
+      ],
+      "interval": "1e3"
+    },
+    {
+      "name": "megalux",
+      "symbol": "Mlx",
+      "interval": "1e6"
+    },
+    {
+      "name": "gigalux",
+      "symbol": "Glx",
+      "interval": "1e9"
+    },
+    {
+      "name": "teralux",
+      "symbol": "Tlx",
+      "interval": "1e12"
+    },
+    {
+      "name": "petalux",
+      "symbol": "Plx",
+      "interval": "1e15"
+    },
+    {
+      "name": "exalux",
+      "symbol": "Elx",
+      "interval": "1e18"
+    },
+    {
+      "name": "zettalux",
+      "symbol": "Zlx",
+      "interval": "1e21"
+    },
+    {
+      "name": "yottalux",
+      "symbol": "Ylx",
+      "interval": "1e24"
+    },
+    {
       "name": "phot",
       "symbol": "ph",
       "interval": "1e4"
@@ -21,5 +127,10 @@
       "interval": "1",
       "base_unit": "LuminousIntensity.candela / Area.square_foot"
     }
-  ]
+  ],
+  "use": {
+    "subpackages": [
+      ""
+    ]
+  }
 }

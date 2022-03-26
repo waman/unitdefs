@@ -16,6 +16,112 @@
       "name": "heltz",
       "symbol": "Hz",
       "scale_prefixes": "all"
+    },
+    {
+      "name": "yoctoheltz",
+      "symbol": "yHz",
+      "interval": "1e-24"
+    },
+    {
+      "name": "zeptoheltz",
+      "symbol": "zHz",
+      "interval": "1e-21"
+    },
+    {
+      "name": "attoheltz",
+      "symbol": "aHz",
+      "interval": "1e-18"
+    },
+    {
+      "name": "femtoheltz",
+      "symbol": "fHz",
+      "interval": "1e-15"
+    },
+    {
+      "name": "picoheltz",
+      "symbol": "pHz",
+      "interval": "1e-12"
+    },
+    {
+      "name": "nanoheltz",
+      "symbol": "nHz",
+      "interval": "1e-9"
+    },
+    {
+      "name": "microheltz",
+      "symbol": "μHz",
+      "aliases": [
+        "mcHz"
+      ],
+      "interval": "1e-6"
+    },
+    {
+      "name": "milliheltz",
+      "symbol": "mHz",
+      "interval": "1e-3"
+    },
+    {
+      "name": "centiheltz",
+      "symbol": "cHz",
+      "interval": "1e-2"
+    },
+    {
+      "name": "deciheltz",
+      "symbol": "dHz",
+      "interval": "1e-1"
+    },
+    {
+      "name": "decaheltz",
+      "symbol": "daHz",
+      "interval": "1e1"
+    },
+    {
+      "name": "hectoheltz",
+      "symbol": "hHz",
+      "interval": "1e2"
+    },
+    {
+      "name": "kiloheltz",
+      "symbol": "kHz",
+      "aliases": [
+        "KHz"
+      ],
+      "interval": "1e3"
+    },
+    {
+      "name": "megaheltz",
+      "symbol": "MHz",
+      "interval": "1e6"
+    },
+    {
+      "name": "gigaheltz",
+      "symbol": "GHz",
+      "interval": "1e9"
+    },
+    {
+      "name": "teraheltz",
+      "symbol": "THz",
+      "interval": "1e12"
+    },
+    {
+      "name": "petaheltz",
+      "symbol": "PHz",
+      "interval": "1e15"
+    },
+    {
+      "name": "exaheltz",
+      "symbol": "EHz",
+      "interval": "1e18"
+    },
+    {
+      "name": "zettaheltz",
+      "symbol": "ZHz",
+      "interval": "1e21"
+    },
+    {
+      "name": "yottaheltz",
+      "symbol": "YHz",
+      "interval": "1e24"
     }
   ],
   "operations": [

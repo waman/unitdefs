@@ -8,6 +8,112 @@
       "name": "candela",
       "symbol": "cd",
       "scale_prefixes": "all"
+    },
+    {
+      "name": "yoctocandela",
+      "symbol": "ycd",
+      "interval": "1e-24"
+    },
+    {
+      "name": "zeptocandela",
+      "symbol": "zcd",
+      "interval": "1e-21"
+    },
+    {
+      "name": "attocandela",
+      "symbol": "acd",
+      "interval": "1e-18"
+    },
+    {
+      "name": "femtocandela",
+      "symbol": "fcd",
+      "interval": "1e-15"
+    },
+    {
+      "name": "picocandela",
+      "symbol": "pcd",
+      "interval": "1e-12"
+    },
+    {
+      "name": "nanocandela",
+      "symbol": "ncd",
+      "interval": "1e-9"
+    },
+    {
+      "name": "microcandela",
+      "symbol": "μcd",
+      "aliases": [
+        "mccd"
+      ],
+      "interval": "1e-6"
+    },
+    {
+      "name": "millicandela",
+      "symbol": "mcd",
+      "interval": "1e-3"
+    },
+    {
+      "name": "centicandela",
+      "symbol": "ccd",
+      "interval": "1e-2"
+    },
+    {
+      "name": "decicandela",
+      "symbol": "dcd",
+      "interval": "1e-1"
+    },
+    {
+      "name": "decacandela",
+      "symbol": "dacd",
+      "interval": "1e1"
+    },
+    {
+      "name": "hectocandela",
+      "symbol": "hcd",
+      "interval": "1e2"
+    },
+    {
+      "name": "kilocandela",
+      "symbol": "kcd",
+      "aliases": [
+        "Kcd"
+      ],
+      "interval": "1e3"
+    },
+    {
+      "name": "megacandela",
+      "symbol": "Mcd",
+      "interval": "1e6"
+    },
+    {
+      "name": "gigacandela",
+      "symbol": "Gcd",
+      "interval": "1e9"
+    },
+    {
+      "name": "teracandela",
+      "symbol": "Tcd",
+      "interval": "1e12"
+    },
+    {
+      "name": "petacandela",
+      "symbol": "Pcd",
+      "interval": "1e15"
+    },
+    {
+      "name": "exacandela",
+      "symbol": "Ecd",
+      "interval": "1e18"
+    },
+    {
+      "name": "zettacandela",
+      "symbol": "Zcd",
+      "interval": "1e21"
+    },
+    {
+      "name": "yottacandela",
+      "symbol": "Ycd",
+      "interval": "1e24"
     }
   ],
   "operations": [
